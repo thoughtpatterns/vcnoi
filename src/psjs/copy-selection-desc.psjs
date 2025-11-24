@@ -1,0 +1,35 @@
+/* Copy the dimensions of the current selection to the clipboard, as an `emphf`
+ * call. The `(x, y)` coordinates are of the center of the selection, relative
+ * to the center of the image. */
+
+"use strict";
+
+const { app, core } = require("photoshop");
+
+try {
+        const doc = app.activeDocument;
+
+        const origin = {
+                x: doc.width / 2,
+                y: doc.height / 2,
+        };
+
+        /* `y` grows downward in Photoshop, but upward in Manim, so we invert its value. */
+        const selection = {
+                height: doc.selection.bounds.bottom - doc.selection.bounds.top,
+                width: doc.selection.bounds.right - doc.selection.bounds.left,
+                x: (doc.selection.bounds.left + doc.selection.bounds.right) / 2 - origin.x,
+                y: origin.y - (doc.selection.bounds.bottom + doc.selection.bounds.top) / 2,
+        };
+
+        await navigator.clipboard.setContent({
+                "text/plain":
+                        "emphf(" + selection.height
+                        + ", " + selection.width
+                        + ", " + selection.x
+                        + ", " + selection.y
+                        + ")"
+        });
+} catch (e) {
+        core.showAlert(e);
+}
