@@ -1,7 +1,7 @@
 [project]
 name = "lib"
 version = "0.1.0"
-description = "Audiovisuals w.r.t. the Visual Culture of the Nation of Islam"
+description = "a domain-specific Manim wrapper library for voiceover animations"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
@@ -34,5 +34,6 @@ select = ["ALL"]
 ignore = ["ANN401", "D203", "D213", "E731"] # Any + contradictiory docstring rules + lambda assignment.
 
 [tool.ruff.lint.per-file-ignores]
-"src/avs/*" = ["D100", "D101", "D104", "INP001", "RUF012"]
+"src/*" = ["D104"]
+"src/avs/*" = ["D100", "D101", "INP001", "RUF012"]
 "src/lib/*" = ["TID252"]
