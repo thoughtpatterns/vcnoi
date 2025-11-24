@@ -74,3 +74,8 @@ With regards to assets we created,
 Otherwise,
 * the _Computer Modern_ font is used with the SIL Open Font License,
 * and each music track is used via a noncommercial open license.
+
+The images in each presentation can be found in that presentation's
+`./assets/works.yaml` file. The [Khamseen](https://sites.lsa.umich.edu/khamseen)
+presentations, `pacchikari_in_agra` and `rashid_al_din`, instead cite their
+works in their respective final slides.
