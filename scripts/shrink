@@ -1,0 +1,30 @@
+#!/usr/bin/env -S sh -eu
+
+# Compress a video with Handbrake.
+
+if [ "$#" -eq 0 ]
+then
+	>&2 printf "%s\n" "usage: ${0##*/} FILE..."
+	exit 1
+fi
+
+for f
+do
+	g="${f%.*}.${0##*/}.mp4"
+
+	HandBrakeCLI                  \
+		--input "$f"          \
+		--output "$g"         \
+		--format av_mp4       \
+		--optimize            \
+		--encoder x265        \
+		--encoder-preset slow \
+		--quality 28.0        \
+		--width 1920          \
+		--height 1080         \
+		--crop-mode none      \
+		--no-comb-detect      \
+		--no-decomb
+
+	printf "%s\n" "${0##*/}: wrote to '$g'"
+done
