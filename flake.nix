@@ -23,8 +23,8 @@
           buildInputs = with pkgs; [
             cairo
             cmake
+            colima
             docker
-            gpac
             pkg-config
             python
             uv
