@@ -18,4 +18,7 @@ copy pyproject.toml .
 
 run uv pip install --system 'manim>=0.19.0' 'pillow>=11.1.0'
 
+# Suppress Manim errors, as it tries to preview the new video output.
+run printf '%s\n' '#!/bin/sh' > /bin/xdg-open && chmod 755 /bin/xdg-open
+
 cmd ["python3.13"]

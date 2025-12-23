@@ -7,18 +7,14 @@
 root="$(git rev-parse --show-toplevel)"
 module="${1%/}"
 
-cpus='4'
-memory='8'
-
+width="$(tput cols)"
 workdir='/runtime'
 tag='manim'
 
-colima-start()
-{
-	colima start --cpu "$cpus" --memory "$memory"
-}
+cpus='4'
+memory='8'
 
-docker-run()
+docker_run()
 {
 	docker run --interactive --rm --tty              \
 		"--cpus=$cpus"                           \
@@ -26,6 +22,7 @@ docker-run()
 		"--memory-swap=${memory}g"               \
 		"--volume=$root/src:$workdir"            \
 		"--env=PYTHONPATH=$workdir:$workdir/avs" \
+		"--env=COLUMNS=$width"                   \
 		"--workdir=$workdir"                     \
 		"$tag"                                   \
 		python -m "$module"
@@ -33,8 +30,8 @@ docker-run()
 
 if ! colima status > /dev/null 2>&1
 then
-	printf '%s\n' "started columa with $cpus cpus & ${memory}gb..."
-	colima-start
+	printf '%s\n' "started columa with $cpus cpus and ${memory}gb of memory..."
+	colima start --cpu "$cpus" --memory "$memory"
 fi
 
 if ! docker image inspect "$tag" > /dev/null 2>&1
@@ -44,4 +41,34 @@ then
 fi
 
 printf '%s\n' "started render of '$module'..."
-docker-run
+
+exec 3>&1
+
+result="$(docker_run 2>&1 | tee '/dev/fd/3' | awk -v "root=$root" -v "workdir=$workdir" '
+	{
+		gsub(/\033\[[;0-9]*m/, "") # Strip ANSI codes.
+		gsub(/[[:space:]]/, "") # Strip whitespace (as Manim output hard-wraps).
+		buffer = buffer $0 # Accumulate line into buffer.
+	}
+
+	END {
+		if (match(buffer, /Filereadyat\047[^\047]+[.]mp4\047/)) {
+			raw = substr(buffer, RSTART, RLENGTH)
+			split(raw, raws, "\047")
+			result = raws[2]
+			sub(workdir, root "/src/", result)
+			print result
+		}
+	}
+')"
+
+exec 3>&-
+
+if [ -z "$result" ]
+then
+	printf '\n%s\n' 'no media file detected'
+	exit 1
+fi
+
+printf "\nlaunched preview of '%s'...\n" "$result"
+open "$result"
