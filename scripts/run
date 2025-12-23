@@ -1,0 +1,47 @@
+#!/usr/bin/env -S sh -eu
+
+# Run a Manim build in a Docker container to trap the process to some limited
+# amount of CPU/memory. Manim lags my laptop quite a bit, so this is a dumb way
+# to mitigate that :)
+
+root="$(git rev-parse --show-toplevel)"
+module="${1%/}"
+
+cpus='4'
+memory='8'
+
+workdir='/runtime'
+tag='manim'
+
+colima-start()
+{
+	colima start --cpu "$cpus" --memory "$memory"
+}
+
+docker-run()
+{
+	docker run --interactive --rm --tty              \
+		"--cpus=$cpus"                           \
+		"--memory=${memory}g"                    \
+		"--memory-swap=${memory}g"               \
+		"--volume=$root/src:$workdir"            \
+		"--env=PYTHONPATH=$workdir:$workdir/avs" \
+		"--workdir=$workdir"                     \
+		"$tag"                                   \
+		python -m "$module"
+}
+
+if ! colima status > /dev/null 2>&1
+then
+	printf '%s\n' "started columa with $cpus cpus & ${memory}gb..."
+	colima-start
+fi
+
+if ! docker image inspect "$tag" > /dev/null 2>&1
+then
+	printf '%s\n' 'started docker image build...'
+	docker build "--tag=$tag" "$root"
+fi
+
+printf '%s\n' "started render of '$module'..."
+docker-run

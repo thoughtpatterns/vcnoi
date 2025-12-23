@@ -23,6 +23,7 @@
           buildInputs = with pkgs; [
             cairo
             cmake
+            docker
             gpac
             pkg-config
             python
