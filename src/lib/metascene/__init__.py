@@ -1,8 +1,9 @@
 from abc import ABC, abstractmethod
 from typing import Any, ClassVar, override
 
-from manim import MovingCameraScene
+from manim import MovingCameraScene, NumberPlane
 from manim import config as mconfig
+from math import inf
 
 from lib.intro import intro
 from lib.paths import Paths
@@ -13,6 +14,7 @@ class MetaScene(MovingCameraScene, ABC):
     """Initialize voiceovers, timestamps, `render()` calls, etc., to reduce duplicate code among scenes."""
 
     voiceover: str | None = None
+    grid: bool = False
     intro: bool = True
     config: ClassVar[dict[str, Any]] = {}
 
@@ -21,6 +23,10 @@ class MetaScene(MovingCameraScene, ABC):
         (introf := (lambda: intro(self)) if self.intro else lambda: None)()
 
         self.wait(1)
+
+        if self.grid:
+            plane = NumberPlane().set_z_index(inf).set_opacity(0.2)
+            self.add(plane)
 
         if self.voiceover:
             self.add_sound(self.voiceover)
