@@ -12,7 +12,7 @@ image = Pixels.imagef(asset)
 @final
 class WorldSerpent(MetaScene):
     voiceover = asset("voiceover.wav")
-    # config = {"pixel_height": 720, "pixel_width": 1280, "frame_rate": 15}
+    config = {"pixel_height": 720, "pixel_width": 1280, "frame_rate": 15}
 
     @override
     def scene(self, wuf: Wuf) -> None:  # noqa: PLR0915
