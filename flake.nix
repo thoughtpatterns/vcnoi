@@ -39,7 +39,7 @@
             unset VIRTUAL_ENV
             . .venv/bin/activate
 
-            export PATH="$PATH:$(realpath ./scripts)"
+            export PATH="$(realpath ./bin):$PATH"
           '';
         };
       }
