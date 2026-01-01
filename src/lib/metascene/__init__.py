@@ -1,9 +1,9 @@
 from abc import ABC, abstractmethod
+from math import inf
 from typing import Any, ClassVar, override
 
 from manim import MovingCameraScene, NumberPlane
 from manim import config as mconfig
-from math import inf
 
 from lib.intro import intro
 from lib.paths import Paths
