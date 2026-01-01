@@ -37,26 +37,26 @@ def intro(self: Scene) -> None:
     4. The shapes are filled,
     5. and the name of the project is drawn below.
     """
-    # <*> HACK: Among all tested powers of 2, `nterms = 128` was the largest which gave a good trace of the `intro()`
-    # crescent at `-qk`, did not cause the trace to vanish on completion, and indeed completed the path rather than
-    # stopping short.
+    # [0]: HACK: Among all tested powers of 2, `nterms = 128` was the largest which gave a good trace of the
+    # `intro()` crescent at `-qk`, did not cause the trace to vanish on completion, and indeed completed the path
+    # rather than stopping short.
 
-    # <**> HACK: Without `--disable_caching`, the trail will vanish after this animation, which requires two passes to
-    # fix. With it, however, the animation misses a cycle of trace movement, so we compensate with the addition of
-    # a small amount of extra time. For now, `(nterms + 1) / nterms / speed`, rather than `1 / speed`, works for
+    # [1]: HACK: Without `--disable_caching`, the trail will vanish after this animation, which requires two passes
+    # to fix. With it, however, the animation misses a cycle of trace movement, so we compensate with the addition
+    # of a small amount of extra time. For now, `(nterms + 1) / nterms / speed`, rather than `1 / speed`, works for
     # `nterms == 128`, but other values work: this is simply the pair of largest `nterms` and closest `run_time`
     # value to `1 / speed` tested, which did not affect the shape of the portrait in `intro()` at `-qk`, either
     # with dull corners, or a failure to complete the path. The downside for this workaround in intro is quite
     # imperceptible, as we only see the trace travel ahead of the dot by one frame.
 
-    nterms: float = 128  # See <*>.
+    nterms: float = 128  # See [0].
     speed: float = 0.5
 
     crescent = Epicycle(
         obj=Difference(Circle(radius=2), Circle(radius=1.75).set_x(-0.5)),
         nterms=nterms,
         speed=speed,
-        run_time=(nterms + 1) / (nterms * speed),  # See <**>.
+        run_time=(nterms + 1) / (nterms * speed),  # See [1].
         circle_stroke=Stroke(RED_B, 2),
         dot_stroke=Stroke(LIGHTER_GREY, 0.05),
         line_stroke=Stroke(LIGHTER_GREY, 2),
