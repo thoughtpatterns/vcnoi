@@ -30,7 +30,7 @@ run()
 
 if ! colima status > /dev/null 2>&1
 then
-	printf '%s\n' "started columa with $cpus cpu(s) and ${memory}gb of memory..."
+	printf '%s\n' "started colima with $cpus cpu(s) and ${memory}gb of memory..."
 	colima start --cpu "$cpus" --memory "$memory"
 fi
 
@@ -71,4 +71,4 @@ then
 fi
 
 printf "\nlaunched preview of '%s'...\n" "$result"
-open "$result"
+open --new "$result"
