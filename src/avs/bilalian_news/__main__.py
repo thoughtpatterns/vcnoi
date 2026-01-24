@@ -12,7 +12,7 @@ image = Pixels.imagef(asset)
 @final
 class BilialianNews(MetaScene):
     voiceover = asset("voiceover.wav")
-    config = {"pixel_height": 1080, "pixel_width": 1920, "frame_rate": 60}
+    # config = {"pixel_height": 1080, "pixel_width": 1920, "frame_rate": 60}
 
     @override
     def scene(self, wuf: Wuf) -> None:
@@ -93,17 +93,25 @@ class BilialianNews(MetaScene):
         new_frontiers = image("new-frontiers.png")
         self.play(Restore(frame), FadeOut(muslims_come_together), FadeOut(emph), FadeIn(new_frontiers), wuf(271.5))
 
-        # The illustration shows Bilal, [...] about Bilal and the call to prayer.
+        # The illustration shows Bilal, [...] prostrating themselves in a mosque.
         emph = emphf(619, 903, -333, 764.5)
         self.play(
             frame.animate.move_to((emph.frame_x, emph.frame_y, 0)).set(width=emph.frame_width * 2),
             Create(emph),
-            wuf(291.8),
+            wuf(280.9),
         )
 
-        # Entitled, "Did you know?," [...] biographical details about Bilal from the Islamic tradition.
-        emph_title = emphf(608, 637, 469, 728)
+        # Alongside the illustration, by Charles 6X...
+        emph_6x = emphf(104, 36, 53.5, 511)
         transformf = partial(Transform, emph)
+        self.play(
+            frame.animate.move_to((emph_6x.frame_x, emph_6x.frame_y, 0)).set(width=emph_6x.frame_width * 12),
+            transformf(emph_6x),
+            wuf(284.3),
+        )
+
+        # ...is an article [...] biographical details about Bilal from the Islamic tradition.
+        emph_title = emphf(608, 637, 469, 728)
         self.play(
             frame.animate.move_to((emph_title.frame_x, emph_title.frame_y, 0)).set(width=emph_title.frame_width * 2),
             transformf(emph_title),
