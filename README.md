@@ -68,7 +68,7 @@ the LICENSE file for details.
 With regards to assets we created,
 * each image of the _Muhammad Speaks_ or _Bilalian News_ newspapers _is_ free
   for reuse,
-* each other images (e.g., presentation slides) _is not_ available for reuse,
+* any other image (e.g., presentation slides) _is not_ available for reuse,
 * and voiceover audio _is not_ available for reuse.
 
 Otherwise,
