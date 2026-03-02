@@ -4,19 +4,16 @@
 # down, toward the frame center. This also ensures output videos are 4K.
 
 if [ "$#" -eq 0 ]
-then
-	>&2 printf '%s\n' "usage: ${0##*/} FILE..."
-	exit 1
+then >&2 printf '%s\n' "usage: ${0##*/} FILE..." ; exit 1
 fi
 
-ow='3840'
+ow='3840' ;
 oh='2160'
 
 iw="$((ow * 3 / 4))"
 ih="$((oh * 3 / 4))"
 
 c='black'
-
 
 for f
 do

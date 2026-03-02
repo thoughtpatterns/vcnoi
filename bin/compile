@@ -65,9 +65,7 @@ result="$(run 2>&1 | tee '/dev/fd/3' | awk -v "root=$root" -v "workdir=$workdir"
 exec 3>&-
 
 if [ -z "$result" ]
-then
-	printf '\n%s\n' 'no media file detected, cannot launch preview'
-	exit 1
+then printf '\n%s\n' 'no media file detected, cannot launch preview' ; exit 1
 fi
 
 printf "\nlaunched preview of '%s'...\n" "$result"
