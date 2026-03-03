@@ -12,7 +12,7 @@ image = Pixels.imagef(asset)
 @final
 class WomanGetOutaMyShoes(MetaScene):
     voiceover = asset("voiceover.wav")
-    # config = {"pixel_height": 1080, "pixel_width": 1920, "frame_rate": 60}
+    config = {"pixel_height": 1080, "pixel_width": 1920, "frame_rate": 60}
 
     @override
     def scene(self, wuf: Wuf) -> None:
@@ -42,10 +42,10 @@ class WomanGetOutaMyShoes(MetaScene):
         self.play(transformf(emphf(949, 1537, 8, 584.5)), wuf(84.4))
 
         # However, the comic takes a sharp turn [...] "Woman, get outa my shoes!"
-        self.play(transformf(emphf(1180, 1537, 8, -467)), wuf(101.2))
+        self.play(transformf(emphf(889, 1537, 8, -332.5)), wuf(101.2))
 
         # Echoing Elijah Muhammad's messages [...] in this image and elsewhere...
-        self.play(Uncreate(emph), wuf(140.4))
+        self.play(Uncreate(emph), wuf(139.6))
 
         # ...popular Black styles were frequently targeted by the NOI [...] into white-controlled consumer culture.
         emph = emphf(232, 1156, 103.5, -940)
