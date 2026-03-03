@@ -1,7 +1,7 @@
 # The Visual Culture of the Nation of Islam
 
 A monorepo of [Manim](https://www.manim.community) scripts which draw
-animations to compliment talks on the art of the Nation of Islam, and
+animations to complement talks on the art of the Nation of Islam, and
 particularly, that of its newspapers, _Muhammad Speaks_ and _Bilalian News_.
 
 ![Elijah Muhammad, drawn via Fourier series epicycles.](assets/epicycle.jpg)
