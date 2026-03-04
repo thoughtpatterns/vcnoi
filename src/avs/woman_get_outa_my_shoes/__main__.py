@@ -1,7 +1,7 @@
 from functools import partial
 from typing import final, override
 
-from manim import Create, FadeIn, FadeOut, Restore, Transform, Uncreate
+from manim import Create, FadeIn, FadeOut, Transform, Uncreate
 
 from lib import MetaScene, Paths, Pixels, Wuf, emphf
 
