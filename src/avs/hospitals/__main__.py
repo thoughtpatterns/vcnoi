@@ -58,7 +58,6 @@ class Hospitals(MetaScene):
 
         # ...his How to Eat to Live [...] as spread through America's white-owned fast-food industry.
         eat = image("eat.png")
-        # self.play(FadeOut(hospitals), FadeIn(eat), wuf(163.2))
         self.play(FadeOut(hospitals), FadeIn(eat), wuf(176.0))
 
         # By avoiding such establishments [...] as a form of both physical and spiritual salvation.
