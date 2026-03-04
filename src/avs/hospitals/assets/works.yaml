@@ -1,0 +1,19 @@
+earth.png:
+  title: The earth belongs to Allah
+  volume: 9
+  issue: 42
+  month: 7
+  year: 1970
+  page: 12
+
+eat.png:
+  title: How To Eat To Live
+  copyright: Nation of Islam
+
+hospitals.png:
+  title: Hospitals...
+  volume: 9
+  issue: 38
+  month: 6
+  year: 1970
+  page: [2, 3]
