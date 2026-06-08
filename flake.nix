@@ -23,12 +23,12 @@
           buildInputs = with pkgs; [
             cairo
             cmake
-            colima
-            docker
             gpac
             pkg-config
+            podman
             python
             uv
+            vfkit
           ];
 
           shellHook = ''

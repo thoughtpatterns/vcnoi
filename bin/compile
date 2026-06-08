@@ -1,6 +1,6 @@
 #!/usr/bin/env -S sh -eu
 
-# Run a Manim build in a Docker container to trap the process to some limited
+# Run a Manim build in a Podman machine to trap the process to some limited
 # amount of CPU/memory. Manim lags my laptop quite a bit, so this is a dumb way
 # to mitigate that :)
 
@@ -12,11 +12,11 @@ workdir='/runtime'
 tag='manim'
 
 cpus='1'
-memory='8'
+memory='12'
 
 run()
 {
-	docker run --interactive --rm --tty              \
+	podman run --interactive --rm --tty              \
 		"--cpus=$cpus"                           \
 		"--memory=${memory}g"                    \
 		"--memory-swap=${memory}g"               \
@@ -28,16 +28,22 @@ run()
 		python -m "$module"
 }
 
-if ! colima status > /dev/null 2>&1
+if ! podman machine inspect > /dev/null 2>&1
 then
-	printf '%s\n' "started colima with $cpus cpu(s) and ${memory}gb of memory..."
-	colima start --cpu "$cpus" --memory "$memory"
+	printf '%s\n' "started podman machine with $cpus cpu(s) and ${memory}gb of memory..."
+	podman machine init --cpus "$cpus" --memory "$((memory * 1024))"
 fi
 
-if ! docker image inspect "$tag" > /dev/null 2>&1
+if [ "$(podman machine inspect --format '{{.State}}' 2>/dev/null)" != 'running' ]
 then
-	printf '%s\n' 'started docker image build...'
-	docker build "--tag=$tag" "$root"
+	printf '%s\n' 'started podman machine...'
+	podman machine start
+fi
+
+if ! podman image inspect "$tag" > /dev/null 2>&1
+then
+	printf '%s\n' 'started podman image build...'
+	podman build "--tag=$tag" "$root"
 fi
 
 printf '%s\n' "started render of '$module'..."
