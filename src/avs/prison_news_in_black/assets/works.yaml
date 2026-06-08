@@ -1,3 +1,11 @@
+chain.png:
+  title:
+  volume: 8
+  issue: 17
+  month: 10
+  year: 1
+  page: 1
+
 emancipation.png:
   title:
   volume: 12
@@ -6,6 +14,38 @@ emancipation.png:
   year: 1973
   page: 6
 
+flag.png:
+  title: The Flag of Islam
+  volume: 10
+  issue: 1
+  month: 9
+  year: 1970
+  page: 18
+
+jails.png:
+  title: And the Jails Filled With Blacks
+  volume: 8
+  issue: 15
+  month: 12
+  year: 1968
+  page: 27
+
+news-zoom.png:
+  title: Prison News in Black
+  volume: 12
+  issue: 11
+  month: 4
+  year: 1973
+  page: 20
+
+news.png:
+  title: Prison News in Black
+  volume: 12
+  issue: 11
+  month: 4
+  year: 1973
+  page: 20
+
 philly.png:
   title: 10,000 Hear Muhammad's Message in Philadelphia
   volume: 3
@@ -13,6 +53,14 @@ philly.png:
   month: 10
   year: 1963
   page: 1
+
+scales.png:
+  title: Tampering With The Scales Of Justice?
+  volume: 2
+  issue: 17
+  month: 5
+  year: 1963
+  page: 12
 
 skull.png:
   title: U.S. Prison System
@@ -23,17 +71,9 @@ skull.png:
   page: 13
 
 wihdfm.png:
-  title: What Islam Has Done For Me...
+  title: What Islam Has Done For Me
   volume: 2
   issue: 25
   month: 8
   year: 1963
   page: 7
-
-news.png:
-  title: Prison News in Black
-  volume: 12
-  issue: 11
-  month: 4
-  year: 1973
-  page: 20
