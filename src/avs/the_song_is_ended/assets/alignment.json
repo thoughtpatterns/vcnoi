@@ -1,0 +1,2707 @@
+{
+  "voiceover": "voiceover.wav",
+  "duration": 190.0,
+  "model": "small.en",
+  "words": [
+    {
+      "text": "Decades",
+      "start": 0.0,
+      "end": 0.58,
+      "anchored": true
+    },
+    {
+      "text": "before",
+      "start": 0.58,
+      "end": 1.08,
+      "anchored": true
+    },
+    {
+      "text": "#blacklivesmatter,",
+      "start": 1.08,
+      "end": 3.18,
+      "anchored": false
+    },
+    {
+      "text": "the",
+      "start": 3.18,
+      "end": 3.24,
+      "anchored": true
+    },
+    {
+      "text": "newspaper",
+      "start": 3.24,
+      "end": 3.62,
+      "anchored": true
+    },
+    {
+      "text": "Muhammad",
+      "start": 3.62,
+      "end": 4.0,
+      "anchored": true
+    },
+    {
+      "text": "Speaks",
+      "start": 4.0,
+      "end": 4.48,
+      "anchored": true
+    },
+    {
+      "text": "took",
+      "start": 4.48,
+      "end": 4.88,
+      "anchored": true
+    },
+    {
+      "text": "an",
+      "start": 4.88,
+      "end": 5.04,
+      "anchored": true
+    },
+    {
+      "text": "active",
+      "start": 5.04,
+      "end": 5.48,
+      "anchored": true
+    },
+    {
+      "text": "role",
+      "start": 5.48,
+      "end": 5.8,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 5.8,
+      "end": 6.38,
+      "anchored": true
+    },
+    {
+      "text": "exposing",
+      "start": 6.38,
+      "end": 6.78,
+      "anchored": true
+    },
+    {
+      "text": "police",
+      "start": 6.78,
+      "end": 7.16,
+      "anchored": true
+    },
+    {
+      "text": "violence",
+      "start": 7.16,
+      "end": 7.58,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 7.58,
+      "end": 8.16,
+      "anchored": true
+    },
+    {
+      "text": "mass",
+      "start": 8.16,
+      "end": 8.42,
+      "anchored": true
+    },
+    {
+      "text": "incarceration.",
+      "start": 8.42,
+      "end": 8.98,
+      "anchored": true
+    },
+    {
+      "text": "The",
+      "start": 10.08,
+      "end": 10.18,
+      "anchored": true
+    },
+    {
+      "text": "newspaper's",
+      "start": 10.18,
+      "end": 10.62,
+      "anchored": true
+    },
+    {
+      "text": "journalists",
+      "start": 10.62,
+      "end": 10.84,
+      "anchored": true
+    },
+    {
+      "text": "provided",
+      "start": 10.84,
+      "end": 11.24,
+      "anchored": true
+    },
+    {
+      "text": "first-hand",
+      "start": 11.24,
+      "end": 11.82,
+      "anchored": true
+    },
+    {
+      "text": "reporting",
+      "start": 11.82,
+      "end": 12.22,
+      "anchored": true
+    },
+    {
+      "text": "on",
+      "start": 12.22,
+      "end": 12.42,
+      "anchored": true
+    },
+    {
+      "text": "high-profile",
+      "start": 12.42,
+      "end": 13.0,
+      "anchored": true
+    },
+    {
+      "text": "cases,",
+      "start": 13.0,
+      "end": 13.54,
+      "anchored": true
+    },
+    {
+      "text": "including",
+      "start": 13.54,
+      "end": 14.26,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 14.26,
+      "end": 14.48,
+      "anchored": true
+    },
+    {
+      "text": "1962",
+      "start": 14.48,
+      "end": 15.02,
+      "anchored": true
+    },
+    {
+      "text": "killing",
+      "start": 15.02,
+      "end": 15.62,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 15.62,
+      "end": 16.08,
+      "anchored": true
+    },
+    {
+      "text": "seven",
+      "start": 16.08,
+      "end": 16.48,
+      "anchored": true
+    },
+    {
+      "text": "unarmed",
+      "start": 16.48,
+      "end": 16.84,
+      "anchored": true
+    },
+    {
+      "text": "Muslims",
+      "start": 16.84,
+      "end": 17.22,
+      "anchored": true
+    },
+    {
+      "text": "by",
+      "start": 17.22,
+      "end": 17.58,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 17.58,
+      "end": 17.7,
+      "anchored": true
+    },
+    {
+      "text": "LAPD",
+      "start": 17.7,
+      "end": 18.04,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 18.86,
+      "end": 19.24,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 19.24,
+      "end": 19.34,
+      "anchored": true
+    },
+    {
+      "text": "1972",
+      "start": 19.34,
+      "end": 19.98,
+      "anchored": true
+    },
+    {
+      "text": "trial",
+      "start": 19.98,
+      "end": 20.58,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 20.58,
+      "end": 20.84,
+      "anchored": true
+    },
+    {
+      "text": "political",
+      "start": 20.84,
+      "end": 21.14,
+      "anchored": true
+    },
+    {
+      "text": "activist",
+      "start": 21.14,
+      "end": 21.62,
+      "anchored": true
+    },
+    {
+      "text": "Angela",
+      "start": 21.62,
+      "end": 22.08,
+      "anchored": true
+    },
+    {
+      "text": "Davis.",
+      "start": 22.08,
+      "end": 22.44,
+      "anchored": true
+    },
+    {
+      "text": "Beyond",
+      "start": 23.52,
+      "end": 23.72,
+      "anchored": true
+    },
+    {
+      "text": "national",
+      "start": 23.72,
+      "end": 24.06,
+      "anchored": true
+    },
+    {
+      "text": "headlines,",
+      "start": 24.06,
+      "end": 24.42,
+      "anchored": true
+    },
+    {
+      "text": "Muhammad",
+      "start": 24.88,
+      "end": 25.04,
+      "anchored": true
+    },
+    {
+      "text": "Speaks",
+      "start": 25.04,
+      "end": 25.28,
+      "anchored": true
+    },
+    {
+      "text": "embedded",
+      "start": 25.28,
+      "end": 25.72,
+      "anchored": true
+    },
+    {
+      "text": "reporters",
+      "start": 25.72,
+      "end": 26.2,
+      "anchored": true
+    },
+    {
+      "text": "across",
+      "start": 26.2,
+      "end": 26.7,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 26.7,
+      "end": 26.92,
+      "anchored": true
+    },
+    {
+      "text": "United",
+      "start": 26.92,
+      "end": 27.04,
+      "anchored": true
+    },
+    {
+      "text": "States",
+      "start": 27.04,
+      "end": 27.36,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 27.36,
+      "end": 27.9,
+      "anchored": true
+    },
+    {
+      "text": "document",
+      "start": 27.9,
+      "end": 28.26,
+      "anchored": true
+    },
+    {
+      "text": "local",
+      "start": 28.26,
+      "end": 28.62,
+      "anchored": true
+    },
+    {
+      "text": "incidents",
+      "start": 28.62,
+      "end": 29.06,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 29.06,
+      "end": 29.52,
+      "anchored": true
+    },
+    {
+      "text": "police",
+      "start": 29.52,
+      "end": 29.78,
+      "anchored": true
+    },
+    {
+      "text": "abuses,",
+      "start": 29.78,
+      "end": 30.22,
+      "anchored": true
+    },
+    {
+      "text": "which",
+      "start": 30.58,
+      "end": 30.76,
+      "anchored": true
+    },
+    {
+      "text": "were",
+      "start": 30.76,
+      "end": 30.9,
+      "anchored": true
+    },
+    {
+      "text": "often",
+      "start": 30.9,
+      "end": 31.14,
+      "anchored": true
+    },
+    {
+      "text": "ignored",
+      "start": 31.14,
+      "end": 31.6,
+      "anchored": true
+    },
+    {
+      "text": "by",
+      "start": 31.6,
+      "end": 31.86,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 31.86,
+      "end": 31.96,
+      "anchored": true
+    },
+    {
+      "text": "mainstream",
+      "start": 31.96,
+      "end": 32.16,
+      "anchored": true
+    },
+    {
+      "text": "press.",
+      "start": 32.16,
+      "end": 32.58,
+      "anchored": true
+    },
+    {
+      "text": "Eugene",
+      "start": 33.5,
+      "end": 33.72,
+      "anchored": true
+    },
+    {
+      "text": "Majied's",
+      "start": 33.72,
+      "end": 34.22,
+      "anchored": false
+    },
+    {
+      "text": "illustrations",
+      "start": 34.22,
+      "end": 35.04,
+      "anchored": true
+    },
+    {
+      "text": "invited",
+      "start": 35.04,
+      "end": 36.02,
+      "anchored": true
+    },
+    {
+      "text": "readers",
+      "start": 36.02,
+      "end": 36.5,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 36.5,
+      "end": 36.96,
+      "anchored": true
+    },
+    {
+      "text": "see",
+      "start": 36.96,
+      "end": 37.24,
+      "anchored": true
+    },
+    {
+      "text": "these",
+      "start": 37.24,
+      "end": 37.5,
+      "anchored": true
+    },
+    {
+      "text": "stories,",
+      "start": 37.5,
+      "end": 37.82,
+      "anchored": true
+    },
+    {
+      "text": "not",
+      "start": 37.82,
+      "end": 38.58,
+      "anchored": true
+    },
+    {
+      "text": "as",
+      "start": 38.58,
+      "end": 38.84,
+      "anchored": true
+    },
+    {
+      "text": "individual",
+      "start": 38.84,
+      "end": 39.46,
+      "anchored": true
+    },
+    {
+      "text": "incidents,",
+      "start": 39.46,
+      "end": 39.94,
+      "anchored": true
+    },
+    {
+      "text": "but",
+      "start": 40.52,
+      "end": 40.74,
+      "anchored": true
+    },
+    {
+      "text": "as",
+      "start": 40.74,
+      "end": 40.86,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 40.86,
+      "end": 41.02,
+      "anchored": true
+    },
+    {
+      "text": "pattern",
+      "start": 41.02,
+      "end": 41.44,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 41.44,
+      "end": 41.68,
+      "anchored": true
+    },
+    {
+      "text": "deliberate",
+      "start": 41.68,
+      "end": 42.16,
+      "anchored": true
+    },
+    {
+      "text": "violence",
+      "start": 42.16,
+      "end": 42.62,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 42.62,
+      "end": 43.1,
+      "anchored": true
+    },
+    {
+      "text": "suppress",
+      "start": 43.1,
+      "end": 43.54,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 43.54,
+      "end": 43.86,
+      "anchored": true
+    },
+    {
+      "text": "Black",
+      "start": 43.86,
+      "end": 44.02,
+      "anchored": true
+    },
+    {
+      "text": "freedom",
+      "start": 44.02,
+      "end": 44.3,
+      "anchored": true
+    },
+    {
+      "text": "struggle.",
+      "start": 44.3,
+      "end": 44.66,
+      "anchored": true
+    },
+    {
+      "text": "For",
+      "start": 45.42,
+      "end": 45.52,
+      "anchored": true
+    },
+    {
+      "text": "example,",
+      "start": 45.52,
+      "end": 45.82,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 46.66,
+      "end": 46.68,
+      "anchored": true
+    },
+    {
+      "text": "April",
+      "start": 46.68,
+      "end": 46.98,
+      "anchored": true
+    },
+    {
+      "text": "10,",
+      "start": 46.98,
+      "end": 47.28,
+      "anchored": true
+    },
+    {
+      "text": "1964",
+      "start": 48.24,
+      "end": 48.24,
+      "anchored": true
+    },
+    {
+      "text": "issue",
+      "start": 48.24,
+      "end": 48.7,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 48.7,
+      "end": 48.86,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 48.86,
+      "end": 48.98,
+      "anchored": true
+    },
+    {
+      "text": "paper",
+      "start": 48.98,
+      "end": 49.24,
+      "anchored": true
+    },
+    {
+      "text": "includes",
+      "start": 49.24,
+      "end": 49.7,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 49.7,
+      "end": 49.88,
+      "anchored": true
+    },
+    {
+      "text": "diptych",
+      "start": 49.88,
+      "end": 50.4,
+      "anchored": true
+    },
+    {
+      "text": "(two",
+      "start": 50.66,
+      "end": 50.9,
+      "anchored": true
+    },
+    {
+      "text": "side-by-side",
+      "start": 50.9,
+      "end": 51.5,
+      "anchored": true
+    },
+    {
+      "text": "panels)",
+      "start": 51.5,
+      "end": 52.02,
+      "anchored": true
+    },
+    {
+      "text": "by",
+      "start": 52.02,
+      "end": 52.64,
+      "anchored": true
+    },
+    {
+      "text": "Majied.",
+      "start": 52.64,
+      "end": 53.82,
+      "anchored": false
+    },
+    {
+      "text": "Mirroring",
+      "start": 53.82,
+      "end": 54.48,
+      "anchored": true
+    },
+    {
+      "text": "one",
+      "start": 54.48,
+      "end": 54.64,
+      "anchored": true
+    },
+    {
+      "text": "another,",
+      "start": 54.64,
+      "end": 55.02,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 55.4,
+      "end": 55.44,
+      "anchored": true
+    },
+    {
+      "text": "panels",
+      "start": 55.44,
+      "end": 55.78,
+      "anchored": true
+    },
+    {
+      "text": "depict",
+      "start": 55.78,
+      "end": 56.12,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 56.12,
+      "end": 56.34,
+      "anchored": true
+    },
+    {
+      "text": "Black",
+      "start": 56.34,
+      "end": 56.56,
+      "anchored": true
+    },
+    {
+      "text": "man's",
+      "start": 56.56,
+      "end": 56.98,
+      "anchored": true
+    },
+    {
+      "text": "face,",
+      "start": 56.98,
+      "end": 57.28,
+      "anchored": true
+    },
+    {
+      "text": "down",
+      "start": 57.28,
+      "end": 57.98,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 57.98,
+      "end": 58.16,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 58.16,
+      "end": 58.28,
+      "anchored": true
+    },
+    {
+      "text": "pool",
+      "start": 58.28,
+      "end": 58.44,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 58.44,
+      "end": 58.6,
+      "anchored": true
+    },
+    {
+      "text": "his",
+      "start": 58.6,
+      "end": 58.72,
+      "anchored": true
+    },
+    {
+      "text": "own",
+      "start": 58.72,
+      "end": 58.88,
+      "anchored": true
+    },
+    {
+      "text": "blood,",
+      "start": 58.88,
+      "end": 59.28,
+      "anchored": true
+    },
+    {
+      "text": "eyes",
+      "start": 59.8,
+      "end": 60.38,
+      "anchored": true
+    },
+    {
+      "text": "crossed",
+      "start": 60.38,
+      "end": 60.8,
+      "anchored": true
+    },
+    {
+      "text": "out",
+      "start": 60.8,
+      "end": 61.18,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 61.18,
+      "end": 61.46,
+      "anchored": true
+    },
+    {
+      "text": "death.",
+      "start": 61.46,
+      "end": 61.74,
+      "anchored": true
+    },
+    {
+      "text": "In",
+      "start": 62.86,
+      "end": 63.14,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 63.14,
+      "end": 63.28,
+      "anchored": true
+    },
+    {
+      "text": "first",
+      "start": 63.28,
+      "end": 63.52,
+      "anchored": true
+    },
+    {
+      "text": "frame",
+      "start": 63.52,
+      "end": 63.9,
+      "anchored": true
+    },
+    {
+      "text": "on",
+      "start": 63.9,
+      "end": 64.14,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 64.14,
+      "end": 64.3,
+      "anchored": true
+    },
+    {
+      "text": "left,",
+      "start": 64.3,
+      "end": 64.64,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 65.16,
+      "end": 65.2,
+      "anchored": true
+    },
+    {
+      "text": "hooded",
+      "start": 65.2,
+      "end": 65.72,
+      "anchored": true
+    },
+    {
+      "text": "Klansman",
+      "start": 65.72,
+      "end": 66.12,
+      "anchored": true
+    },
+    {
+      "text": "is",
+      "start": 66.12,
+      "end": 66.44,
+      "anchored": true
+    },
+    {
+      "text": "shown",
+      "start": 66.44,
+      "end": 66.82,
+      "anchored": true
+    },
+    {
+      "text": "stomping",
+      "start": 66.82,
+      "end": 67.78,
+      "anchored": true
+    },
+    {
+      "text": "his",
+      "start": 67.78,
+      "end": 67.94,
+      "anchored": true
+    },
+    {
+      "text": "victim",
+      "start": 67.94,
+      "end": 68.36,
+      "anchored": true
+    },
+    {
+      "text": "while",
+      "start": 68.36,
+      "end": 68.96,
+      "anchored": true
+    },
+    {
+      "text": "holding",
+      "start": 68.96,
+      "end": 69.36,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 69.36,
+      "end": 69.5,
+      "anchored": true
+    },
+    {
+      "text": "flaming",
+      "start": 69.5,
+      "end": 69.82,
+      "anchored": true
+    },
+    {
+      "text": "torch",
+      "start": 69.82,
+      "end": 70.18,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 70.18,
+      "end": 70.4,
+      "anchored": true
+    },
+    {
+      "text": "one",
+      "start": 70.4,
+      "end": 70.56,
+      "anchored": true
+    },
+    {
+      "text": "hand",
+      "start": 70.56,
+      "end": 70.96,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 70.96,
+      "end": 71.66,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 71.66,
+      "end": 71.8,
+      "anchored": true
+    },
+    {
+      "text": "double-barrel",
+      "start": 71.8,
+      "end": 72.36,
+      "anchored": true
+    },
+    {
+      "text": "shotgun",
+      "start": 72.36,
+      "end": 72.74,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 72.74,
+      "end": 72.96,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 72.96,
+      "end": 73.08,
+      "anchored": true
+    },
+    {
+      "text": "other.",
+      "start": 73.08,
+      "end": 73.28,
+      "anchored": true
+    },
+    {
+      "text": "The",
+      "start": 74.26,
+      "end": 74.48,
+      "anchored": true
+    },
+    {
+      "text": "Klansman's",
+      "start": 74.48,
+      "end": 75.1,
+      "anchored": true
+    },
+    {
+      "text": "chest",
+      "start": 75.1,
+      "end": 75.32,
+      "anchored": true
+    },
+    {
+      "text": "is",
+      "start": 75.32,
+      "end": 75.54,
+      "anchored": true
+    },
+    {
+      "text": "emblazoned",
+      "start": 75.54,
+      "end": 76.66,
+      "anchored": true
+    },
+    {
+      "text": "with",
+      "start": 76.66,
+      "end": 77.0,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 77.0,
+      "end": 77.14,
+      "anchored": true
+    },
+    {
+      "text": "phrase",
+      "start": 77.14,
+      "end": 77.48,
+      "anchored": true
+    },
+    {
+      "text": "\"Old",
+      "start": 77.48,
+      "end": 78.24,
+      "anchored": true
+    },
+    {
+      "text": "Fashioned",
+      "start": 78.24,
+      "end": 78.76,
+      "anchored": true
+    },
+    {
+      "text": "Lynch",
+      "start": 78.76,
+      "end": 79.44,
+      "anchored": true
+    },
+    {
+      "text": "Mob.\"",
+      "start": 79.44,
+      "end": 79.68,
+      "anchored": true
+    },
+    {
+      "text": "He",
+      "start": 80.62,
+      "end": 80.88,
+      "anchored": true
+    },
+    {
+      "text": "is",
+      "start": 80.88,
+      "end": 81.0,
+      "anchored": true
+    },
+    {
+      "text": "accompanied",
+      "start": 81.0,
+      "end": 81.4,
+      "anchored": true
+    },
+    {
+      "text": "by",
+      "start": 81.4,
+      "end": 81.72,
+      "anchored": true
+    },
+    {
+      "text": "another",
+      "start": 81.72,
+      "end": 82.06,
+      "anchored": true
+    },
+    {
+      "text": "Klansman",
+      "start": 82.06,
+      "end": 82.58,
+      "anchored": true
+    },
+    {
+      "text": "whose",
+      "start": 82.84,
+      "end": 83.06,
+      "anchored": true
+    },
+    {
+      "text": "hand",
+      "start": 83.06,
+      "end": 83.28,
+      "anchored": true
+    },
+    {
+      "text": "is",
+      "start": 83.28,
+      "end": 83.42,
+      "anchored": true
+    },
+    {
+      "text": "gripping",
+      "start": 83.42,
+      "end": 83.66,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 83.66,
+      "end": 83.86,
+      "anchored": true
+    },
+    {
+      "text": "leashes",
+      "start": 83.86,
+      "end": 84.4,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 84.4,
+      "end": 84.6,
+      "anchored": true
+    },
+    {
+      "text": "two",
+      "start": 84.6,
+      "end": 84.88,
+      "anchored": true
+    },
+    {
+      "text": "bloodhounds",
+      "start": 84.88,
+      "end": 85.48,
+      "anchored": true
+    },
+    {
+      "text": "barking",
+      "start": 85.9,
+      "end": 86.2,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 86.2,
+      "end": 86.42,
+      "anchored": true
+    },
+    {
+      "text": "howling",
+      "start": 86.42,
+      "end": 86.88,
+      "anchored": true
+    },
+    {
+      "text": "near",
+      "start": 87.22,
+      "end": 87.5,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 87.5,
+      "end": 87.66,
+      "anchored": true
+    },
+    {
+      "text": "prone",
+      "start": 87.66,
+      "end": 87.84,
+      "anchored": true
+    },
+    {
+      "text": "man's",
+      "start": 87.84,
+      "end": 88.2,
+      "anchored": true
+    },
+    {
+      "text": "face.",
+      "start": 88.2,
+      "end": 88.4,
+      "anchored": true
+    },
+    {
+      "text": "In",
+      "start": 89.44,
+      "end": 89.64,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 89.64,
+      "end": 89.76,
+      "anchored": true
+    },
+    {
+      "text": "distance",
+      "start": 89.76,
+      "end": 90.18,
+      "anchored": true
+    },
+    {
+      "text": "is",
+      "start": 90.18,
+      "end": 90.66,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 90.66,
+      "end": 90.84,
+      "anchored": true
+    },
+    {
+      "text": "haunting",
+      "start": 90.84,
+      "end": 91.24,
+      "anchored": true
+    },
+    {
+      "text": "silhouette",
+      "start": 91.24,
+      "end": 91.7,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 91.7,
+      "end": 91.88,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 91.88,
+      "end": 92.02,
+      "anchored": true
+    },
+    {
+      "text": "man",
+      "start": 92.02,
+      "end": 92.22,
+      "anchored": true
+    },
+    {
+      "text": "suspended",
+      "start": 92.22,
+      "end": 92.7,
+      "anchored": true
+    },
+    {
+      "text": "by",
+      "start": 92.7,
+      "end": 92.98,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 92.98,
+      "end": 93.08,
+      "anchored": true
+    },
+    {
+      "text": "rope",
+      "start": 93.08,
+      "end": 93.34,
+      "anchored": true
+    },
+    {
+      "text": "around",
+      "start": 93.34,
+      "end": 93.88,
+      "anchored": true
+    },
+    {
+      "text": "his",
+      "start": 93.88,
+      "end": 94.08,
+      "anchored": true
+    },
+    {
+      "text": "neck,",
+      "start": 94.08,
+      "end": 94.4,
+      "anchored": true
+    },
+    {
+      "text": "his",
+      "start": 94.98,
+      "end": 95.12,
+      "anchored": true
+    },
+    {
+      "text": "body",
+      "start": 95.12,
+      "end": 95.42,
+      "anchored": true
+    },
+    {
+      "text": "twisting",
+      "start": 95.42,
+      "end": 95.8,
+      "anchored": true
+    },
+    {
+      "text": "under",
+      "start": 95.8,
+      "end": 96.2,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 96.2,
+      "end": 96.34,
+      "anchored": true
+    },
+    {
+      "text": "branch.",
+      "start": 96.34,
+      "end": 96.62,
+      "anchored": true
+    },
+    {
+      "text": "Here,",
+      "start": 97.7,
+      "end": 98.16,
+      "anchored": true
+    },
+    {
+      "text": "Irving",
+      "start": 99.0,
+      "end": 99.0,
+      "anchored": true
+    },
+    {
+      "text": "Berlin's",
+      "start": 99.0,
+      "end": 99.54,
+      "anchored": true
+    },
+    {
+      "text": "1927",
+      "start": 99.54,
+      "end": 100.36,
+      "anchored": true
+    },
+    {
+      "text": "hit",
+      "start": 100.36,
+      "end": 100.92,
+      "anchored": true
+    },
+    {
+      "text": "\"The",
+      "start": 101.28,
+      "end": 101.58,
+      "anchored": true
+    },
+    {
+      "text": "Song",
+      "start": 101.58,
+      "end": 101.86,
+      "anchored": true
+    },
+    {
+      "text": "Is",
+      "start": 101.86,
+      "end": 102.06,
+      "anchored": false
+    },
+    {
+      "text": "Ended",
+      "start": 102.06,
+      "end": 102.32,
+      "anchored": true
+    },
+    {
+      "text": "(But",
+      "start": 102.84,
+      "end": 103.0,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 103.0,
+      "end": 103.16,
+      "anchored": true
+    },
+    {
+      "text": "Melody",
+      "start": 103.16,
+      "end": 103.64,
+      "anchored": true
+    },
+    {
+      "text": "Lingers",
+      "start": 103.64,
+      "end": 104.08,
+      "anchored": true
+    },
+    {
+      "text": "On)\"",
+      "start": 104.08,
+      "end": 104.56,
+      "anchored": true
+    },
+    {
+      "text": "highlights",
+      "start": 105.1,
+      "end": 105.72,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 105.72,
+      "end": 106.22,
+      "anchored": true
+    },
+    {
+      "text": "normality",
+      "start": 106.22,
+      "end": 106.96,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 106.96,
+      "end": 107.68,
+      "anchored": true
+    },
+    {
+      "text": "white",
+      "start": 107.68,
+      "end": 107.88,
+      "anchored": true
+    },
+    {
+      "text": "cruelty",
+      "start": 107.88,
+      "end": 108.44,
+      "anchored": true
+    },
+    {
+      "text": "against",
+      "start": 108.44,
+      "end": 109.18,
+      "anchored": true
+    },
+    {
+      "text": "Black",
+      "start": 109.18,
+      "end": 109.44,
+      "anchored": true
+    },
+    {
+      "text": "Americans.",
+      "start": 109.44,
+      "end": 109.92,
+      "anchored": true
+    },
+    {
+      "text": "In",
+      "start": 111.2,
+      "end": 111.3,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 111.3,
+      "end": 111.46,
+      "anchored": true
+    },
+    {
+      "text": "second",
+      "start": 111.46,
+      "end": 111.7,
+      "anchored": true
+    },
+    {
+      "text": "frame",
+      "start": 111.7,
+      "end": 112.16,
+      "anchored": true
+    },
+    {
+      "text": "on",
+      "start": 112.16,
+      "end": 112.34,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 112.34,
+      "end": 112.5,
+      "anchored": true
+    },
+    {
+      "text": "right,",
+      "start": 112.5,
+      "end": 112.74,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 113.04,
+      "end": 113.08,
+      "anchored": true
+    },
+    {
+      "text": "uniformed",
+      "start": 113.08,
+      "end": 113.92,
+      "anchored": true
+    },
+    {
+      "text": "police",
+      "start": 113.92,
+      "end": 113.92,
+      "anchored": true
+    },
+    {
+      "text": "officer",
+      "start": 113.92,
+      "end": 114.3,
+      "anchored": true
+    },
+    {
+      "text": "stomps",
+      "start": 114.3,
+      "end": 114.86,
+      "anchored": true
+    },
+    {
+      "text": "on",
+      "start": 114.86,
+      "end": 115.06,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 115.06,
+      "end": 115.16,
+      "anchored": true
+    },
+    {
+      "text": "nearly",
+      "start": 115.16,
+      "end": 115.34,
+      "anchored": true
+    },
+    {
+      "text": "identical",
+      "start": 115.34,
+      "end": 115.84,
+      "anchored": true
+    },
+    {
+      "text": "Black",
+      "start": 115.84,
+      "end": 116.2,
+      "anchored": true
+    },
+    {
+      "text": "man.",
+      "start": 116.2,
+      "end": 116.58,
+      "anchored": true
+    },
+    {
+      "text": "The",
+      "start": 117.32,
+      "end": 117.46,
+      "anchored": true
+    },
+    {
+      "text": "officer",
+      "start": 117.46,
+      "end": 117.78,
+      "anchored": true
+    },
+    {
+      "text": "holds",
+      "start": 117.78,
+      "end": 118.06,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 118.06,
+      "end": 118.2,
+      "anchored": true
+    },
+    {
+      "text": "billy",
+      "start": 118.2,
+      "end": 118.48,
+      "anchored": true
+    },
+    {
+      "text": "club",
+      "start": 118.48,
+      "end": 118.66,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 118.66,
+      "end": 118.82,
+      "anchored": true
+    },
+    {
+      "text": "one",
+      "start": 118.82,
+      "end": 118.98,
+      "anchored": true
+    },
+    {
+      "text": "hand",
+      "start": 118.98,
+      "end": 119.3,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 119.3,
+      "end": 119.8,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 119.8,
+      "end": 119.94,
+      "anchored": true
+    },
+    {
+      "text": "shotgun",
+      "start": 119.94,
+      "end": 120.32,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 120.32,
+      "end": 120.56,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 120.56,
+      "end": 120.66,
+      "anchored": true
+    },
+    {
+      "text": "other,",
+      "start": 120.66,
+      "end": 120.94,
+      "anchored": true
+    },
+    {
+      "text": "while",
+      "start": 121.24,
+      "end": 121.68,
+      "anchored": true
+    },
+    {
+      "text": "his",
+      "start": 121.68,
+      "end": 122.18,
+      "anchored": true
+    },
+    {
+      "text": "uniform",
+      "start": 122.18,
+      "end": 122.72,
+      "anchored": true
+    },
+    {
+      "text": "is",
+      "start": 122.72,
+      "end": 122.92,
+      "anchored": true
+    },
+    {
+      "text": "emblazoned",
+      "start": 122.92,
+      "end": 123.78,
+      "anchored": true
+    },
+    {
+      "text": "with",
+      "start": 123.78,
+      "end": 123.94,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 123.94,
+      "end": 124.06,
+      "anchored": true
+    },
+    {
+      "text": "words",
+      "start": 124.06,
+      "end": 124.42,
+      "anchored": true
+    },
+    {
+      "text": "\"Police",
+      "start": 124.86,
+      "end": 125.08,
+      "anchored": true
+    },
+    {
+      "text": "Brutality.\"",
+      "start": 125.08,
+      "end": 125.64,
+      "anchored": true
+    },
+    {
+      "text": "Behind",
+      "start": 126.68,
+      "end": 127.06,
+      "anchored": true
+    },
+    {
+      "text": "him",
+      "start": 127.06,
+      "end": 127.34,
+      "anchored": true
+    },
+    {
+      "text": "another",
+      "start": 127.44,
+      "end": 127.86,
+      "anchored": true
+    },
+    {
+      "text": "officer",
+      "start": 127.86,
+      "end": 128.38,
+      "anchored": true
+    },
+    {
+      "text": "smiles",
+      "start": 128.38,
+      "end": 128.72,
+      "anchored": true
+    },
+    {
+      "text": "ear-to-ear",
+      "start": 128.72,
+      "end": 129.54,
+      "anchored": true
+    },
+    {
+      "text": "as",
+      "start": 129.54,
+      "end": 130.06,
+      "anchored": true
+    },
+    {
+      "text": "he",
+      "start": 130.06,
+      "end": 130.18,
+      "anchored": true
+    },
+    {
+      "text": "grips",
+      "start": 130.18,
+      "end": 130.4,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 130.4,
+      "end": 130.66,
+      "anchored": true
+    },
+    {
+      "text": "leash",
+      "start": 130.66,
+      "end": 130.86,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 130.86,
+      "end": 131.04,
+      "anchored": true
+    },
+    {
+      "text": "an",
+      "start": 131.04,
+      "end": 131.12,
+      "anchored": true
+    },
+    {
+      "text": "attack",
+      "start": 131.12,
+      "end": 131.42,
+      "anchored": true
+    },
+    {
+      "text": "dog",
+      "start": 131.42,
+      "end": 131.82,
+      "anchored": true
+    },
+    {
+      "text": "with",
+      "start": 131.82,
+      "end": 132.3,
+      "anchored": true
+    },
+    {
+      "text": "exposed",
+      "start": 132.3,
+      "end": 132.72,
+      "anchored": true
+    },
+    {
+      "text": "teeth",
+      "start": 132.72,
+      "end": 133.14,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 133.14,
+      "end": 133.74,
+      "anchored": true
+    },
+    {
+      "text": "menacing",
+      "start": 133.74,
+      "end": 134.1,
+      "anchored": true
+    },
+    {
+      "text": "expression.",
+      "start": 134.1,
+      "end": 134.62,
+      "anchored": true
+    },
+    {
+      "text": "The",
+      "start": 135.74,
+      "end": 136.0,
+      "anchored": true
+    },
+    {
+      "text": "bloodhounds",
+      "start": 136.0,
+      "end": 136.46,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 136.46,
+      "end": 136.66,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 136.66,
+      "end": 136.78,
+      "anchored": true
+    },
+    {
+      "text": "first",
+      "start": 136.78,
+      "end": 137.04,
+      "anchored": true
+    },
+    {
+      "text": "frame",
+      "start": 137.04,
+      "end": 137.38,
+      "anchored": true
+    },
+    {
+      "text": "evoke",
+      "start": 137.38,
+      "end": 137.74,
+      "anchored": true
+    },
+    {
+      "text": "memories",
+      "start": 137.74,
+      "end": 138.32,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 138.32,
+      "end": 138.56,
+      "anchored": true
+    },
+    {
+      "text": "enslavers",
+      "start": 138.56,
+      "end": 139.22,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 139.22,
+      "end": 139.46,
+      "anchored": true
+    },
+    {
+      "text": "lynch",
+      "start": 139.46,
+      "end": 139.76,
+      "anchored": true
+    },
+    {
+      "text": "mobs",
+      "start": 139.76,
+      "end": 139.94,
+      "anchored": true
+    },
+    {
+      "text": "pursuing",
+      "start": 139.94,
+      "end": 140.84,
+      "anchored": true
+    },
+    {
+      "text": "Black",
+      "start": 140.84,
+      "end": 141.16,
+      "anchored": true
+    },
+    {
+      "text": "bodies.",
+      "start": 141.16,
+      "end": 141.66,
+      "anchored": true
+    },
+    {
+      "text": "In",
+      "start": 142.38,
+      "end": 142.56,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 142.56,
+      "end": 142.72,
+      "anchored": true
+    },
+    {
+      "text": "second",
+      "start": 142.72,
+      "end": 142.94,
+      "anchored": true
+    },
+    {
+      "text": "frame,",
+      "start": 142.94,
+      "end": 143.38,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 143.8,
+      "end": 143.84,
+      "anchored": true
+    },
+    {
+      "text": "unlawful",
+      "start": 143.84,
+      "end": 144.16,
+      "anchored": true
+    },
+    {
+      "text": "killing",
+      "start": 144.16,
+      "end": 144.56,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 144.56,
+      "end": 144.74,
+      "anchored": true
+    },
+    {
+      "text": "Black",
+      "start": 144.74,
+      "end": 144.92,
+      "anchored": true
+    },
+    {
+      "text": "people",
+      "start": 144.92,
+      "end": 145.28,
+      "anchored": true
+    },
+    {
+      "text": "by",
+      "start": 145.28,
+      "end": 145.5,
+      "anchored": true
+    },
+    {
+      "text": "government",
+      "start": 145.5,
+      "end": 145.76,
+      "anchored": true
+    },
+    {
+      "text": "agents",
+      "start": 145.76,
+      "end": 146.3,
+      "anchored": true
+    },
+    {
+      "text": "or",
+      "start": 146.3,
+      "end": 146.48,
+      "anchored": true
+    },
+    {
+      "text": "proxies",
+      "start": 146.48,
+      "end": 146.98,
+      "anchored": true
+    },
+    {
+      "text": "continues",
+      "start": 146.98,
+      "end": 147.9,
+      "anchored": true
+    },
+    {
+      "text": "this",
+      "start": 147.9,
+      "end": 148.22,
+      "anchored": true
+    },
+    {
+      "text": "legacy.",
+      "start": 148.22,
+      "end": 148.72,
+      "anchored": true
+    },
+    {
+      "text": "By",
+      "start": 149.6,
+      "end": 149.82,
+      "anchored": true
+    },
+    {
+      "text": "visually",
+      "start": 149.82,
+      "end": 150.2,
+      "anchored": true
+    },
+    {
+      "text": "pairing",
+      "start": 150.2,
+      "end": 150.64,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 150.64,
+      "end": 150.98,
+      "anchored": true
+    },
+    {
+      "text": "lynch",
+      "start": 150.98,
+      "end": 151.26,
+      "anchored": true
+    },
+    {
+      "text": "mob",
+      "start": 151.26,
+      "end": 151.58,
+      "anchored": true
+    },
+    {
+      "text": "with",
+      "start": 151.58,
+      "end": 152.12,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 152.12,
+      "end": 152.24,
+      "anchored": true
+    },
+    {
+      "text": "police,",
+      "start": 152.24,
+      "end": 152.76,
+      "anchored": true
+    },
+    {
+      "text": "Majied",
+      "start": 152.76,
+      "end": 153.72,
+      "anchored": false
+    },
+    {
+      "text": "disrupts",
+      "start": 153.72,
+      "end": 154.56,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 154.56,
+      "end": 154.62,
+      "anchored": true
+    },
+    {
+      "text": "narrative",
+      "start": 154.62,
+      "end": 154.94,
+      "anchored": true
+    },
+    {
+      "text": "arc",
+      "start": 154.94,
+      "end": 155.36,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 155.82,
+      "end": 156.18,
+      "anchored": true
+    },
+    {
+      "text": "mainstream",
+      "start": 156.18,
+      "end": 156.74,
+      "anchored": true
+    },
+    {
+      "text": "Northern",
+      "start": 156.74,
+      "end": 157.22,
+      "anchored": true
+    },
+    {
+      "text": "liberal",
+      "start": 157.22,
+      "end": 157.54,
+      "anchored": true
+    },
+    {
+      "text": "newspapers",
+      "start": 157.54,
+      "end": 158.08,
+      "anchored": true
+    },
+    {
+      "text": "that",
+      "start": 158.08,
+      "end": 158.98,
+      "anchored": true
+    },
+    {
+      "text": "centered",
+      "start": 158.98,
+      "end": 159.36,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 159.36,
+      "end": 159.58,
+      "anchored": true
+    },
+    {
+      "text": "horrors",
+      "start": 159.58,
+      "end": 160.04,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 160.04,
+      "end": 160.58,
+      "anchored": true
+    },
+    {
+      "text": "Southern",
+      "start": 160.58,
+      "end": 160.58,
+      "anchored": true
+    },
+    {
+      "text": "white",
+      "start": 160.58,
+      "end": 160.82,
+      "anchored": true
+    },
+    {
+      "text": "violence",
+      "start": 160.82,
+      "end": 161.38,
+      "anchored": true
+    },
+    {
+      "text": "while",
+      "start": 161.38,
+      "end": 162.06,
+      "anchored": true
+    },
+    {
+      "text": "ignoring",
+      "start": 162.06,
+      "end": 162.74,
+      "anchored": true
+    },
+    {
+      "text": "nationwide",
+      "start": 162.74,
+      "end": 163.88,
+      "anchored": true
+    },
+    {
+      "text": "anti-Black",
+      "start": 163.88,
+      "end": 164.68,
+      "anchored": true
+    },
+    {
+      "text": "police",
+      "start": 164.68,
+      "end": 165.08,
+      "anchored": true
+    },
+    {
+      "text": "violence.",
+      "start": 165.08,
+      "end": 165.5,
+      "anchored": true
+    },
+    {
+      "text": "Historian",
+      "start": 166.84,
+      "end": 167.6,
+      "anchored": true
+    },
+    {
+      "text": "Clarence",
+      "start": 167.6,
+      "end": 167.92,
+      "anchored": true
+    },
+    {
+      "text": "Taylor",
+      "start": 167.92,
+      "end": 168.3,
+      "anchored": true
+    },
+    {
+      "text": "has",
+      "start": 168.3,
+      "end": 168.52,
+      "anchored": true
+    },
+    {
+      "text": "argued",
+      "start": 168.52,
+      "end": 168.86,
+      "anchored": true
+    },
+    {
+      "text": "that",
+      "start": 168.86,
+      "end": 169.36,
+      "anchored": true
+    },
+    {
+      "text": "histories",
+      "start": 169.36,
+      "end": 169.74,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 169.74,
+      "end": 169.96,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 169.96,
+      "end": 170.08,
+      "anchored": true
+    },
+    {
+      "text": "civil",
+      "start": 170.08,
+      "end": 170.22,
+      "anchored": true
+    },
+    {
+      "text": "rights",
+      "start": 170.22,
+      "end": 170.46,
+      "anchored": true
+    },
+    {
+      "text": "era",
+      "start": 170.46,
+      "end": 170.78,
+      "anchored": true
+    },
+    {
+      "text": "have",
+      "start": 170.78,
+      "end": 171.36,
+      "anchored": true
+    },
+    {
+      "text": "long",
+      "start": 171.36,
+      "end": 171.76,
+      "anchored": true
+    },
+    {
+      "text": "overlooked",
+      "start": 171.76,
+      "end": 172.26,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 172.26,
+      "end": 172.5,
+      "anchored": true
+    },
+    {
+      "text": "Nation",
+      "start": 172.5,
+      "end": 172.7,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 172.7,
+      "end": 172.86,
+      "anchored": true
+    },
+    {
+      "text": "Islam's",
+      "start": 172.86,
+      "end": 173.34,
+      "anchored": true
+    },
+    {
+      "text": "role",
+      "start": 173.34,
+      "end": 173.62,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 173.62,
+      "end": 174.22,
+      "anchored": true
+    },
+    {
+      "text": "exposing",
+      "start": 174.22,
+      "end": 174.74,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 174.74,
+      "end": 174.98,
+      "anchored": true
+    },
+    {
+      "text": "resisting",
+      "start": 174.98,
+      "end": 175.54,
+      "anchored": true
+    },
+    {
+      "text": "Northern",
+      "start": 175.54,
+      "end": 176.24,
+      "anchored": true
+    },
+    {
+      "text": "police",
+      "start": 176.24,
+      "end": 176.64,
+      "anchored": true
+    },
+    {
+      "text": "brutality.",
+      "start": 176.64,
+      "end": 177.22,
+      "anchored": true
+    },
+    {
+      "text": "That",
+      "start": 177.22,
+      "end": 178.4,
+      "anchored": true
+    },
+    {
+      "text": "resistance",
+      "start": 178.4,
+      "end": 178.92,
+      "anchored": true
+    },
+    {
+      "text": "included",
+      "start": 178.92,
+      "end": 179.52,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 179.52,
+      "end": 180.16,
+      "anchored": true
+    },
+    {
+      "text": "visual",
+      "start": 180.16,
+      "end": 180.52,
+      "anchored": true
+    },
+    {
+      "text": "narratives",
+      "start": 180.52,
+      "end": 180.98,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 180.98,
+      "end": 181.52,
+      "anchored": true
+    },
+    {
+      "text": "Muhammad",
+      "start": 181.52,
+      "end": 181.8,
+      "anchored": true
+    },
+    {
+      "text": "Speaks'",
+      "start": 181.8,
+      "end": 182.16,
+      "anchored": true
+    },
+    {
+      "text": "artists,",
+      "start": 182.16,
+      "end": 182.6,
+      "anchored": true
+    },
+    {
+      "text": "like",
+      "start": 183.08,
+      "end": 183.36,
+      "anchored": true
+    },
+    {
+      "text": "Eugene",
+      "start": 183.36,
+      "end": 183.88,
+      "anchored": true
+    },
+    {
+      "text": "Majied,",
+      "start": 183.88,
+      "end": 184.74,
+      "anchored": false
+    },
+    {
+      "text": "who",
+      "start": 184.74,
+      "end": 184.92,
+      "anchored": true
+    },
+    {
+      "text": "sought",
+      "start": 184.92,
+      "end": 185.14,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 185.14,
+      "end": 185.3,
+      "anchored": true
+    },
+    {
+      "text": "lay",
+      "start": 185.3,
+      "end": 185.48,
+      "anchored": true
+    },
+    {
+      "text": "bare",
+      "start": 185.48,
+      "end": 185.9,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 185.9,
+      "end": 186.44,
+      "anchored": true
+    },
+    {
+      "text": "evolution",
+      "start": 186.44,
+      "end": 186.88,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 186.88,
+      "end": 187.18,
+      "anchored": true
+    },
+    {
+      "text": "racial",
+      "start": 187.18,
+      "end": 187.44,
+      "anchored": true
+    },
+    {
+      "text": "violence",
+      "start": 187.44,
+      "end": 187.92,
+      "anchored": true
+    },
+    {
+      "text": "throughout",
+      "start": 187.92,
+      "end": 188.72,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 188.72,
+      "end": 189.0,
+      "anchored": true
+    },
+    {
+      "text": "North",
+      "start": 189.0,
+      "end": 189.28,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 189.28,
+      "end": 189.56,
+      "anchored": true
+    },
+    {
+      "text": "South.",
+      "start": 189.56,
+      "end": 189.82,
+      "anchored": true
+    }
+  ],
+  "sentences": [
+    {
+      "first": 0,
+      "last": 17
+    },
+    {
+      "first": 18,
+      "last": 46
+    },
+    {
+      "first": 47,
+      "last": 72
+    },
+    {
+      "first": 73,
+      "last": 98
+    },
+    {
+      "first": 99,
+      "last": 116
+    },
+    {
+      "first": 117,
+      "last": 139
+    },
+    {
+      "first": 140,
+      "last": 169
+    },
+    {
+      "first": 170,
+      "last": 181
+    },
+    {
+      "first": 182,
+      "last": 204
+    },
+    {
+      "first": 205,
+      "last": 227
+    },
+    {
+      "first": 228,
+      "last": 250
+    },
+    {
+      "first": 251,
+      "last": 268
+    },
+    {
+      "first": 269,
+      "last": 293
+    },
+    {
+      "first": 294,
+      "last": 314
+    },
+    {
+      "first": 315,
+      "last": 330
+    },
+    {
+      "first": 331,
+      "last": 348
+    },
+    {
+      "first": 349,
+      "last": 381
+    },
+    {
+      "first": 382,
+      "last": 408
+    },
+    {
+      "first": 409,
+      "last": 436
+    }
+  ]
+}
