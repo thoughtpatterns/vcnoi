@@ -1,0 +1,597 @@
+#!/usr/bin/env -S uv run --quiet --script
+# /// script
+# requires-python = ">=3.13"
+# dependencies = ["faster-whisper>=1.2.1"]
+# ///
+
+"""Timestamp a transcript against its voiceover, then fill in a scene's `wuf()` calls.
+
+Run in an audiovisual directory, or pass one (or several). For each, we
+1. transcribe `assets/voiceover.*` with Whisper, locally,
+2. align that transcription to `assets/transcript.txt`, so that every word of
+   the transcript carries a timestamp (`assets/alignment.json` and, to read by
+   eye, `assets/alignment.txt`),
+3. and rewrite the `wuf()` calls of `__main__.py`, so that each cue holds until
+   the transcript excerpt commented above the following cue begins.
+
+A cue comment is a transcript excerpt, of the form
+
+    # He is accompanied by another Klansman [...] near the prone man's face.
+
+where `[...]` elides the middle of the excerpt, and a leading or trailing `...`
+marks a continuation. The excerpt need not be exact; it is matched by
+similarity, and a poor match is reported rather than written. Only the final
+`wuf()` beneath a comment is rewritten, as any earlier ones subdivide the cue by
+hand.
+
+Step 1 is the slow one (roughly an eighth of the length of the voiceover), so
+its result is cached in `assets/alignment.json`; pass `-f` to recompute it, or
+`-p` to reuse it unconditionally.
+"""
+
+import argparse
+import json
+import re
+import sys
+from dataclasses import dataclass, field
+from difflib import SequenceMatcher
+from itertools import pairwise
+from pathlib import Path
+from typing import Any, Final, final
+
+NAME: Final = Path(sys.argv[0]).name
+"""The name by which we were invoked, to prefix diagnostics with."""
+
+AUDIO: Final = (".wav", ".flac", ".m4a", ".mp3", ".aac", ".ogg", ".opus")
+"""Voiceover extensions, in order of preference."""
+
+TOKEN: Final = re.compile(r"[^\W_]+")
+"""A run of alphanumerics, i.e., a word with its punctuation discarded."""
+
+SENTENCE: Final = re.compile("\\S.*?(?:[.!?]+[\"'\u201d\u2019)\\]]*|$)")
+"""A sentence, ending in terminal punctuation and any closing quotes or brackets."""
+
+ELISION: Final = re.compile("\\[\\s*(?:\\.\\.\\.|\u2026)\\s*\\]")
+"""The `[...]` of a cue comment, which elides the middle of a transcript excerpt."""
+
+COMMENT: Final = re.compile(r"^\s*#\s?(.*?)\s*$")
+"""A whole-line comment, capturing its text."""
+
+CALL: Final = re.compile(r"\bwuf\(\s*[^()]*\)")
+"""A `wuf()` call, whose argument (if any) we overwrite."""
+
+CODE: Final = re.compile(r"^(?:\w+\s*[.=(\[]|from\s|import\s|@|noqa|type:|\.\.\.$)")
+"""A commented-out line of code, which is no transcript excerpt."""
+
+WIDTHS: Final = (-2, -1, 0, 1, 2)
+"""Deviations from an excerpt's length to try when searching for it, to absorb slips."""
+
+FLOOR: Final = 0.6
+"""The similarity below which an excerpt is deemed unfound."""
+
+SURE: Final = 0.85
+"""The similarity above which a match is reported without comment."""
+
+SLACK: Final = 0.5
+"""The seconds by which a cue and the stated end of its excerpt may disagree, unremarked."""
+
+BIAS: Final = 0.5
+"""Where in the pause before the following cue to place a cue: 0 as speech stops, 1 as it resumes."""
+
+
+def say(message: str, file: Any = sys.stdout) -> None:
+    """Print a diagnostic, prefixed as the other scripts here prefix theirs."""
+    _ = file.write(f"{NAME}: {message}\n")
+
+
+def warn(message: str) -> None:
+    """Print a diagnostic to standard error."""
+    say(message, sys.stderr)
+
+
+def tokens(text: str) -> list[str]:
+    """Reduce text to comparable tokens: lowercased alphanumerics, apostrophes dropped.
+
+    This is what makes matching robust to the differences we cannot control, as
+    the transcript writes "#blacklivesmatter" and "first-hand" where Whisper
+    hears "hashtag black lives matter" and "first hand".
+    """
+    return TOKEN.findall(re.sub("['\u2019]", "", text.lower()))
+
+
+@final
+@dataclass
+class Word:
+    """A word of the transcript, and the span of the voiceover which speaks it."""
+
+    text: str
+    """The word as the transcript writes it, punctuation and all."""
+
+    keys: list[str] = field(default_factory=list)
+    """The comparable tokens of `text`; empty for, e.g., a bare dash."""
+
+    start: float = 0.0
+    end: float = 0.0
+
+    anchored: bool = False
+    """Whether Whisper heard this word, as opposed to our having interpolated it."""
+
+
+@final
+@dataclass
+class Cue:
+    """A group of `wuf()` calls, and the transcript excerpt commented above them."""
+
+    excerpt: str
+    """The comment text, verbatim."""
+
+    head: list[str]
+    """The tokens before the excerpt's `[...]`, which locate where the cue begins."""
+
+    tail: list[str]
+    """The tokens after the excerpt's `[...]`, which corroborate where it ends."""
+
+    calls: list[tuple[int, re.Match[str]]] = field(default_factory=list)
+    """The `(line number, match)` of each `wuf()` beneath the comment, in order."""
+
+    first: int = -1
+    """The index of the transcript word at which the excerpt was found, or `-1`."""
+
+    ratio: float = 0.0
+    """How well the excerpt matched there, in $[0, 1]$."""
+
+    until: float | None = None
+    """The timestamp resolved for the cue, if any."""
+
+
+@final
+@dataclass
+class Keyed:
+    """A transcript flattened to tokens, with each token's word to hand.
+
+    Excerpts are searched over tokens rather than words, so that punctuation and
+    hyphenation cannot interfere; `owner` maps back to the words which bear the
+    timestamps.
+    """
+
+    keys: list[str]
+    owner: list[int]
+    offset: list[int]
+    """The token index at which each word begins."""
+
+    @staticmethod
+    def of(words: list[Word]) -> "Keyed":
+        """Flatten a word list."""
+        offset: list[int] = []
+        at = 0
+
+        for word in words:
+            offset.append(at)
+            at += len(word.keys)
+
+        return Keyed(
+            keys=[key for word in words for key in word.keys],
+            owner=[i for i, word in enumerate(words) for _ in word.keys],
+            offset=offset,
+        )
+
+
+def parse(transcript: str) -> tuple[list[Word], list[tuple[int, int]]]:
+    """Split a transcript into words, and into the word spans of its sentences.
+
+    Line breaks within a paragraph are treated as spaces, as the transcripts are
+    hard-wrapped; a blank line ends a sentence regardless of its punctuation.
+    """
+    words: list[Word] = []
+    sentences: list[tuple[int, int]] = []
+
+    for paragraph in re.split(r"\n[^\S\n]*\n", transcript.strip()):
+        for sentence in SENTENCE.findall(" ".join(paragraph.split())):
+            first = len(words)
+            words.extend(Word(text=text, keys=tokens(text)) for text in sentence.split())
+
+            if len(words) > first:
+                sentences.append((first, len(words)))
+
+    return words, sentences
+
+
+def transcribe(voiceover: Path, model: str) -> tuple[list[tuple[str, float, float]], float]:
+    """Transcribe a voiceover, returning `(token, start, end)` per token, and the duration.
+
+    A word Whisper writes as, e.g., "high-profile" yields a token apiece for
+    "high" and "profile", both spanning the word, so that its tokens line up
+    with those of a transcript which hyphenates differently.
+    """
+    from faster_whisper import WhisperModel  # noqa: PLC0415  # Deferred, as it is a slow import.
+
+    say(f"transcribing '{voiceover.name}' with {model}; this will take a while...")
+
+    whisper = WhisperModel(model, device="cpu", compute_type="int8")
+    segments, info = whisper.transcribe(
+        str(voiceover),
+        beam_size=5,
+        word_timestamps=True,
+        # The transcript is authoritative, so we want a faithful, unembellished
+        # hearing: no silence trimmed away (which would shift every timestamp),
+        # and no prior text to hallucinate from.
+        vad_filter=False,
+        condition_on_previous_text=False,
+    )
+
+    heard = [
+        (key, word.start, word.end)
+        for segment in segments
+        for word in (segment.words or ())
+        for key in tokens(word.word)
+    ]
+
+    return heard, info.duration
+
+
+def anchor(words: list[Word], heard: list[tuple[str, float, float]]) -> None:
+    """Timestamp the transcript words which the transcription agrees with.
+
+    Whisper's tokens and the transcript's are matched as two sequences, so that a
+    misheard or skipped word costs us only itself.
+    """
+    keyed = Keyed.of(words)
+    blocks = SequenceMatcher(None, [key for key, _, _ in heard], keyed.keys, autojunk=False).get_matching_blocks()
+
+    for i, j, size in blocks:
+        for d in range(size):
+            word, (_, start, end) = words[keyed.owner[j + d]], heard[i + d]
+
+            word.start = min(word.start, start) if word.anchored else start
+            word.end = max(word.end, end) if word.anchored else end
+            word.anchored = True
+
+
+def spread(words: list[Word], duration: float) -> int:
+    """Fill in the words the transcription missed, and report how many there were.
+
+    Each run of unanchored words is spread over the interval its neighbouring
+    anchors leave, in proportion to word length, so that a word Whisper never
+    heard still lands somewhere plausible. The ends of the voiceover bound the
+    runs which have an anchor on one side only.
+    """
+    if not (anchors := [i for i, word in enumerate(words) if word.anchored]):
+        deaf = f"{NAME}: the transcription matched no word of the transcript"
+        raise SystemExit(deaf)
+
+    runs = [(-1, anchors[0]), *pairwise(anchors), (anchors[-1], len(words))]
+
+    for p, q in runs:
+        if p + 1 >= q:  # Adjacent anchors leave no gap to fill.
+            continue
+
+        start = words[p].end if p >= 0 else 0.0
+        end = words[q].start if q < len(words) else duration
+        weights = [max(len(word.text), 1) for word in words[p + 1 : q]]
+
+        at = start
+        for word, weight in zip(words[p + 1 : q], weights, strict=True):
+            word.start = at
+            at += (end - start) * weight / sum(weights)
+            word.end = at
+
+    return len(words) - len(anchors)
+
+
+def locate(keyed: Keyed, phrase: list[str], lo: int, hi: int | None = None) -> tuple[int, int, float]:
+    """Find the token span within `keyed.keys[lo:hi]` which `phrase` best matches.
+
+    Windows a little shorter and longer than the phrase are tried too, so that a
+    word dropped from or added to the excerpt does not spoil the match. Ties go
+    to the earliest window, which keeps a repeated phrase from jumping ahead.
+    """
+    end = len(keyed.keys) if hi is None else min(hi, len(keyed.keys))
+
+    if not phrase or lo >= end:
+        return lo, lo, 0.0
+
+    target = " ".join(phrase)
+    best = (lo, lo, 0.0)
+
+    for width in sorted({min(max(len(phrase) + d, 1), end - lo) for d in WIDTHS}):
+        for i in range(lo, end - width + 1):
+            matcher = SequenceMatcher(None, target, " ".join(keyed.keys[i : i + width]), autojunk=False)
+
+            # These are cheap upper bounds on `ratio()`, which is not cheap.
+            if matcher.real_quick_ratio() <= best[2] or matcher.quick_ratio() <= best[2]:
+                continue
+
+            if (ratio := matcher.ratio()) > best[2]:
+                best = (i, i + width, ratio)
+
+    return best
+
+
+def cues(source: str) -> list[Cue]:
+    """Collect the `wuf()` calls of a scene, grouped under the comments above them.
+
+    Consecutive comment lines are joined, so an excerpt may wrap. A comment which
+    reads as commented-out code starts no cue.
+    """
+    found: list[Cue] = []
+    pending: list[str] = []
+
+    for number, line in enumerate(source.splitlines(), start=1):
+        if (comment := COMMENT.match(line)) is not None:
+            if (text := comment.group(1)) and not CODE.match(text):
+                pending.append(text)
+            continue
+
+        if not (calls := list(CALL.finditer(line))):
+            continue
+
+        if pending:
+            parts = ELISION.split(" ".join(pending))
+            found.append(
+                Cue(
+                    excerpt=" ".join(pending),
+                    head=tokens(parts[0].strip(" .\u2026")),
+                    tail=tokens(parts[-1].strip(" .\u2026")) if len(parts) > 1 else [],
+                ),
+            )
+            pending = []
+
+        if found:
+            found[-1].calls.extend((number, call) for call in calls)
+
+    return [cue for cue in found if cue.calls]
+
+
+def place(found: list[Cue], keyed: Keyed) -> None:
+    """Locate where in the transcript each cue's excerpt begins.
+
+    The search runs forward only, from just after the previous cue, so that a
+    phrase repeated later in the transcript cannot draw a cue out of order.
+    """
+    at = 0
+
+    for cue in found:
+        first, _, cue.ratio = locate(keyed, cue.head, at)
+
+        if cue.ratio >= FLOOR and first < len(keyed.owner):
+            cue.first, at = keyed.owner[first], first + 1
+
+
+def stated(cue: Cue, following: Cue | None, keyed: Keyed, words: list[Word]) -> float | None:
+    """Find when the ending stated after a cue's `[...]` is spoken, if it can be found.
+
+    The search is bounded by the following cue, as an excerpt cannot end after
+    the next one starts; that a stated ending is missing from that span is itself
+    worth knowing, and so reported by the caller.
+    """
+    if not cue.tail:
+        return None
+
+    lo = keyed.offset[cue.first]
+    hi = None if following is None or following.first < 0 else keyed.offset[following.first]
+    _, stop, ratio = locate(keyed, cue.tail, lo, hi)
+
+    return words[keyed.owner[stop - 1]].end if ratio >= FLOOR and stop > lo else None
+
+
+def resolve(found: list[Cue], words: list[Word], duration: float, bias: float = BIAS) -> None:
+    """Time each cue by where the cue after it begins.
+
+    A cue holds until the words of the cue after it are spoken, which is knowable
+    from the excerpts even when a comment elides its own ending; the last cue
+    holds to the end of the voiceover. Where an excerpt does state its ending,
+    that corroborates the boundary, and stands in for it if the following excerpt
+    could not be found.
+
+    Within the pause before the following cue, `bias` chooses where to land: at
+    the midpoint by default, so that a transition plays through the silence
+    rather than over the first word after it.
+    """
+    keyed = Keyed.of(words)
+    place(found, keyed)
+
+    for cue, following in zip(found, [*found[1:], None], strict=True):
+        if cue.first < 0:
+            continue
+
+        line = cue.calls[-1][0]
+        ends = stated(cue, following, keyed, words)
+        stops = None
+
+        if following is not None and following.first >= 0:
+            # Land in the pause between this cue's last word and the following cue's first.
+            stops = words[following.first - 1].end if following.first > 0 else words[0].start
+            cue.until = stops + (words[following.first].start - stops) * bias
+        elif following is None:
+            cue.until = duration
+        elif ends is not None:
+            cue.until = ends
+            warn(f"line {line}: the following excerpt was not found, so the cue was timed by this one's ending")
+        else:
+            warn(f"line {line}: neither the following excerpt nor this one's ending was found")
+
+        # The ending an excerpt states should fall where the cue's speech stops.
+        if stops is None:
+            continue
+
+        if cue.tail and ends is None:
+            warn(f"line {line}: the excerpt's stated ending was not spoken before {stops:.1f}s")
+        elif ends is not None and abs(ends - stops) > SLACK:
+            warn(f"line {line}: the excerpt ends at {ends:.1f}s, but its cue runs to {stops:.1f}s")
+
+
+def report(found: list[Cue]) -> None:
+    """Tabulate what each cue was set to, and from which excerpt."""
+    rows = [f"  {'line':>4}  {'was':>6}  {'now':>6}  {'fit':>4}  excerpt"]
+
+    for cue in found:
+        for number, call in cue.calls:
+            was = call.group(0)[len("wuf(") : -1].strip() or "-"
+
+            # Only the cue's last call is rewritten; the rest merely subdivide it.
+            if (number, call) != cue.calls[-1]:
+                rows.append(f"  {number:>4}  {was:>6}  {'':>6}  {'':>4}  │")
+                continue
+
+            mark = " " if cue.first >= 0 and cue.ratio >= SURE else "!"
+            now = f"{cue.until:.1f}" if cue.until is not None else "-"
+
+            rows.append(f"{mark} {number:>4}  {was:>6}  {now:>6}  {cue.ratio:>4.2f}  {cue.excerpt[:88]}")
+
+    sys.stdout.write("\n" + "\n".join(rows) + "\n\n")
+
+    if any(cue.first < 0 for cue in found):
+        warn("some excerpts were not found in the transcript; their cues were left alone")
+
+
+def rewrite(source: str, found: list[Cue]) -> str:
+    """Substitute the resolved timestamp into the last `wuf()` of each cue."""
+    lines = source.splitlines(keepends=True)
+
+    for cue in found:
+        if cue.until is None:
+            continue
+
+        number, call = cue.calls[-1]
+        line = lines[number - 1]
+        lines[number - 1] = f"{line[: call.start()]}wuf({cue.until:.1f}){line[call.end() :]}"
+
+    return "".join(lines)
+
+
+def store(path: Path, words: list[Word], sentences: list[tuple[int, int]], meta: dict[str, Any]) -> None:
+    """Write the alignment, as JSON to compute with and as text to read by eye."""
+    payload = {
+        **meta,
+        "words": [
+            {"text": word.text, "start": round(word.start, 3), "end": round(word.end, 3), "anchored": word.anchored}
+            for word in words
+        ],
+        "sentences": [{"first": first, "last": last - 1} for first, last in sentences],
+    }
+    _ = path.write_text(f"{json.dumps(payload, indent=2)}\n")
+
+    lines = [f"# {meta['voiceover']} — {meta['duration']:.1f}s — {meta['model']}", ""]
+    lines += [
+        f"{words[first].start:7.1f} {words[last - 1].end:7.1f}  {' '.join(word.text for word in words[first:last])}"
+        for first, last in sentences
+    ]
+    _ = path.with_suffix(".txt").write_text("\n".join(lines) + "\n")
+
+
+def load(alignment: Path, words: list[Word], *, force: bool) -> dict[str, Any] | None:
+    """Apply a cached alignment to `words`, if one exists and still fits the transcript."""
+    if force or not alignment.is_file():
+        return None
+
+    cached = json.loads(alignment.read_text())
+
+    if len(cached["words"]) != len(words):
+        warn(f"'{alignment}' is stale, as the transcript has changed; transcribing again")
+        return None
+
+    for word, entry in zip(words, cached["words"], strict=True):
+        word.start, word.end, word.anchored = entry["start"], entry["end"], entry["anchored"]
+
+    return cached
+
+
+def patch(directory: Path, words: list[Word], duration: float, bias: float, *, dry_run: bool) -> None:
+    """Resolve and rewrite the `wuf()` calls of a scene."""
+    scene = directory / "__main__.py"
+
+    if not scene.is_file():
+        warn(f"'{directory}' has no '__main__.py' to patch")
+        return
+
+    source = scene.read_text()
+
+    if not (found := cues(source)):
+        warn(f"'{scene}' has no 'wuf()' call under a transcript excerpt")
+        return
+
+    resolve(found, words, duration, bias)
+    report(found)
+
+    if dry_run:
+        say(f"a dry run, so '{scene.name}' was left alone")
+        return
+
+    _ = scene.write_text(rewrite(source, found))
+    say(f"wrote to '{scene}'")
+
+
+def align(directory: Path, args: argparse.Namespace) -> None:
+    """Align one audiovisual directory, then patch its scene."""
+    assets = directory / "assets"
+    transcript = assets / "transcript.txt"
+    alignment = assets / "alignment.json"
+
+    if not transcript.is_file():
+        warn(f"'{directory}' has no 'assets/transcript.txt', skipping")
+        return
+
+    words, sentences = parse(transcript.read_text())
+
+    if not words:
+        warn(f"'{transcript}' holds no words, skipping")
+        return
+
+    cached = load(alignment, words, force=args.force and not args.patch)
+
+    if cached is None and args.patch:
+        warn(f"'{directory}' has no usable 'assets/alignment.json' to patch from, skipping")
+        return
+
+    if cached is not None:
+        duration, guessed = cached["duration"], sum(not word.anchored for word in words)
+    else:
+        voiceovers = [path for suffix in AUDIO for path in sorted(assets.glob(f"voiceover{suffix}"))]
+
+        if not voiceovers:
+            warn(f"'{directory}' has no 'assets/voiceover.*', skipping")
+            return
+
+        heard, duration = transcribe(voiceovers[0], args.model)
+        anchor(words, heard)
+        guessed = spread(words, duration)
+
+        meta = {"voiceover": voiceovers[0].name, "duration": duration, "model": args.model}
+        store(alignment, words, sentences, meta)
+        say(f"wrote to '{alignment}' and '{alignment.with_suffix('.txt')}'")
+
+    say(f"{duration:.1f}s of voiceover, {len(words)} words of transcript, {guessed} of them interpolated")
+    patch(directory, words, duration, args.bias, dry_run=args.dry_run)
+
+
+def main() -> None:
+    """Parse arguments, then align each directory given."""
+    parser = argparse.ArgumentParser(
+        prog=NAME,
+        description=__doc__,
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
+    add = parser.add_argument
+
+    _ = add("directory", nargs="*", type=Path, default=[Path()], help="an audiovisual directory (default: .)")
+    _ = add("-m", "--model", default="small.en", help="the Whisper model to hear with (default: small.en)")
+    _ = add("-n", "--dry-run", action="store_true", help="report the cues, but leave the scene alone")
+    _ = add(
+        "-b",
+        "--bias",
+        type=float,
+        default=BIAS,
+        metavar="FRACTION",
+        help=f"where in the pause before a cue to land: 0 as speech stops, 1 as it resumes (default: {BIAS})",
+    )
+    _ = add("-f", "--force", action="store_true", help="transcribe again, ignoring any cached alignment")
+    _ = add("-p", "--patch", action="store_true", help="patch from the cached alignment, without transcribing")
+
+    args = parser.parse_args()
+
+    for directory in args.directory:
+        align(directory, args)
+
+
+if __name__ == "__main__":
+    main()
