@@ -1,0 +1,2711 @@
+{
+  "voiceover": "voiceover.wav",
+  "duration": 199.2994375,
+  "model": "small.en",
+  "words": [
+    {
+      "text": "In",
+      "start": 0.0,
+      "end": 0.12,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 0.12,
+      "end": 0.22,
+      "anchored": true
+    },
+    {
+      "text": "early",
+      "start": 0.22,
+      "end": 0.44,
+      "anchored": true
+    },
+    {
+      "text": "1960s",
+      "start": 0.44,
+      "end": 1.32,
+      "anchored": true
+    },
+    {
+      "text": "Muhammad",
+      "start": 1.5,
+      "end": 1.72,
+      "anchored": true
+    },
+    {
+      "text": "Speaks",
+      "start": 1.72,
+      "end": 2.06,
+      "anchored": true
+    },
+    {
+      "text": "paid",
+      "start": 2.06,
+      "end": 2.34,
+      "anchored": true
+    },
+    {
+      "text": "considerable",
+      "start": 2.34,
+      "end": 3.02,
+      "anchored": true
+    },
+    {
+      "text": "attention",
+      "start": 3.02,
+      "end": 3.46,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 3.88,
+      "end": 4.26,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 4.26,
+      "end": 4.4,
+      "anchored": true
+    },
+    {
+      "text": "Rev.",
+      "start": 4.4,
+      "end": 5.62,
+      "anchored": false
+    },
+    {
+      "text": "Martin",
+      "start": 5.62,
+      "end": 5.66,
+      "anchored": true
+    },
+    {
+      "text": "Luther",
+      "start": 5.66,
+      "end": 5.92,
+      "anchored": true
+    },
+    {
+      "text": "King",
+      "start": 5.92,
+      "end": 6.14,
+      "anchored": true
+    },
+    {
+      "text": "Jr.",
+      "start": 6.14,
+      "end": 6.44,
+      "anchored": true
+    },
+    {
+      "text": "Editorials",
+      "start": 7.52,
+      "end": 8.22,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 8.22,
+      "end": 8.42,
+      "anchored": true
+    },
+    {
+      "text": "cartoons",
+      "start": 8.42,
+      "end": 8.9,
+      "anchored": true
+    },
+    {
+      "text": "juxtaposed",
+      "start": 8.9,
+      "end": 9.74,
+      "anchored": true
+    },
+    {
+      "text": "King's",
+      "start": 9.74,
+      "end": 10.1,
+      "anchored": true
+    },
+    {
+      "text": "nonviolent",
+      "start": 10.1,
+      "end": 10.66,
+      "anchored": false
+    },
+    {
+      "text": "push",
+      "start": 10.66,
+      "end": 11.06,
+      "anchored": true
+    },
+    {
+      "text": "for",
+      "start": 11.06,
+      "end": 11.72,
+      "anchored": true
+    },
+    {
+      "text": "desegregation",
+      "start": 11.72,
+      "end": 12.48,
+      "anchored": true
+    },
+    {
+      "text": "with",
+      "start": 12.48,
+      "end": 13.12,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 13.12,
+      "end": 13.28,
+      "anchored": true
+    },
+    {
+      "text": "Black",
+      "start": 13.28,
+      "end": 13.5,
+      "anchored": true
+    },
+    {
+      "text": "Nationalist",
+      "start": 13.5,
+      "end": 13.98,
+      "anchored": true
+    },
+    {
+      "text": "call",
+      "start": 13.98,
+      "end": 14.38,
+      "anchored": true
+    },
+    {
+      "text": "for",
+      "start": 14.38,
+      "end": 14.92,
+      "anchored": true
+    },
+    {
+      "text": "self-determination.",
+      "start": 14.92,
+      "end": 15.62,
+      "anchored": true
+    },
+    {
+      "text": "The",
+      "start": 16.76,
+      "end": 16.92,
+      "anchored": true
+    },
+    {
+      "text": "February",
+      "start": 16.92,
+      "end": 17.24,
+      "anchored": true
+    },
+    {
+      "text": "1962",
+      "start": 17.24,
+      "end": 18.0,
+      "anchored": true
+    },
+    {
+      "text": "issue",
+      "start": 18.0,
+      "end": 18.44,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 18.44,
+      "end": 18.56,
+      "anchored": true
+    },
+    {
+      "text": "Muhammad",
+      "start": 18.56,
+      "end": 18.8,
+      "anchored": true
+    },
+    {
+      "text": "Speaks",
+      "start": 18.8,
+      "end": 19.22,
+      "anchored": true
+    },
+    {
+      "text": "featured",
+      "start": 19.22,
+      "end": 19.78,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 19.78,
+      "end": 20.08,
+      "anchored": true
+    },
+    {
+      "text": "particularly",
+      "start": 20.08,
+      "end": 20.6,
+      "anchored": true
+    },
+    {
+      "text": "harsh",
+      "start": 20.6,
+      "end": 21.08,
+      "anchored": true
+    },
+    {
+      "text": "critique",
+      "start": 21.08,
+      "end": 21.54,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 21.54,
+      "end": 21.98,
+      "anchored": true
+    },
+    {
+      "text": "Dr.",
+      "start": 21.98,
+      "end": 22.26,
+      "anchored": true
+    },
+    {
+      "text": "King's",
+      "start": 22.42,
+      "end": 22.62,
+      "anchored": true
+    },
+    {
+      "text": "leadership",
+      "start": 22.62,
+      "end": 23.0,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 23.0,
+      "end": 23.52,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 23.52,
+      "end": 23.64,
+      "anchored": true
+    },
+    {
+      "text": "civil",
+      "start": 23.64,
+      "end": 23.76,
+      "anchored": true
+    },
+    {
+      "text": "rights",
+      "start": 23.76,
+      "end": 23.96,
+      "anchored": true
+    },
+    {
+      "text": "movement,",
+      "start": 23.96,
+      "end": 24.44,
+      "anchored": true
+    },
+    {
+      "text": "including",
+      "start": 24.74,
+      "end": 25.12,
+      "anchored": true
+    },
+    {
+      "text": "illustrations",
+      "start": 25.12,
+      "end": 25.74,
+      "anchored": true
+    },
+    {
+      "text": "by",
+      "start": 25.74,
+      "end": 26.04,
+      "anchored": true
+    },
+    {
+      "text": "Eugene",
+      "start": 26.04,
+      "end": 26.32,
+      "anchored": true
+    },
+    {
+      "text": "Majied",
+      "start": 26.32,
+      "end": 26.76,
+      "anchored": false
+    },
+    {
+      "text": "that",
+      "start": 26.76,
+      "end": 27.3,
+      "anchored": true
+    },
+    {
+      "text": "satirized",
+      "start": 27.3,
+      "end": 27.82,
+      "anchored": true
+    },
+    {
+      "text": "everything",
+      "start": 27.82,
+      "end": 28.26,
+      "anchored": true
+    },
+    {
+      "text": "from",
+      "start": 28.26,
+      "end": 28.52,
+      "anchored": true
+    },
+    {
+      "text": "King's",
+      "start": 28.52,
+      "end": 28.94,
+      "anchored": true
+    },
+    {
+      "text": "association",
+      "start": 28.94,
+      "end": 29.38,
+      "anchored": true
+    },
+    {
+      "text": "with",
+      "start": 29.38,
+      "end": 29.7,
+      "anchored": true
+    },
+    {
+      "text": "President",
+      "start": 29.7,
+      "end": 30.04,
+      "anchored": true
+    },
+    {
+      "text": "Kennedy",
+      "start": 30.04,
+      "end": 30.48,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 30.48,
+      "end": 31.08,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 31.08,
+      "end": 31.2,
+      "anchored": true
+    },
+    {
+      "text": "perceived",
+      "start": 31.2,
+      "end": 31.62,
+      "anchored": true
+    },
+    {
+      "text": "absurdity",
+      "start": 31.62,
+      "end": 32.26,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 32.26,
+      "end": 33.06,
+      "anchored": true
+    },
+    {
+      "text": "his",
+      "start": 33.06,
+      "end": 33.22,
+      "anchored": true
+    },
+    {
+      "text": "philosophy",
+      "start": 33.22,
+      "end": 33.84,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 33.84,
+      "end": 34.58,
+      "anchored": true
+    },
+    {
+      "text": "nonviolence.",
+      "start": 34.58,
+      "end": 36.34,
+      "anchored": false
+    },
+    {
+      "text": "One",
+      "start": 36.34,
+      "end": 36.52,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 36.52,
+      "end": 36.64,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 36.64,
+      "end": 36.68,
+      "anchored": true
+    },
+    {
+      "text": "most",
+      "start": 36.68,
+      "end": 36.82,
+      "anchored": true
+    },
+    {
+      "text": "striking",
+      "start": 36.82,
+      "end": 37.36,
+      "anchored": true
+    },
+    {
+      "text": "cartoons",
+      "start": 37.36,
+      "end": 37.92,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 37.92,
+      "end": 38.34,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 38.34,
+      "end": 38.46,
+      "anchored": true
+    },
+    {
+      "text": "issue,",
+      "start": 38.46,
+      "end": 38.88,
+      "anchored": true
+    },
+    {
+      "text": "titled",
+      "start": 39.16,
+      "end": 39.68,
+      "anchored": true
+    },
+    {
+      "text": "\"On",
+      "start": 39.68,
+      "end": 40.04,
+      "anchored": true
+    },
+    {
+      "text": "Dangerous",
+      "start": 40.04,
+      "end": 40.48,
+      "anchored": true
+    },
+    {
+      "text": "Ground,\"",
+      "start": 40.48,
+      "end": 40.98,
+      "anchored": true
+    },
+    {
+      "text": "shows",
+      "start": 41.42,
+      "end": 41.82,
+      "anchored": true
+    },
+    {
+      "text": "King",
+      "start": 41.82,
+      "end": 42.2,
+      "anchored": true
+    },
+    {
+      "text": "being",
+      "start": 42.2,
+      "end": 42.48,
+      "anchored": true
+    },
+    {
+      "text": "pulled",
+      "start": 42.48,
+      "end": 42.76,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 42.76,
+      "end": 42.96,
+      "anchored": true
+    },
+    {
+      "text": "opposite",
+      "start": 42.96,
+      "end": 43.4,
+      "anchored": true
+    },
+    {
+      "text": "directions,",
+      "start": 43.4,
+      "end": 44.16,
+      "anchored": true
+    },
+    {
+      "text": "almost",
+      "start": 44.58,
+      "end": 44.86,
+      "anchored": true
+    },
+    {
+      "text": "causing",
+      "start": 44.86,
+      "end": 45.22,
+      "anchored": true
+    },
+    {
+      "text": "him",
+      "start": 45.22,
+      "end": 45.48,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 45.48,
+      "end": 45.64,
+      "anchored": true
+    },
+    {
+      "text": "fall",
+      "start": 45.64,
+      "end": 45.94,
+      "anchored": true
+    },
+    {
+      "text": "into",
+      "start": 45.94,
+      "end": 46.28,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 46.28,
+      "end": 46.5,
+      "anchored": true
+    },
+    {
+      "text": "chasm",
+      "start": 46.5,
+      "end": 46.84,
+      "anchored": true
+    },
+    {
+      "text": "as",
+      "start": 46.84,
+      "end": 47.64,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 47.64,
+      "end": 47.82,
+      "anchored": true
+    },
+    {
+      "text": "earth",
+      "start": 47.82,
+      "end": 48.04,
+      "anchored": true
+    },
+    {
+      "text": "opens",
+      "start": 48.04,
+      "end": 48.5,
+      "anchored": true
+    },
+    {
+      "text": "beneath",
+      "start": 48.74,
+      "end": 49.08,
+      "anchored": true
+    },
+    {
+      "text": "him.",
+      "start": 49.08,
+      "end": 49.44,
+      "anchored": true
+    },
+    {
+      "text": "At",
+      "start": 50.16,
+      "end": 50.32,
+      "anchored": true
+    },
+    {
+      "text": "each",
+      "start": 50.32,
+      "end": 50.6,
+      "anchored": true
+    },
+    {
+      "text": "end",
+      "start": 50.6,
+      "end": 50.78,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 50.78,
+      "end": 50.88,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 50.88,
+      "end": 50.98,
+      "anchored": true
+    },
+    {
+      "text": "chasm",
+      "start": 50.98,
+      "end": 51.34,
+      "anchored": true
+    },
+    {
+      "text": "are",
+      "start": 51.34,
+      "end": 51.56,
+      "anchored": true
+    },
+    {
+      "text": "messages:",
+      "start": 51.56,
+      "end": 52.0,
+      "anchored": true
+    },
+    {
+      "text": "on",
+      "start": 52.0,
+      "end": 52.78,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 52.78,
+      "end": 52.92,
+      "anchored": true
+    },
+    {
+      "text": "right,",
+      "start": 52.92,
+      "end": 53.18,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 53.18,
+      "end": 53.48,
+      "anchored": true
+    },
+    {
+      "text": "crucifix",
+      "start": 53.48,
+      "end": 53.82,
+      "anchored": true
+    },
+    {
+      "text": "with",
+      "start": 53.82,
+      "end": 54.5,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 54.5,
+      "end": 54.66,
+      "anchored": true
+    },
+    {
+      "text": "single",
+      "start": 54.66,
+      "end": 55.0,
+      "anchored": true
+    },
+    {
+      "text": "nail",
+      "start": 55.0,
+      "end": 55.38,
+      "anchored": true
+    },
+    {
+      "text": "bearing",
+      "start": 55.38,
+      "end": 55.8,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 55.8,
+      "end": 56.0,
+      "anchored": true
+    },
+    {
+      "text": "sign",
+      "start": 56.0,
+      "end": 56.26,
+      "anchored": true
+    },
+    {
+      "text": "that",
+      "start": 56.26,
+      "end": 56.4,
+      "anchored": true
+    },
+    {
+      "text": "reads,",
+      "start": 56.4,
+      "end": 56.72,
+      "anchored": true
+    },
+    {
+      "text": "\"Billy",
+      "start": 57.36,
+      "end": 57.78,
+      "anchored": true
+    },
+    {
+      "text": "Graham's",
+      "start": 57.78,
+      "end": 58.34,
+      "anchored": true
+    },
+    {
+      "text": "Dec.",
+      "start": 58.34,
+      "end": 58.76,
+      "anchored": false
+    },
+    {
+      "text": "18",
+      "start": 58.76,
+      "end": 59.38,
+      "anchored": true
+    },
+    {
+      "text": "statement",
+      "start": 59.38,
+      "end": 59.88,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 59.88,
+      "end": 60.48,
+      "anchored": true
+    },
+    {
+      "text": "Pentagon",
+      "start": 60.48,
+      "end": 60.96,
+      "anchored": true
+    },
+    {
+      "text": "Militarists",
+      "start": 60.96,
+      "end": 61.8,
+      "anchored": true
+    },
+    {
+      "text": "that",
+      "start": 61.8,
+      "end": 62.32,
+      "anchored": true
+    },
+    {
+      "text": "Jesus",
+      "start": 62.32,
+      "end": 62.58,
+      "anchored": true
+    },
+    {
+      "text": "was",
+      "start": 62.58,
+      "end": 62.86,
+      "anchored": true
+    },
+    {
+      "text": "no",
+      "start": 62.86,
+      "end": 63.14,
+      "anchored": true
+    },
+    {
+      "text": "pacifist",
+      "start": 63.14,
+      "end": 63.88,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 63.88,
+      "end": 64.4,
+      "anchored": true
+    },
+    {
+      "text": "that",
+      "start": 64.4,
+      "end": 64.54,
+      "anchored": false
+    },
+    {
+      "text": "freedom",
+      "start": 64.54,
+      "end": 64.88,
+      "anchored": true
+    },
+    {
+      "text": "must",
+      "start": 64.88,
+      "end": 65.28,
+      "anchored": true
+    },
+    {
+      "text": "sometimes",
+      "start": 65.28,
+      "end": 65.76,
+      "anchored": true
+    },
+    {
+      "text": "be",
+      "start": 65.76,
+      "end": 66.12,
+      "anchored": true
+    },
+    {
+      "text": "defended",
+      "start": 66.12,
+      "end": 66.6,
+      "anchored": true
+    },
+    {
+      "text": "through",
+      "start": 66.6,
+      "end": 67.3,
+      "anchored": true
+    },
+    {
+      "text": "war.\"",
+      "start": 67.3,
+      "end": 67.72,
+      "anchored": true
+    },
+    {
+      "text": "On",
+      "start": 69.08,
+      "end": 69.16,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 69.16,
+      "end": 69.3,
+      "anchored": true
+    },
+    {
+      "text": "left,",
+      "start": 69.3,
+      "end": 69.64,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 69.64,
+      "end": 70.24,
+      "anchored": true
+    },
+    {
+      "text": "signpost",
+      "start": 70.24,
+      "end": 70.74,
+      "anchored": true
+    },
+    {
+      "text": "displays,",
+      "start": 70.74,
+      "end": 71.24,
+      "anchored": true
+    },
+    {
+      "text": "\"Gandhi's",
+      "start": 72.14,
+      "end": 73.36,
+      "anchored": true
+    },
+    {
+      "text": "India",
+      "start": 73.36,
+      "end": 73.76,
+      "anchored": true
+    },
+    {
+      "text": "Takes",
+      "start": 73.76,
+      "end": 74.14,
+      "anchored": true
+    },
+    {
+      "text": "Bold",
+      "start": 74.14,
+      "end": 74.5,
+      "anchored": true
+    },
+    {
+      "text": "Step",
+      "start": 74.5,
+      "end": 74.9,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 74.9,
+      "end": 75.42,
+      "anchored": true
+    },
+    {
+      "text": "Reclaim",
+      "start": 75.42,
+      "end": 75.86,
+      "anchored": true
+    },
+    {
+      "text": "Its",
+      "start": 75.86,
+      "end": 76.22,
+      "anchored": true
+    },
+    {
+      "text": "Land",
+      "start": 76.22,
+      "end": 76.6,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 76.6,
+      "end": 76.86,
+      "anchored": true
+    },
+    {
+      "text": "GOA.\"",
+      "start": 76.86,
+      "end": 77.26,
+      "anchored": true
+    },
+    {
+      "text": "Inside",
+      "start": 77.92,
+      "end": 78.42,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 78.42,
+      "end": 78.84,
+      "anchored": true
+    },
+    {
+      "text": "widening",
+      "start": 78.84,
+      "end": 78.98,
+      "anchored": false
+    },
+    {
+      "text": "chasm",
+      "start": 78.98,
+      "end": 79.44,
+      "anchored": true
+    },
+    {
+      "text": "another",
+      "start": 79.72,
+      "end": 80.08,
+      "anchored": true
+    },
+    {
+      "text": "message",
+      "start": 80.08,
+      "end": 80.52,
+      "anchored": true
+    },
+    {
+      "text": "reads",
+      "start": 80.52,
+      "end": 80.98,
+      "anchored": true
+    },
+    {
+      "text": "\"King's",
+      "start": 81.6,
+      "end": 82.06,
+      "anchored": true
+    },
+    {
+      "text": "attempt",
+      "start": 82.06,
+      "end": 82.32,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 82.32,
+      "end": 82.76,
+      "anchored": true
+    },
+    {
+      "text": "borrow",
+      "start": 82.76,
+      "end": 83.06,
+      "anchored": true
+    },
+    {
+      "text": "from",
+      "start": 83.06,
+      "end": 83.36,
+      "anchored": true
+    },
+    {
+      "text": "other",
+      "start": 83.36,
+      "end": 83.66,
+      "anchored": true
+    },
+    {
+      "text": "peoples'",
+      "start": 83.66,
+      "end": 84.26,
+      "anchored": true
+    },
+    {
+      "text": "religious",
+      "start": 84.26,
+      "end": 84.7,
+      "anchored": true
+    },
+    {
+      "text": "philosophies.\"",
+      "start": 84.7,
+      "end": 85.48,
+      "anchored": true
+    },
+    {
+      "text": "Majied",
+      "start": 85.48,
+      "end": 87.28,
+      "anchored": false
+    },
+    {
+      "text": "wants",
+      "start": 87.28,
+      "end": 87.6,
+      "anchored": true
+    },
+    {
+      "text": "readers",
+      "start": 87.6,
+      "end": 88.0,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 88.0,
+      "end": 88.32,
+      "anchored": true
+    },
+    {
+      "text": "see",
+      "start": 88.32,
+      "end": 88.62,
+      "anchored": true
+    },
+    {
+      "text": "King's",
+      "start": 88.62,
+      "end": 89.08,
+      "anchored": true
+    },
+    {
+      "text": "attempt",
+      "start": 89.08,
+      "end": 89.36,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 89.36,
+      "end": 89.86,
+      "anchored": true
+    },
+    {
+      "text": "present",
+      "start": 89.86,
+      "end": 90.22,
+      "anchored": true
+    },
+    {
+      "text": "nonviolence",
+      "start": 90.22,
+      "end": 90.92,
+      "anchored": false
+    },
+    {
+      "text": "as",
+      "start": 90.92,
+      "end": 91.62,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 91.62,
+      "end": 91.74,
+      "anchored": true
+    },
+    {
+      "text": "Christian",
+      "start": 91.74,
+      "end": 92.14,
+      "anchored": true
+    },
+    {
+      "text": "value",
+      "start": 92.14,
+      "end": 92.64,
+      "anchored": true
+    },
+    {
+      "text": "as",
+      "start": 93.0,
+      "end": 93.16,
+      "anchored": true
+    },
+    {
+      "text": "contradictory",
+      "start": 93.16,
+      "end": 93.76,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 93.76,
+      "end": 94.54,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 94.54,
+      "end": 94.7,
+      "anchored": true
+    },
+    {
+      "text": "role",
+      "start": 95.12,
+      "end": 95.48,
+      "anchored": true
+    },
+    {
+      "text": "Christianity",
+      "start": 95.48,
+      "end": 95.88,
+      "anchored": true
+    },
+    {
+      "text": "is",
+      "start": 95.88,
+      "end": 96.2,
+      "anchored": true
+    },
+    {
+      "text": "playing",
+      "start": 96.2,
+      "end": 96.58,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 96.58,
+      "end": 97.14,
+      "anchored": true
+    },
+    {
+      "text": "justifying",
+      "start": 97.14,
+      "end": 97.7,
+      "anchored": true
+    },
+    {
+      "text": "violence.",
+      "start": 97.7,
+      "end": 98.3,
+      "anchored": true
+    },
+    {
+      "text": "Similarly,",
+      "start": 99.74,
+      "end": 99.74,
+      "anchored": true
+    },
+    {
+      "text": "Majied",
+      "start": 99.74,
+      "end": 100.56,
+      "anchored": false
+    },
+    {
+      "text": "wants",
+      "start": 100.56,
+      "end": 100.88,
+      "anchored": true
+    },
+    {
+      "text": "readers",
+      "start": 100.88,
+      "end": 101.16,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 101.16,
+      "end": 101.4,
+      "anchored": true
+    },
+    {
+      "text": "recognize",
+      "start": 101.4,
+      "end": 101.78,
+      "anchored": true
+    },
+    {
+      "text": "that",
+      "start": 101.78,
+      "end": 102.06,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 102.06,
+      "end": 102.2,
+      "anchored": true
+    },
+    {
+      "text": "1961,",
+      "start": 102.2,
+      "end": 102.98,
+      "anchored": true
+    },
+    {
+      "text": "when",
+      "start": 103.52,
+      "end": 103.76,
+      "anchored": true
+    },
+    {
+      "text": "India's",
+      "start": 103.76,
+      "end": 104.14,
+      "anchored": true
+    },
+    {
+      "text": "nonviolent",
+      "start": 104.14,
+      "end": 104.82,
+      "anchored": false
+    },
+    {
+      "text": "efforts",
+      "start": 104.82,
+      "end": 105.3,
+      "anchored": true
+    },
+    {
+      "text": "failed",
+      "start": 105.3,
+      "end": 105.78,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 105.78,
+      "end": 105.98,
+      "anchored": true
+    },
+    {
+      "text": "Goa,",
+      "start": 105.98,
+      "end": 106.44,
+      "anchored": true
+    },
+    {
+      "text": "Indian",
+      "start": 107.0,
+      "end": 107.22,
+      "anchored": true
+    },
+    {
+      "text": "armed",
+      "start": 107.22,
+      "end": 107.62,
+      "anchored": true
+    },
+    {
+      "text": "forces",
+      "start": 107.62,
+      "end": 108.06,
+      "anchored": true
+    },
+    {
+      "text": "annexed",
+      "start": 108.06,
+      "end": 108.56,
+      "anchored": true
+    },
+    {
+      "text": "Portuguese-controlled",
+      "start": 109.24,
+      "end": 110.4,
+      "anchored": true
+    },
+    {
+      "text": "region.",
+      "start": 110.4,
+      "end": 110.88,
+      "anchored": true
+    },
+    {
+      "text": "The",
+      "start": 112.0,
+      "end": 112.0,
+      "anchored": true
+    },
+    {
+      "text": "criticism",
+      "start": 112.0,
+      "end": 112.5,
+      "anchored": true
+    },
+    {
+      "text": "is",
+      "start": 112.5,
+      "end": 112.88,
+      "anchored": true
+    },
+    {
+      "text": "unmistakable:",
+      "start": 112.88,
+      "end": 113.66,
+      "anchored": true
+    },
+    {
+      "text": "King's",
+      "start": 114.52,
+      "end": 114.78,
+      "anchored": true
+    },
+    {
+      "text": "political",
+      "start": 114.78,
+      "end": 115.18,
+      "anchored": true
+    },
+    {
+      "text": "stance",
+      "start": 115.18,
+      "end": 115.6,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 115.6,
+      "end": 116.14,
+      "anchored": true
+    },
+    {
+      "text": "moral",
+      "start": 116.14,
+      "end": 116.44,
+      "anchored": true
+    },
+    {
+      "text": "philosophy",
+      "start": 116.44,
+      "end": 117.14,
+      "anchored": true
+    },
+    {
+      "text": "lack",
+      "start": 117.14,
+      "end": 117.54,
+      "anchored": true
+    },
+    {
+      "text": "foundation,",
+      "start": 117.54,
+      "end": 118.24,
+      "anchored": true
+    },
+    {
+      "text": "with",
+      "start": 118.52,
+      "end": 118.96,
+      "anchored": true
+    },
+    {
+      "text": "his",
+      "start": 118.96,
+      "end": 119.14,
+      "anchored": true
+    },
+    {
+      "text": "sources",
+      "start": 119.14,
+      "end": 119.42,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 119.42,
+      "end": 119.68,
+      "anchored": true
+    },
+    {
+      "text": "inspiration",
+      "start": 119.68,
+      "end": 120.34,
+      "anchored": true
+    },
+    {
+      "text": "contradicting",
+      "start": 120.34,
+      "end": 121.72,
+      "anchored": true
+    },
+    {
+      "text": "his",
+      "start": 121.72,
+      "end": 122.06,
+      "anchored": true
+    },
+    {
+      "text": "beliefs.",
+      "start": 122.06,
+      "end": 122.4,
+      "anchored": true
+    },
+    {
+      "text": "This",
+      "start": 123.34,
+      "end": 123.52,
+      "anchored": true
+    },
+    {
+      "text": "critique",
+      "start": 123.52,
+      "end": 123.82,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 123.82,
+      "end": 124.06,
+      "anchored": true
+    },
+    {
+      "text": "King",
+      "start": 124.06,
+      "end": 124.3,
+      "anchored": true
+    },
+    {
+      "text": "is",
+      "start": 124.3,
+      "end": 124.58,
+      "anchored": true
+    },
+    {
+      "text": "less",
+      "start": 124.58,
+      "end": 124.88,
+      "anchored": true
+    },
+    {
+      "text": "about",
+      "start": 124.88,
+      "end": 125.26,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 125.26,
+      "end": 125.56,
+      "anchored": true
+    },
+    {
+      "text": "personal",
+      "start": 125.56,
+      "end": 125.9,
+      "anchored": true
+    },
+    {
+      "text": "attack",
+      "start": 125.9,
+      "end": 126.38,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 126.38,
+      "end": 127.02,
+      "anchored": true
+    },
+    {
+      "text": "more",
+      "start": 127.02,
+      "end": 127.24,
+      "anchored": true
+    },
+    {
+      "text": "about",
+      "start": 127.24,
+      "end": 127.48,
+      "anchored": true
+    },
+    {
+      "text": "illustrating",
+      "start": 127.48,
+      "end": 127.94,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 127.94,
+      "end": 128.2,
+      "anchored": true
+    },
+    {
+      "text": "rivalry",
+      "start": 128.2,
+      "end": 128.66,
+      "anchored": true
+    },
+    {
+      "text": "between",
+      "start": 128.66,
+      "end": 129.46,
+      "anchored": true
+    },
+    {
+      "text": "Black",
+      "start": 129.46,
+      "end": 129.76,
+      "anchored": true
+    },
+    {
+      "text": "Nationalism",
+      "start": 129.76,
+      "end": 130.3,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 130.3,
+      "end": 130.94,
+      "anchored": true
+    },
+    {
+      "text": "integration.",
+      "start": 130.94,
+      "end": 131.42,
+      "anchored": true
+    },
+    {
+      "text": "Below",
+      "start": 132.68,
+      "end": 132.9,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 132.9,
+      "end": 133.34,
+      "anchored": true
+    },
+    {
+      "text": "cartoon",
+      "start": 133.34,
+      "end": 133.34,
+      "anchored": false
+    },
+    {
+      "text": "is",
+      "start": 133.34,
+      "end": 133.84,
+      "anchored": true
+    },
+    {
+      "text": "an",
+      "start": 133.84,
+      "end": 133.98,
+      "anchored": true
+    },
+    {
+      "text": "editorial",
+      "start": 133.98,
+      "end": 134.42,
+      "anchored": true
+    },
+    {
+      "text": "titled",
+      "start": 134.42,
+      "end": 134.88,
+      "anchored": true
+    },
+    {
+      "text": "\"East",
+      "start": 134.88,
+      "end": 135.22,
+      "anchored": true
+    },
+    {
+      "text": "is",
+      "start": 135.22,
+      "end": 135.42,
+      "anchored": true
+    },
+    {
+      "text": "East,",
+      "start": 135.42,
+      "end": 135.78,
+      "anchored": true
+    },
+    {
+      "text": "West",
+      "start": 136.08,
+      "end": 136.32,
+      "anchored": true
+    },
+    {
+      "text": "is",
+      "start": 136.32,
+      "end": 136.58,
+      "anchored": true
+    },
+    {
+      "text": "West,\"",
+      "start": 136.58,
+      "end": 136.86,
+      "anchored": true
+    },
+    {
+      "text": "which",
+      "start": 137.54,
+      "end": 137.74,
+      "anchored": true
+    },
+    {
+      "text": "positions",
+      "start": 137.74,
+      "end": 138.3,
+      "anchored": true
+    },
+    {
+      "text": "Black",
+      "start": 138.3,
+      "end": 138.54,
+      "anchored": true
+    },
+    {
+      "text": "Nationalists",
+      "start": 138.54,
+      "end": 139.12,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 139.12,
+      "end": 139.94,
+      "anchored": true
+    },
+    {
+      "text": "America",
+      "start": 139.94,
+      "end": 140.46,
+      "anchored": true
+    },
+    {
+      "text": "alongside",
+      "start": 140.46,
+      "end": 141.18,
+      "anchored": true
+    },
+    {
+      "text": "global",
+      "start": 141.18,
+      "end": 142.28,
+      "anchored": true
+    },
+    {
+      "text": "struggles",
+      "start": 142.28,
+      "end": 142.7,
+      "anchored": true
+    },
+    {
+      "text": "for",
+      "start": 142.7,
+      "end": 142.92,
+      "anchored": true
+    },
+    {
+      "text": "independence",
+      "start": 142.92,
+      "end": 143.34,
+      "anchored": true
+    },
+    {
+      "text": "from",
+      "start": 143.34,
+      "end": 144.14,
+      "anchored": true
+    },
+    {
+      "text": "white",
+      "start": 144.14,
+      "end": 144.44,
+      "anchored": true
+    },
+    {
+      "text": "domination.",
+      "start": 144.44,
+      "end": 145.0,
+      "anchored": true
+    },
+    {
+      "text": "In",
+      "start": 146.32,
+      "end": 146.52,
+      "anchored": true
+    },
+    {
+      "text": "contrast,",
+      "start": 146.52,
+      "end": 147.06,
+      "anchored": true
+    },
+    {
+      "text": "it",
+      "start": 147.26,
+      "end": 147.34,
+      "anchored": true
+    },
+    {
+      "text": "criticizes",
+      "start": 147.34,
+      "end": 148.06,
+      "anchored": true
+    },
+    {
+      "text": "American",
+      "start": 148.06,
+      "end": 148.98,
+      "anchored": true
+    },
+    {
+      "text": "desegregation",
+      "start": 148.98,
+      "end": 149.66,
+      "anchored": true
+    },
+    {
+      "text": "activists",
+      "start": 149.66,
+      "end": 150.3,
+      "anchored": true
+    },
+    {
+      "text": "who",
+      "start": 150.3,
+      "end": 150.58,
+      "anchored": true
+    },
+    {
+      "text": "\"fight",
+      "start": 150.86,
+      "end": 151.46,
+      "anchored": true
+    },
+    {
+      "text": "for",
+      "start": 151.46,
+      "end": 151.68,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 151.68,
+      "end": 151.82,
+      "anchored": true
+    },
+    {
+      "text": "claim",
+      "start": 151.82,
+      "end": 152.08,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 152.08,
+      "end": 152.26,
+      "anchored": true
+    },
+    {
+      "text": "equal",
+      "start": 152.26,
+      "end": 152.56,
+      "anchored": true
+    },
+    {
+      "text": "ownership",
+      "start": 152.56,
+      "end": 153.02,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 153.02,
+      "end": 153.2,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 153.2,
+      "end": 153.3,
+      "anchored": true
+    },
+    {
+      "text": "white",
+      "start": 153.3,
+      "end": 153.46,
+      "anchored": true
+    },
+    {
+      "text": "man's",
+      "start": 153.46,
+      "end": 153.84,
+      "anchored": true
+    },
+    {
+      "text": "house\"",
+      "start": 153.84,
+      "end": 154.1,
+      "anchored": true
+    },
+    {
+      "text": "instead",
+      "start": 154.1,
+      "end": 155.4,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 155.4,
+      "end": 155.54,
+      "anchored": true
+    },
+    {
+      "text": "seeking",
+      "start": 155.54,
+      "end": 155.76,
+      "anchored": true
+    },
+    {
+      "text": "their",
+      "start": 155.76,
+      "end": 155.98,
+      "anchored": true
+    },
+    {
+      "text": "own",
+      "start": 155.98,
+      "end": 156.12,
+      "anchored": true
+    },
+    {
+      "text": "liberation.",
+      "start": 156.12,
+      "end": 156.52,
+      "anchored": true
+    },
+    {
+      "text": "Importantly,",
+      "start": 157.72,
+      "end": 158.32,
+      "anchored": true
+    },
+    {
+      "text": "this",
+      "start": 158.62,
+      "end": 158.8,
+      "anchored": true
+    },
+    {
+      "text": "artwork",
+      "start": 158.8,
+      "end": 159.06,
+      "anchored": true
+    },
+    {
+      "text": "is",
+      "start": 159.06,
+      "end": 159.28,
+      "anchored": true
+    },
+    {
+      "text": "relevant",
+      "start": 159.28,
+      "end": 159.54,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 159.54,
+      "end": 159.96,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 159.96,
+      "end": 160.08,
+      "anchored": true
+    },
+    {
+      "text": "events",
+      "start": 160.08,
+      "end": 160.28,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 160.28,
+      "end": 160.44,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 160.44,
+      "end": 160.56,
+      "anchored": true
+    },
+    {
+      "text": "day.",
+      "start": 160.56,
+      "end": 160.76,
+      "anchored": true
+    },
+    {
+      "text": "The",
+      "start": 161.48,
+      "end": 161.64,
+      "anchored": true
+    },
+    {
+      "text": "image's",
+      "start": 161.64,
+      "end": 161.86,
+      "anchored": true
+    },
+    {
+      "text": "publication",
+      "start": 161.86,
+      "end": 162.5,
+      "anchored": true
+    },
+    {
+      "text": "coincided",
+      "start": 162.5,
+      "end": 163.24,
+      "anchored": true
+    },
+    {
+      "text": "with",
+      "start": 163.24,
+      "end": 163.86,
+      "anchored": true
+    },
+    {
+      "text": "Martin",
+      "start": 163.86,
+      "end": 164.0,
+      "anchored": true
+    },
+    {
+      "text": "Luther",
+      "start": 164.0,
+      "end": 164.3,
+      "anchored": true
+    },
+    {
+      "text": "King",
+      "start": 164.3,
+      "end": 164.56,
+      "anchored": true
+    },
+    {
+      "text": "Jr's",
+      "start": 164.56,
+      "end": 165.12,
+      "anchored": true
+    },
+    {
+      "text": "nonviolent",
+      "start": 165.12,
+      "end": 165.78,
+      "anchored": true
+    },
+    {
+      "text": "direct-action",
+      "start": 165.78,
+      "end": 166.64,
+      "anchored": true
+    },
+    {
+      "text": "campaign",
+      "start": 166.64,
+      "end": 167.1,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 167.1,
+      "end": 167.62,
+      "anchored": true
+    },
+    {
+      "text": "Albany,",
+      "start": 167.62,
+      "end": 167.88,
+      "anchored": true
+    },
+    {
+      "text": "Georgia.",
+      "start": 168.22,
+      "end": 168.28,
+      "anchored": true
+    },
+    {
+      "text": "The",
+      "start": 169.12,
+      "end": 169.32,
+      "anchored": true
+    },
+    {
+      "text": "ambitious",
+      "start": 169.32,
+      "end": 169.64,
+      "anchored": true
+    },
+    {
+      "text": "campaign",
+      "start": 169.64,
+      "end": 170.14,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 170.14,
+      "end": 170.42,
+      "anchored": true
+    },
+    {
+      "text": "end",
+      "start": 170.42,
+      "end": 170.68,
+      "anchored": true
+    },
+    {
+      "text": "racial",
+      "start": 170.68,
+      "end": 170.98,
+      "anchored": true
+    },
+    {
+      "text": "segregation",
+      "start": 170.98,
+      "end": 171.72,
+      "anchored": true
+    },
+    {
+      "text": "brought",
+      "start": 171.72,
+      "end": 172.3,
+      "anchored": true
+    },
+    {
+      "text": "together",
+      "start": 172.3,
+      "end": 172.62,
+      "anchored": true
+    },
+    {
+      "text": "local",
+      "start": 172.62,
+      "end": 172.94,
+      "anchored": true
+    },
+    {
+      "text": "organizers",
+      "start": 172.94,
+      "end": 173.48,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 173.48,
+      "end": 173.82,
+      "anchored": true
+    },
+    {
+      "text": "national",
+      "start": 173.82,
+      "end": 174.28,
+      "anchored": true
+    },
+    {
+      "text": "civil",
+      "start": 174.28,
+      "end": 174.5,
+      "anchored": true
+    },
+    {
+      "text": "rights",
+      "start": 174.5,
+      "end": 174.76,
+      "anchored": true
+    },
+    {
+      "text": "leaders,",
+      "start": 174.76,
+      "end": 175.08,
+      "anchored": true
+    },
+    {
+      "text": "but",
+      "start": 175.4,
+      "end": 175.54,
+      "anchored": true
+    },
+    {
+      "text": "failed",
+      "start": 175.54,
+      "end": 175.8,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 175.8,
+      "end": 175.96,
+      "anchored": true
+    },
+    {
+      "text": "make",
+      "start": 175.96,
+      "end": 176.14,
+      "anchored": true
+    },
+    {
+      "text": "immediate",
+      "start": 176.14,
+      "end": 176.48,
+      "anchored": true
+    },
+    {
+      "text": "gains,",
+      "start": 176.48,
+      "end": 176.94,
+      "anchored": true
+    },
+    {
+      "text": "being",
+      "start": 177.42,
+      "end": 177.56,
+      "anchored": true
+    },
+    {
+      "text": "widely",
+      "start": 177.56,
+      "end": 178.02,
+      "anchored": true
+    },
+    {
+      "text": "characterized",
+      "start": 178.02,
+      "end": 178.5,
+      "anchored": true
+    },
+    {
+      "text": "as",
+      "start": 178.5,
+      "end": 178.94,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 178.94,
+      "end": 179.08,
+      "anchored": true
+    },
+    {
+      "text": "setback",
+      "start": 179.08,
+      "end": 179.48,
+      "anchored": true
+    },
+    {
+      "text": "for",
+      "start": 179.48,
+      "end": 179.96,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 179.96,
+      "end": 180.08,
+      "anchored": true
+    },
+    {
+      "text": "civil",
+      "start": 180.08,
+      "end": 180.22,
+      "anchored": true
+    },
+    {
+      "text": "rights",
+      "start": 180.22,
+      "end": 180.46,
+      "anchored": true
+    },
+    {
+      "text": "movement.",
+      "start": 180.46,
+      "end": 180.8,
+      "anchored": true
+    },
+    {
+      "text": "So",
+      "start": 181.44,
+      "end": 181.64,
+      "anchored": true
+    },
+    {
+      "text": "at",
+      "start": 181.64,
+      "end": 181.72,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 181.72,
+      "end": 181.84,
+      "anchored": true
+    },
+    {
+      "text": "very",
+      "start": 181.84,
+      "end": 182.06,
+      "anchored": true
+    },
+    {
+      "text": "moment",
+      "start": 182.06,
+      "end": 182.52,
+      "anchored": true
+    },
+    {
+      "text": "that",
+      "start": 182.52,
+      "end": 182.9,
+      "anchored": false
+    },
+    {
+      "text": "King",
+      "start": 182.9,
+      "end": 183.1,
+      "anchored": true
+    },
+    {
+      "text": "seemed",
+      "start": 183.1,
+      "end": 183.4,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 183.4,
+      "end": 183.56,
+      "anchored": true
+    },
+    {
+      "text": "be",
+      "start": 183.56,
+      "end": 183.66,
+      "anchored": true
+    },
+    {
+      "text": "losing",
+      "start": 183.66,
+      "end": 184.04,
+      "anchored": true
+    },
+    {
+      "text": "political",
+      "start": 184.04,
+      "end": 184.44,
+      "anchored": true
+    },
+    {
+      "text": "ground,",
+      "start": 184.44,
+      "end": 184.96,
+      "anchored": true
+    },
+    {
+      "text": "Majied's",
+      "start": 184.96,
+      "end": 185.72,
+      "anchored": false
+    },
+    {
+      "text": "artwork",
+      "start": 185.72,
+      "end": 186.04,
+      "anchored": true
+    },
+    {
+      "text": "was",
+      "start": 186.04,
+      "end": 186.24,
+      "anchored": true
+    },
+    {
+      "text": "hitting",
+      "start": 186.24,
+      "end": 186.5,
+      "anchored": true
+    },
+    {
+      "text": "street",
+      "start": 186.5,
+      "end": 186.78,
+      "anchored": true
+    },
+    {
+      "text": "corners",
+      "start": 186.78,
+      "end": 187.16,
+      "anchored": true
+    },
+    {
+      "text": "across",
+      "start": 187.16,
+      "end": 187.5,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 187.5,
+      "end": 187.7,
+      "anchored": true
+    },
+    {
+      "text": "country,",
+      "start": 187.7,
+      "end": 188.06,
+      "anchored": true
+    },
+    {
+      "text": "depicting",
+      "start": 188.06,
+      "end": 188.82,
+      "anchored": true
+    },
+    {
+      "text": "King's",
+      "start": 188.82,
+      "end": 189.36,
+      "anchored": true
+    },
+    {
+      "text": "struggle",
+      "start": 189.36,
+      "end": 189.64,
+      "anchored": true
+    },
+    {
+      "text": "not",
+      "start": 189.64,
+      "end": 190.22,
+      "anchored": true
+    },
+    {
+      "text": "as",
+      "start": 190.22,
+      "end": 190.46,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 190.46,
+      "end": 190.58,
+      "anchored": true
+    },
+    {
+      "text": "political",
+      "start": 190.58,
+      "end": 190.9,
+      "anchored": true
+    },
+    {
+      "text": "setback,",
+      "start": 190.9,
+      "end": 191.38,
+      "anchored": true
+    },
+    {
+      "text": "but",
+      "start": 191.38,
+      "end": 191.98,
+      "anchored": true
+    },
+    {
+      "text": "as",
+      "start": 191.98,
+      "end": 192.06,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 192.06,
+      "end": 192.2,
+      "anchored": true
+    },
+    {
+      "text": "failure",
+      "start": 192.2,
+      "end": 192.48,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 192.48,
+      "end": 192.66,
+      "anchored": true
+    },
+    {
+      "text": "ideas,",
+      "start": 192.66,
+      "end": 193.08,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 193.08,
+      "end": 193.7,
+      "anchored": true
+    },
+    {
+      "text": "seizing",
+      "start": 193.7,
+      "end": 194.0,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 194.0,
+      "end": 194.24,
+      "anchored": true
+    },
+    {
+      "text": "moment",
+      "start": 194.24,
+      "end": 194.54,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 194.54,
+      "end": 195.04,
+      "anchored": true
+    },
+    {
+      "text": "reframe",
+      "start": 195.04,
+      "end": 195.68,
+      "anchored": true
+    },
+    {
+      "text": "Black",
+      "start": 195.68,
+      "end": 195.94,
+      "anchored": true
+    },
+    {
+      "text": "liberation",
+      "start": 195.94,
+      "end": 196.44,
+      "anchored": true
+    },
+    {
+      "text": "through",
+      "start": 196.44,
+      "end": 197.04,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 197.04,
+      "end": 197.18,
+      "anchored": true
+    },
+    {
+      "text": "ideals",
+      "start": 197.18,
+      "end": 197.58,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 197.58,
+      "end": 198.08,
+      "anchored": true
+    },
+    {
+      "text": "Black",
+      "start": 198.08,
+      "end": 198.28,
+      "anchored": true
+    },
+    {
+      "text": "Nationalism.",
+      "start": 198.28,
+      "end": 198.74,
+      "anchored": true
+    }
+  ],
+  "sentences": [
+    {
+      "first": 0,
+      "last": 11
+    },
+    {
+      "first": 12,
+      "last": 15
+    },
+    {
+      "first": 16,
+      "last": 31
+    },
+    {
+      "first": 32,
+      "last": 45
+    },
+    {
+      "first": 46,
+      "last": 75
+    },
+    {
+      "first": 76,
+      "last": 109
+    },
+    {
+      "first": 110,
+      "last": 134
+    },
+    {
+      "first": 135,
+      "last": 153
+    },
+    {
+      "first": 154,
+      "last": 170
+    },
+    {
+      "first": 171,
+      "last": 186
+    },
+    {
+      "first": 187,
+      "last": 211
+    },
+    {
+      "first": 212,
+      "last": 233
+    },
+    {
+      "first": 234,
+      "last": 253
+    },
+    {
+      "first": 254,
+      "last": 274
+    },
+    {
+      "first": 275,
+      "last": 301
+    },
+    {
+      "first": 302,
+      "last": 327
+    },
+    {
+      "first": 328,
+      "last": 338
+    },
+    {
+      "first": 339,
+      "last": 353
+    },
+    {
+      "first": 354,
+      "last": 386
+    },
+    {
+      "first": 387,
+      "last": 436
+    }
+  ]
+}

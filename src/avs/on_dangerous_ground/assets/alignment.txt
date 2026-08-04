@@ -1,0 +1,22 @@
+# voiceover.wav — 199.3s — small.en
+
+    0.0     5.6  In the early 1960s Muhammad Speaks paid considerable attention to the Rev.
+    5.6     6.4  Martin Luther King Jr.
+    7.5    15.6  Editorials and cartoons juxtaposed King's nonviolent push for desegregation with the Black Nationalist call for self-determination.
+   16.8    22.3  The February 1962 issue of Muhammad Speaks featured a particularly harsh critique of Dr.
+   22.4    36.3  King's leadership in the civil rights movement, including illustrations by Eugene Majied that satirized everything from King's association with President Kennedy to the perceived absurdity of his philosophy of nonviolence.
+   36.3    49.4  One of the most striking cartoons in the issue, titled "On Dangerous Ground," shows King being pulled in opposite directions, almost causing him to fall into a chasm as the earth opens beneath him.
+   50.2    58.8  At each end of the chasm are messages: on the right, a crucifix with a single nail bearing a sign that reads, "Billy Graham's Dec.
+   58.8    67.7  18 statement to Pentagon Militarists that Jesus was no pacifist and that freedom must sometimes be defended through war."
+   69.1    77.3  On the left, a signpost displays, "Gandhi's India Takes Bold Step to Reclaim Its Land in GOA."
+   77.9    85.5  Inside the widening chasm another message reads "King's attempt to borrow from other peoples' religious philosophies."
+   85.5    98.3  Majied wants readers to see King's attempt to present nonviolence as a Christian value as contradictory to the role Christianity is playing in justifying violence.
+   99.7   110.9  Similarly, Majied wants readers to recognize that in 1961, when India's nonviolent efforts failed in Goa, Indian armed forces annexed Portuguese-controlled region.
+  112.0   122.4  The criticism is unmistakable: King's political stance and moral philosophy lack foundation, with his sources of inspiration contradicting his beliefs.
+  123.3   131.4  This critique of King is less about a personal attack and more about illustrating the rivalry between Black Nationalism and integration.
+  132.7   145.0  Below the cartoon is an editorial titled "East is East, West is West," which positions Black Nationalists in America alongside global struggles for independence from white domination.
+  146.3   156.5  In contrast, it criticizes American desegregation activists who "fight for the claim of equal ownership in the white man's house" instead of seeking their own liberation.
+  157.7   160.8  Importantly, this artwork is relevant to the events of the day.
+  161.5   168.3  The image's publication coincided with Martin Luther King Jr's nonviolent direct-action campaign in Albany, Georgia.
+  169.1   180.8  The ambitious campaign to end racial segregation brought together local organizers and national civil rights leaders, but failed to make immediate gains, being widely characterized as a setback for the civil rights movement.
+  181.4   198.7  So at the very moment that King seemed to be losing political ground, Majied's artwork was hitting street corners across the country, depicting King's struggle not as a political setback, but as a failure of ideas, and seizing the moment to reframe Black liberation through the ideals of Black Nationalism.
