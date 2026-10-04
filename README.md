@@ -30,6 +30,8 @@ The project also depends on,
 * `cairo (1.18.4)`,
 * `cmake (3.31.7)`,
 * `gpac (2.4)`,
+* `ninja (>=1.8.2)`,
+* `pango (>=1.30.0)`
 * and `pkg-config (0.29.2)`.
 
 The program is developed with the parenthesized versions, but lower versions may

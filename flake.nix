@@ -24,6 +24,8 @@
             cairo
             cmake
             gpac
+            ninja
+            pango
             pkg-config
             podman
             python
