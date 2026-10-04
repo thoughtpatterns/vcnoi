@@ -1,0 +1,4085 @@
+{
+  "voiceover": "voiceover.wav",
+  "duration": 289.6841875,
+  "model": "small.en",
+  "words": [
+    {
+      "text": "In",
+      "start": 0.0,
+      "end": 0.2,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 0.2,
+      "end": 0.3,
+      "anchored": true
+    },
+    {
+      "text": "summer",
+      "start": 0.3,
+      "end": 0.5,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 0.5,
+      "end": 0.62,
+      "anchored": true
+    },
+    {
+      "text": "1963,",
+      "start": 0.62,
+      "end": 1.34,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 2.02,
+      "end": 2.2,
+      "anchored": true
+    },
+    {
+      "text": "world",
+      "start": 2.2,
+      "end": 2.42,
+      "anchored": true
+    },
+    {
+      "text": "witnessed",
+      "start": 2.42,
+      "end": 2.74,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 2.74,
+      "end": 2.94,
+      "anchored": true
+    },
+    {
+      "text": "Black",
+      "start": 2.94,
+      "end": 3.06,
+      "anchored": true
+    },
+    {
+      "text": "freedom",
+      "start": 3.06,
+      "end": 3.34,
+      "anchored": true
+    },
+    {
+      "text": "struggle",
+      "start": 3.34,
+      "end": 3.72,
+      "anchored": true
+    },
+    {
+      "text": "as",
+      "start": 3.72,
+      "end": 4.02,
+      "anchored": true
+    },
+    {
+      "text": "never",
+      "start": 4.02,
+      "end": 4.3,
+      "anchored": true
+    },
+    {
+      "text": "before.",
+      "start": 4.3,
+      "end": 4.84,
+      "anchored": true
+    },
+    {
+      "text": "Televised",
+      "start": 5.74,
+      "end": 6.12,
+      "anchored": true
+    },
+    {
+      "text": "scenes",
+      "start": 6.12,
+      "end": 6.42,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 6.42,
+      "end": 6.78,
+      "anchored": true
+    },
+    {
+      "text": "front-page",
+      "start": 6.78,
+      "end": 7.24,
+      "anchored": true
+    },
+    {
+      "text": "photos",
+      "start": 7.24,
+      "end": 7.62,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 7.62,
+      "end": 7.9,
+      "anchored": true
+    },
+    {
+      "text": "police",
+      "start": 7.9,
+      "end": 8.14,
+      "anchored": true
+    },
+    {
+      "text": "dogs",
+      "start": 8.14,
+      "end": 8.42,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 8.42,
+      "end": 8.6,
+      "anchored": true
+    },
+    {
+      "text": "Birmingham,",
+      "start": 8.6,
+      "end": 9.02,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 9.68,
+      "end": 9.76,
+      "anchored": true
+    },
+    {
+      "text": "bombing",
+      "start": 9.76,
+      "end": 10.0,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 10.0,
+      "end": 10.2,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 10.2,
+      "end": 10.3,
+      "anchored": true
+    },
+    {
+      "text": "16th",
+      "start": 10.3,
+      "end": 10.72,
+      "anchored": true
+    },
+    {
+      "text": "Street",
+      "start": 10.72,
+      "end": 10.88,
+      "anchored": true
+    },
+    {
+      "text": "Baptist",
+      "start": 10.88,
+      "end": 11.16,
+      "anchored": true
+    },
+    {
+      "text": "Church,",
+      "start": 11.16,
+      "end": 11.48,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 11.86,
+      "end": 12.12,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 12.12,
+      "end": 12.22,
+      "anchored": true
+    },
+    {
+      "text": "assassination",
+      "start": 12.22,
+      "end": 12.78,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 12.78,
+      "end": 13.3,
+      "anchored": true
+    },
+    {
+      "text": "Medgar",
+      "start": 13.3,
+      "end": 13.58,
+      "anchored": true
+    },
+    {
+      "text": "Evers,",
+      "start": 13.58,
+      "end": 13.94,
+      "anchored": true
+    },
+    {
+      "text": "narrated",
+      "start": 13.94,
+      "end": 14.96,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 14.96,
+      "end": 15.3,
+      "anchored": true
+    },
+    {
+      "text": "visual",
+      "start": 15.3,
+      "end": 15.62,
+      "anchored": true
+    },
+    {
+      "text": "contrast",
+      "start": 15.62,
+      "end": 16.32,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 16.32,
+      "end": 17.18,
+      "anchored": false
+    },
+    {
+      "text": "Southern",
+      "start": 17.18,
+      "end": 17.88,
+      "anchored": true
+    },
+    {
+      "text": "white",
+      "start": 17.88,
+      "end": 18.12,
+      "anchored": true
+    },
+    {
+      "text": "violence",
+      "start": 18.12,
+      "end": 18.54,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 18.54,
+      "end": 19.3,
+      "anchored": true
+    },
+    {
+      "text": "peaceful",
+      "start": 19.3,
+      "end": 19.68,
+      "anchored": true
+    },
+    {
+      "text": "Black",
+      "start": 19.68,
+      "end": 20.08,
+      "anchored": true
+    },
+    {
+      "text": "protest.",
+      "start": 20.08,
+      "end": 20.5,
+      "anchored": true
+    },
+    {
+      "text": "By",
+      "start": 21.48,
+      "end": 21.7,
+      "anchored": true
+    },
+    {
+      "text": "design,",
+      "start": 21.7,
+      "end": 22.22,
+      "anchored": true
+    },
+    {
+      "text": "nonviolent",
+      "start": 22.68,
+      "end": 22.92,
+      "anchored": true
+    },
+    {
+      "text": "activism",
+      "start": 22.92,
+      "end": 23.52,
+      "anchored": true
+    },
+    {
+      "text": "was",
+      "start": 23.52,
+      "end": 24.0,
+      "anchored": true
+    },
+    {
+      "text": "meant",
+      "start": 24.0,
+      "end": 24.34,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 24.34,
+      "end": 24.76,
+      "anchored": true
+    },
+    {
+      "text": "provoke",
+      "start": 24.76,
+      "end": 25.12,
+      "anchored": true
+    },
+    {
+      "text": "confrontations",
+      "start": 25.12,
+      "end": 25.96,
+      "anchored": true
+    },
+    {
+      "text": "with",
+      "start": 25.96,
+      "end": 26.18,
+      "anchored": true
+    },
+    {
+      "text": "white",
+      "start": 26.18,
+      "end": 26.36,
+      "anchored": true
+    },
+    {
+      "text": "power,",
+      "start": 26.36,
+      "end": 26.8,
+      "anchored": true
+    },
+    {
+      "text": "which",
+      "start": 26.8,
+      "end": 27.64,
+      "anchored": true
+    },
+    {
+      "text": "would",
+      "start": 27.64,
+      "end": 27.84,
+      "anchored": true
+    },
+    {
+      "text": "stir",
+      "start": 27.84,
+      "end": 28.28,
+      "anchored": true
+    },
+    {
+      "text": "public",
+      "start": 28.28,
+      "end": 28.78,
+      "anchored": true
+    },
+    {
+      "text": "outrage",
+      "start": 28.78,
+      "end": 29.22,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 29.22,
+      "end": 29.56,
+      "anchored": true
+    },
+    {
+      "text": "compel",
+      "start": 29.56,
+      "end": 30.06,
+      "anchored": true
+    },
+    {
+      "text": "federal",
+      "start": 30.06,
+      "end": 30.84,
+      "anchored": true
+    },
+    {
+      "text": "intervention.",
+      "start": 30.84,
+      "end": 31.46,
+      "anchored": true
+    },
+    {
+      "text": "Yet",
+      "start": 32.3,
+      "end": 32.56,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 32.56,
+      "end": 32.94,
+      "anchored": true
+    },
+    {
+      "text": "Black",
+      "start": 32.94,
+      "end": 33.16,
+      "anchored": true
+    },
+    {
+      "text": "communities,",
+      "start": 33.16,
+      "end": 33.7,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 34.16,
+      "end": 34.36,
+      "anchored": true
+    },
+    {
+      "text": "wisdom",
+      "start": 34.36,
+      "end": 34.7,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 34.7,
+      "end": 34.9,
+      "anchored": true
+    },
+    {
+      "text": "nonviolence",
+      "start": 34.9,
+      "end": 35.32,
+      "anchored": true
+    },
+    {
+      "text": "was",
+      "start": 35.32,
+      "end": 35.52,
+      "anchored": true
+    },
+    {
+      "text": "hotly",
+      "start": 35.52,
+      "end": 36.0,
+      "anchored": true
+    },
+    {
+      "text": "debated.",
+      "start": 36.0,
+      "end": 36.5,
+      "anchored": true
+    },
+    {
+      "text": "On",
+      "start": 37.04,
+      "end": 37.22,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 37.22,
+      "end": 37.38,
+      "anchored": true
+    },
+    {
+      "text": "national",
+      "start": 37.38,
+      "end": 37.72,
+      "anchored": true
+    },
+    {
+      "text": "stage",
+      "start": 37.72,
+      "end": 38.16,
+      "anchored": true
+    },
+    {
+      "text": "Malcolm",
+      "start": 38.68,
+      "end": 38.78,
+      "anchored": true
+    },
+    {
+      "text": "X",
+      "start": 38.78,
+      "end": 39.02,
+      "anchored": true
+    },
+    {
+      "text": "had",
+      "start": 39.02,
+      "end": 39.4,
+      "anchored": true
+    },
+    {
+      "text": "rejected",
+      "start": 39.4,
+      "end": 40.0,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 40.0,
+      "end": 40.38,
+      "anchored": true
+    },
+    {
+      "text": "philosophy",
+      "start": 40.38,
+      "end": 40.82,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 40.82,
+      "end": 41.08,
+      "anchored": true
+    },
+    {
+      "text": "nonviolence,",
+      "start": 41.08,
+      "end": 41.68,
+      "anchored": true
+    },
+    {
+      "text": "exposing",
+      "start": 42.22,
+      "end": 42.76,
+      "anchored": true
+    },
+    {
+      "text": "what",
+      "start": 42.76,
+      "end": 43.42,
+      "anchored": true
+    },
+    {
+      "text": "he",
+      "start": 43.42,
+      "end": 43.58,
+      "anchored": true
+    },
+    {
+      "text": "described",
+      "start": 43.58,
+      "end": 43.92,
+      "anchored": true
+    },
+    {
+      "text": "as",
+      "start": 43.92,
+      "end": 44.14,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 44.14,
+      "end": 44.28,
+      "anchored": false
+    },
+    {
+      "text": "hypocrisy",
+      "start": 44.28,
+      "end": 44.84,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 44.84,
+      "end": 45.54,
+      "anchored": true
+    },
+    {
+      "text": "white",
+      "start": 45.54,
+      "end": 45.8,
+      "anchored": true
+    },
+    {
+      "text": "American",
+      "start": 45.8,
+      "end": 46.26,
+      "anchored": true
+    },
+    {
+      "text": "violence",
+      "start": 46.26,
+      "end": 46.76,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 46.76,
+      "end": 47.46,
+      "anchored": true
+    },
+    {
+      "text": "admonishing",
+      "start": 47.46,
+      "end": 48.18,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 48.18,
+      "end": 48.68,
+      "anchored": true
+    },
+    {
+      "text": "naivete",
+      "start": 48.68,
+      "end": 49.18,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 49.18,
+      "end": 49.96,
+      "anchored": true
+    },
+    {
+      "text": "Black",
+      "start": 49.96,
+      "end": 50.18,
+      "anchored": true
+    },
+    {
+      "text": "leaders.",
+      "start": 50.18,
+      "end": 50.58,
+      "anchored": true
+    },
+    {
+      "text": "Muhammad",
+      "start": 50.58,
+      "end": 51.92,
+      "anchored": true
+    },
+    {
+      "text": "Speaks",
+      "start": 51.92,
+      "end": 52.34,
+      "anchored": true
+    },
+    {
+      "text": "regularly",
+      "start": 52.34,
+      "end": 53.2,
+      "anchored": true
+    },
+    {
+      "text": "published",
+      "start": 53.2,
+      "end": 53.84,
+      "anchored": true
+    },
+    {
+      "text": "commentary",
+      "start": 53.84,
+      "end": 54.44,
+      "anchored": true
+    },
+    {
+      "text": "that",
+      "start": 54.44,
+      "end": 54.9,
+      "anchored": true
+    },
+    {
+      "text": "was",
+      "start": 54.9,
+      "end": 55.04,
+      "anchored": true
+    },
+    {
+      "text": "critical",
+      "start": 55.04,
+      "end": 55.48,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 55.48,
+      "end": 55.86,
+      "anchored": true
+    },
+    {
+      "text": "nonviolent",
+      "start": 55.86,
+      "end": 56.24,
+      "anchored": true
+    },
+    {
+      "text": "activism.",
+      "start": 56.24,
+      "end": 56.88,
+      "anchored": true
+    },
+    {
+      "text": "But",
+      "start": 57.58,
+      "end": 57.72,
+      "anchored": true
+    },
+    {
+      "text": "it",
+      "start": 57.72,
+      "end": 57.84,
+      "anchored": true
+    },
+    {
+      "text": "was",
+      "start": 57.84,
+      "end": 58.04,
+      "anchored": true
+    },
+    {
+      "text": "Eugene",
+      "start": 58.04,
+      "end": 58.36,
+      "anchored": true
+    },
+    {
+      "text": "Majied's",
+      "start": 58.36,
+      "end": 58.9,
+      "anchored": false
+    },
+    {
+      "text": "political",
+      "start": 58.9,
+      "end": 59.24,
+      "anchored": true
+    },
+    {
+      "text": "cartoons",
+      "start": 59.24,
+      "end": 59.96,
+      "anchored": true
+    },
+    {
+      "text": "that",
+      "start": 59.96,
+      "end": 60.7,
+      "anchored": true
+    },
+    {
+      "text": "stood",
+      "start": 60.7,
+      "end": 60.92,
+      "anchored": true
+    },
+    {
+      "text": "out.",
+      "start": 60.92,
+      "end": 61.3,
+      "anchored": true
+    },
+    {
+      "text": "His",
+      "start": 61.92,
+      "end": 62.14,
+      "anchored": true
+    },
+    {
+      "text": "visual",
+      "start": 62.14,
+      "end": 62.5,
+      "anchored": true
+    },
+    {
+      "text": "argument",
+      "start": 62.5,
+      "end": 63.0,
+      "anchored": true
+    },
+    {
+      "text": "aimed",
+      "start": 63.0,
+      "end": 63.4,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 63.4,
+      "end": 63.62,
+      "anchored": true
+    },
+    {
+      "text": "expose",
+      "start": 63.62,
+      "end": 64.06,
+      "anchored": true
+    },
+    {
+      "text": "contradictions",
+      "start": 64.06,
+      "end": 64.66,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 64.66,
+      "end": 64.96,
+      "anchored": true
+    },
+    {
+      "text": "pitfalls",
+      "start": 64.96,
+      "end": 65.32,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 65.32,
+      "end": 66.1,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 66.1,
+      "end": 66.26,
+      "anchored": true
+    },
+    {
+      "text": "nonviolence",
+      "start": 66.26,
+      "end": 66.7,
+      "anchored": true
+    },
+    {
+      "text": "movement.",
+      "start": 66.7,
+      "end": 67.16,
+      "anchored": true
+    },
+    {
+      "text": "His",
+      "start": 68.0,
+      "end": 68.18,
+      "anchored": true
+    },
+    {
+      "text": "images",
+      "start": 68.18,
+      "end": 68.5,
+      "anchored": true
+    },
+    {
+      "text": "also",
+      "start": 68.5,
+      "end": 68.96,
+      "anchored": true
+    },
+    {
+      "text": "provide",
+      "start": 68.96,
+      "end": 69.42,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 69.42,
+      "end": 69.62,
+      "anchored": true
+    },
+    {
+      "text": "window",
+      "start": 69.62,
+      "end": 70.0,
+      "anchored": true
+    },
+    {
+      "text": "into",
+      "start": 70.0,
+      "end": 70.62,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 70.62,
+      "end": 70.74,
+      "anchored": true
+    },
+    {
+      "text": "Nation",
+      "start": 70.74,
+      "end": 71.0,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 71.0,
+      "end": 71.16,
+      "anchored": true
+    },
+    {
+      "text": "Islam's",
+      "start": 71.16,
+      "end": 71.56,
+      "anchored": true
+    },
+    {
+      "text": "worldview,",
+      "start": 71.56,
+      "end": 71.94,
+      "anchored": true
+    },
+    {
+      "text": "which",
+      "start": 72.38,
+      "end": 72.7,
+      "anchored": true
+    },
+    {
+      "text": "shaped",
+      "start": 72.7,
+      "end": 73.1,
+      "anchored": true
+    },
+    {
+      "text": "its",
+      "start": 73.1,
+      "end": 73.54,
+      "anchored": true
+    },
+    {
+      "text": "critique",
+      "start": 73.54,
+      "end": 73.98,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 73.98,
+      "end": 74.56,
+      "anchored": true
+    },
+    {
+      "text": "nonviolence.",
+      "start": 74.56,
+      "end": 75.16,
+      "anchored": true
+    },
+    {
+      "text": "This",
+      "start": 75.88,
+      "end": 76.56,
+      "anchored": true
+    },
+    {
+      "text": "illustration",
+      "start": 76.56,
+      "end": 77.1,
+      "anchored": true
+    },
+    {
+      "text": "by",
+      "start": 77.1,
+      "end": 77.48,
+      "anchored": true
+    },
+    {
+      "text": "Eugene",
+      "start": 77.48,
+      "end": 77.76,
+      "anchored": true
+    },
+    {
+      "text": "Majied",
+      "start": 77.76,
+      "end": 78.16,
+      "anchored": false
+    },
+    {
+      "text": "is",
+      "start": 78.16,
+      "end": 78.68,
+      "anchored": true
+    },
+    {
+      "text": "titled",
+      "start": 78.68,
+      "end": 79.0,
+      "anchored": true
+    },
+    {
+      "text": "\"But",
+      "start": 79.0,
+      "end": 79.54,
+      "anchored": true
+    },
+    {
+      "text": "Never",
+      "start": 79.54,
+      "end": 79.9,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 79.9,
+      "end": 80.22,
+      "anchored": true
+    },
+    {
+      "text": "Word",
+      "start": 80.22,
+      "end": 80.48,
+      "anchored": true
+    },
+    {
+      "text": "About",
+      "start": 80.48,
+      "end": 80.84,
+      "anchored": true
+    },
+    {
+      "text": "Self-Defense!\"",
+      "start": 80.84,
+      "end": 81.56,
+      "anchored": true
+    },
+    {
+      "text": "Here,",
+      "start": 82.5,
+      "end": 82.62,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 82.62,
+      "end": 83.1,
+      "anchored": true
+    },
+    {
+      "text": "Black",
+      "start": 83.1,
+      "end": 83.38,
+      "anchored": true
+    },
+    {
+      "text": "woman",
+      "start": 83.38,
+      "end": 83.62,
+      "anchored": true
+    },
+    {
+      "text": "lays",
+      "start": 83.62,
+      "end": 83.86,
+      "anchored": true
+    },
+    {
+      "text": "on",
+      "start": 83.86,
+      "end": 84.08,
+      "anchored": true
+    },
+    {
+      "text": "her",
+      "start": 84.08,
+      "end": 84.22,
+      "anchored": true
+    },
+    {
+      "text": "back,",
+      "start": 84.22,
+      "end": 84.52,
+      "anchored": true
+    },
+    {
+      "text": "with",
+      "start": 84.52,
+      "end": 85.0,
+      "anchored": true
+    },
+    {
+      "text": "an",
+      "start": 85.0,
+      "end": 85.12,
+      "anchored": true
+    },
+    {
+      "text": "agonized",
+      "start": 85.12,
+      "end": 85.72,
+      "anchored": true
+    },
+    {
+      "text": "expression,",
+      "start": 85.72,
+      "end": 86.24,
+      "anchored": true
+    },
+    {
+      "text": "bleeding",
+      "start": 86.24,
+      "end": 86.96,
+      "anchored": true
+    },
+    {
+      "text": "profusely",
+      "start": 86.96,
+      "end": 87.74,
+      "anchored": true
+    },
+    {
+      "text": "from",
+      "start": 87.74,
+      "end": 87.9,
+      "anchored": true
+    },
+    {
+      "text": "her",
+      "start": 87.9,
+      "end": 88.06,
+      "anchored": true
+    },
+    {
+      "text": "head",
+      "start": 88.06,
+      "end": 88.3,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 88.3,
+      "end": 88.48,
+      "anchored": true
+    },
+    {
+      "text": "mouth,",
+      "start": 88.48,
+      "end": 88.8,
+      "anchored": true
+    },
+    {
+      "text": "as",
+      "start": 88.8,
+      "end": 89.32,
+      "anchored": true
+    },
+    {
+      "text": "two",
+      "start": 89.32,
+      "end": 89.64,
+      "anchored": true
+    },
+    {
+      "text": "white",
+      "start": 89.64,
+      "end": 89.96,
+      "anchored": true
+    },
+    {
+      "text": "police",
+      "start": 89.96,
+      "end": 90.34,
+      "anchored": true
+    },
+    {
+      "text": "officers",
+      "start": 90.34,
+      "end": 90.78,
+      "anchored": true
+    },
+    {
+      "text": "with",
+      "start": 90.78,
+      "end": 91.28,
+      "anchored": true
+    },
+    {
+      "text": "menacing",
+      "start": 91.28,
+      "end": 91.68,
+      "anchored": true
+    },
+    {
+      "text": "smiles",
+      "start": 91.68,
+      "end": 92.22,
+      "anchored": true
+    },
+    {
+      "text": "press",
+      "start": 92.22,
+      "end": 92.52,
+      "anchored": false
+    },
+    {
+      "text": "down",
+      "start": 92.52,
+      "end": 92.9,
+      "anchored": true
+    },
+    {
+      "text": "on",
+      "start": 92.9,
+      "end": 93.06,
+      "anchored": true
+    },
+    {
+      "text": "her:",
+      "start": 93.06,
+      "end": 93.3,
+      "anchored": true
+    },
+    {
+      "text": "one",
+      "start": 93.3,
+      "end": 94.04,
+      "anchored": true
+    },
+    {
+      "text": "with",
+      "start": 94.04,
+      "end": 94.32,
+      "anchored": true
+    },
+    {
+      "text": "his",
+      "start": 94.32,
+      "end": 94.5,
+      "anchored": true
+    },
+    {
+      "text": "knee",
+      "start": 94.5,
+      "end": 94.78,
+      "anchored": true
+    },
+    {
+      "text": "on",
+      "start": 94.78,
+      "end": 95.0,
+      "anchored": true
+    },
+    {
+      "text": "her",
+      "start": 95.0,
+      "end": 95.16,
+      "anchored": true
+    },
+    {
+      "text": "neck",
+      "start": 95.16,
+      "end": 95.48,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 95.48,
+      "end": 96.2,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 96.2,
+      "end": 96.34,
+      "anchored": true
+    },
+    {
+      "text": "other",
+      "start": 96.34,
+      "end": 96.6,
+      "anchored": true
+    },
+    {
+      "text": "restraining",
+      "start": 96.6,
+      "end": 97.14,
+      "anchored": true
+    },
+    {
+      "text": "her",
+      "start": 97.14,
+      "end": 97.42,
+      "anchored": true
+    },
+    {
+      "text": "wrist",
+      "start": 97.42,
+      "end": 97.78,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 97.78,
+      "end": 98.52,
+      "anchored": true
+    },
+    {
+      "text": "pressing",
+      "start": 98.52,
+      "end": 98.88,
+      "anchored": true
+    },
+    {
+      "text": "her",
+      "start": 98.88,
+      "end": 99.18,
+      "anchored": true
+    },
+    {
+      "text": "torso",
+      "start": 99.18,
+      "end": 99.7,
+      "anchored": true
+    },
+    {
+      "text": "as",
+      "start": 99.7,
+      "end": 100.2,
+      "anchored": true
+    },
+    {
+      "text": "he",
+      "start": 100.2,
+      "end": 100.36,
+      "anchored": true
+    },
+    {
+      "text": "forcefully",
+      "start": 100.36,
+      "end": 100.84,
+      "anchored": true
+    },
+    {
+      "text": "raises",
+      "start": 100.84,
+      "end": 101.38,
+      "anchored": true
+    },
+    {
+      "text": "her",
+      "start": 101.38,
+      "end": 101.8,
+      "anchored": true
+    },
+    {
+      "text": "leg",
+      "start": 101.8,
+      "end": 102.12,
+      "anchored": true
+    },
+    {
+      "text": "skyward.",
+      "start": 102.12,
+      "end": 103.02,
+      "anchored": true
+    },
+    {
+      "text": "With",
+      "start": 103.48,
+      "end": 103.62,
+      "anchored": true
+    },
+    {
+      "text": "bruised",
+      "start": 103.62,
+      "end": 104.04,
+      "anchored": true
+    },
+    {
+      "text": "eyes",
+      "start": 104.04,
+      "end": 104.5,
+      "anchored": true
+    },
+    {
+      "text": "she",
+      "start": 104.92,
+      "end": 104.94,
+      "anchored": true
+    },
+    {
+      "text": "looks",
+      "start": 104.94,
+      "end": 105.12,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 105.12,
+      "end": 105.32,
+      "anchored": true
+    },
+    {
+      "text": "her",
+      "start": 105.32,
+      "end": 105.52,
+      "anchored": true
+    },
+    {
+      "text": "right",
+      "start": 105.52,
+      "end": 105.78,
+      "anchored": true
+    },
+    {
+      "text": "towards",
+      "start": 105.78,
+      "end": 106.44,
+      "anchored": true
+    },
+    {
+      "text": "\"Rev.",
+      "start": 106.44,
+      "end": 107.34,
+      "anchored": false
+    },
+    {
+      "text": "M.",
+      "start": 107.34,
+      "end": 108.0,
+      "anchored": true
+    },
+    {
+      "text": "L.",
+      "start": 108.0,
+      "end": 108.36,
+      "anchored": true
+    },
+    {
+      "text": "King,\"",
+      "start": 108.72,
+      "end": 108.82,
+      "anchored": true
+    },
+    {
+      "text": "shown",
+      "start": 109.96,
+      "end": 110.5,
+      "anchored": true
+    },
+    {
+      "text": "crouching",
+      "start": 110.5,
+      "end": 111.18,
+      "anchored": true
+    },
+    {
+      "text": "on",
+      "start": 111.18,
+      "end": 111.44,
+      "anchored": true
+    },
+    {
+      "text": "his",
+      "start": 111.44,
+      "end": 111.62,
+      "anchored": true
+    },
+    {
+      "text": "hands",
+      "start": 111.62,
+      "end": 111.94,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 111.94,
+      "end": 112.14,
+      "anchored": true
+    },
+    {
+      "text": "knees",
+      "start": 112.14,
+      "end": 112.44,
+      "anchored": true
+    },
+    {
+      "text": "while",
+      "start": 112.44,
+      "end": 112.94,
+      "anchored": true
+    },
+    {
+      "text": "holding",
+      "start": 112.94,
+      "end": 113.3,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 113.3,
+      "end": 113.48,
+      "anchored": true
+    },
+    {
+      "text": "bible.",
+      "start": 113.48,
+      "end": 113.68,
+      "anchored": true
+    },
+    {
+      "text": "King",
+      "start": 114.68,
+      "end": 114.82,
+      "anchored": true
+    },
+    {
+      "text": "offers",
+      "start": 114.82,
+      "end": 115.28,
+      "anchored": true
+    },
+    {
+      "text": "no",
+      "start": 115.28,
+      "end": 115.52,
+      "anchored": true
+    },
+    {
+      "text": "assistance,",
+      "start": 115.52,
+      "end": 115.96,
+      "anchored": true
+    },
+    {
+      "text": "except",
+      "start": 115.96,
+      "end": 116.78,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 116.78,
+      "end": 117.06,
+      "anchored": true
+    },
+    {
+      "text": "pointedly",
+      "start": 117.06,
+      "end": 117.74,
+      "anchored": true
+    },
+    {
+      "text": "admonish",
+      "start": 117.74,
+      "end": 118.22,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 118.22,
+      "end": 118.4,
+      "anchored": true
+    },
+    {
+      "text": "victim,",
+      "start": 118.4,
+      "end": 118.68,
+      "anchored": true
+    },
+    {
+      "text": "saying",
+      "start": 118.92,
+      "end": 119.02,
+      "anchored": true
+    },
+    {
+      "text": "\"If",
+      "start": 119.66,
+      "end": 119.72,
+      "anchored": true
+    },
+    {
+      "text": "there",
+      "start": 119.72,
+      "end": 119.9,
+      "anchored": true
+    },
+    {
+      "text": "is",
+      "start": 119.9,
+      "end": 120.02,
+      "anchored": true
+    },
+    {
+      "text": "any",
+      "start": 120.02,
+      "end": 120.22,
+      "anchored": true
+    },
+    {
+      "text": "blood",
+      "start": 120.22,
+      "end": 120.7,
+      "anchored": true
+    },
+    {
+      "text": "spilled",
+      "start": 120.7,
+      "end": 121.1,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 121.1,
+      "end": 121.38,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 121.38,
+      "end": 121.5,
+      "anchored": true
+    },
+    {
+      "text": "streets,",
+      "start": 121.5,
+      "end": 121.78,
+      "anchored": true
+    },
+    {
+      "text": "let",
+      "start": 122.28,
+      "end": 122.42,
+      "anchored": true
+    },
+    {
+      "text": "it",
+      "start": 122.42,
+      "end": 122.5,
+      "anchored": true
+    },
+    {
+      "text": "be",
+      "start": 122.5,
+      "end": 122.64,
+      "anchored": true
+    },
+    {
+      "text": "our",
+      "start": 122.64,
+      "end": 122.96,
+      "anchored": true
+    },
+    {
+      "text": "blood!\"",
+      "start": 122.96,
+      "end": 123.34,
+      "anchored": true
+    },
+    {
+      "text": "Behind",
+      "start": 123.96,
+      "end": 124.24,
+      "anchored": true
+    },
+    {
+      "text": "them,",
+      "start": 124.24,
+      "end": 124.56,
+      "anchored": true
+    },
+    {
+      "text": "other",
+      "start": 124.84,
+      "end": 125.14,
+      "anchored": true
+    },
+    {
+      "text": "officers",
+      "start": 125.14,
+      "end": 125.5,
+      "anchored": true
+    },
+    {
+      "text": "assault",
+      "start": 125.5,
+      "end": 126.04,
+      "anchored": true
+    },
+    {
+      "text": "Black",
+      "start": 126.04,
+      "end": 126.34,
+      "anchored": true
+    },
+    {
+      "text": "women,",
+      "start": 126.34,
+      "end": 126.66,
+      "anchored": true
+    },
+    {
+      "text": "with",
+      "start": 127.24,
+      "end": 127.46,
+      "anchored": true
+    },
+    {
+      "text": "one",
+      "start": 127.46,
+      "end": 127.68,
+      "anchored": true
+    },
+    {
+      "text": "officer",
+      "start": 127.68,
+      "end": 127.98,
+      "anchored": true
+    },
+    {
+      "text": "dangling",
+      "start": 127.98,
+      "end": 128.34,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 128.34,
+      "end": 128.62,
+      "anchored": true
+    },
+    {
+      "text": "woman",
+      "start": 128.62,
+      "end": 128.8,
+      "anchored": true
+    },
+    {
+      "text": "by",
+      "start": 128.8,
+      "end": 129.18,
+      "anchored": true
+    },
+    {
+      "text": "her",
+      "start": 129.18,
+      "end": 129.34,
+      "anchored": true
+    },
+    {
+      "text": "ankles",
+      "start": 129.34,
+      "end": 129.72,
+      "anchored": true
+    },
+    {
+      "text": "as",
+      "start": 129.72,
+      "end": 130.36,
+      "anchored": true
+    },
+    {
+      "text": "other",
+      "start": 130.36,
+      "end": 130.7,
+      "anchored": true
+    },
+    {
+      "text": "white",
+      "start": 130.7,
+      "end": 130.92,
+      "anchored": true
+    },
+    {
+      "text": "men",
+      "start": 130.92,
+      "end": 131.2,
+      "anchored": true
+    },
+    {
+      "text": "violently",
+      "start": 131.2,
+      "end": 131.8,
+      "anchored": true
+    },
+    {
+      "text": "tear",
+      "start": 131.8,
+      "end": 132.26,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 132.26,
+      "end": 132.5,
+      "anchored": true
+    },
+    {
+      "text": "clothing",
+      "start": 132.5,
+      "end": 132.98,
+      "anchored": true
+    },
+    {
+      "text": "off",
+      "start": 132.98,
+      "end": 133.5,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 133.5,
+      "end": 133.68,
+      "anchored": true
+    },
+    {
+      "text": "bruised,",
+      "start": 133.68,
+      "end": 134.16,
+      "anchored": true
+    },
+    {
+      "text": "bleeding",
+      "start": 134.64,
+      "end": 134.78,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 135.06,
+      "end": 135.12,
+      "anchored": true
+    },
+    {
+      "text": "weeping",
+      "start": 135.12,
+      "end": 135.5,
+      "anchored": true
+    },
+    {
+      "text": "bodies",
+      "start": 135.5,
+      "end": 136.06,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 136.06,
+      "end": 136.44,
+      "anchored": true
+    },
+    {
+      "text": "Black",
+      "start": 136.44,
+      "end": 136.62,
+      "anchored": true
+    },
+    {
+      "text": "women",
+      "start": 136.62,
+      "end": 137.02,
+      "anchored": true
+    },
+    {
+      "text": "detained",
+      "start": 137.02,
+      "end": 137.7,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 137.7,
+      "end": 138.26,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 138.26,
+      "end": 138.34,
+      "anchored": true
+    },
+    {
+      "text": "patrol",
+      "start": 138.34,
+      "end": 138.62,
+      "anchored": true
+    },
+    {
+      "text": "wagon.",
+      "start": 138.62,
+      "end": 139.0,
+      "anchored": true
+    },
+    {
+      "text": "In",
+      "start": 139.62,
+      "end": 139.8,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 139.8,
+      "end": 139.92,
+      "anchored": true
+    },
+    {
+      "text": "furthest",
+      "start": 139.92,
+      "end": 140.28,
+      "anchored": true
+    },
+    {
+      "text": "background,",
+      "start": 140.28,
+      "end": 140.74,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 141.16,
+      "end": 141.26,
+      "anchored": true
+    },
+    {
+      "text": "courthouse",
+      "start": 141.26,
+      "end": 141.6,
+      "anchored": true
+    },
+    {
+      "text": "bears",
+      "start": 141.6,
+      "end": 141.92,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 141.92,
+      "end": 142.12,
+      "anchored": true
+    },
+    {
+      "text": "motto",
+      "start": 142.12,
+      "end": 142.44,
+      "anchored": true
+    },
+    {
+      "text": "\"Liberty",
+      "start": 142.96,
+      "end": 143.22,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 143.22,
+      "end": 143.68,
+      "anchored": true
+    },
+    {
+      "text": "Justice",
+      "start": 143.68,
+      "end": 144.02,
+      "anchored": true
+    },
+    {
+      "text": "for",
+      "start": 144.02,
+      "end": 144.28,
+      "anchored": true
+    },
+    {
+      "text": "All,\"",
+      "start": 144.28,
+      "end": 144.6,
+      "anchored": true
+    },
+    {
+      "text": "while",
+      "start": 145.04,
+      "end": 145.3,
+      "anchored": true
+    },
+    {
+      "text": "an",
+      "start": 145.3,
+      "end": 145.44,
+      "anchored": true
+    },
+    {
+      "text": "American",
+      "start": 145.44,
+      "end": 145.86,
+      "anchored": true
+    },
+    {
+      "text": "flag",
+      "start": 145.86,
+      "end": 146.3,
+      "anchored": true
+    },
+    {
+      "text": "waves",
+      "start": 146.3,
+      "end": 147.06,
+      "anchored": true
+    },
+    {
+      "text": "above.",
+      "start": 147.06,
+      "end": 147.5,
+      "anchored": true
+    },
+    {
+      "text": "Majied's",
+      "start": 147.5,
+      "end": 149.42,
+      "anchored": false
+    },
+    {
+      "text": "image",
+      "start": 149.42,
+      "end": 149.7,
+      "anchored": true
+    },
+    {
+      "text": "aims",
+      "start": 149.7,
+      "end": 150.1,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 150.1,
+      "end": 150.32,
+      "anchored": true
+    },
+    {
+      "text": "undermine",
+      "start": 150.32,
+      "end": 150.88,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 150.88,
+      "end": 151.44,
+      "anchored": true
+    },
+    {
+      "text": "moral",
+      "start": 151.44,
+      "end": 151.8,
+      "anchored": true
+    },
+    {
+      "text": "high",
+      "start": 151.8,
+      "end": 152.16,
+      "anchored": true
+    },
+    {
+      "text": "ground",
+      "start": 152.16,
+      "end": 152.46,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 152.46,
+      "end": 152.8,
+      "anchored": true
+    },
+    {
+      "text": "nonviolence,",
+      "start": 152.8,
+      "end": 153.42,
+      "anchored": true
+    },
+    {
+      "text": "depicting",
+      "start": 153.86,
+      "end": 154.26,
+      "anchored": true
+    },
+    {
+      "text": "it",
+      "start": 154.26,
+      "end": 154.58,
+      "anchored": true
+    },
+    {
+      "text": "as",
+      "start": 154.58,
+      "end": 155.0,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 155.0,
+      "end": 155.14,
+      "anchored": true
+    },
+    {
+      "text": "submission",
+      "start": 155.14,
+      "end": 155.66,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 155.66,
+      "end": 156.34,
+      "anchored": true
+    },
+    {
+      "text": "white",
+      "start": 156.34,
+      "end": 156.56,
+      "anchored": true
+    },
+    {
+      "text": "violence.",
+      "start": 156.56,
+      "end": 157.02,
+      "anchored": true
+    },
+    {
+      "text": "From",
+      "start": 157.62,
+      "end": 157.84,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 157.96,
+      "end": 157.96,
+      "anchored": true
+    },
+    {
+      "text": "vantage",
+      "start": 157.96,
+      "end": 158.18,
+      "anchored": true
+    },
+    {
+      "text": "point",
+      "start": 158.18,
+      "end": 158.42,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 158.42,
+      "end": 158.54,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 158.54,
+      "end": 158.58,
+      "anchored": true
+    },
+    {
+      "text": "Nation",
+      "start": 158.58,
+      "end": 158.72,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 158.72,
+      "end": 158.88,
+      "anchored": true
+    },
+    {
+      "text": "Islam,",
+      "start": 158.88,
+      "end": 159.2,
+      "anchored": true
+    },
+    {
+      "text": "it",
+      "start": 159.8,
+      "end": 159.86,
+      "anchored": true
+    },
+    {
+      "text": "is",
+      "start": 159.86,
+      "end": 159.98,
+      "anchored": true
+    },
+    {
+      "text": "also",
+      "start": 159.98,
+      "end": 160.4,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 160.4,
+      "end": 160.6,
+      "anchored": true
+    },
+    {
+      "text": "failure",
+      "start": 160.6,
+      "end": 160.88,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 160.88,
+      "end": 161.48,
+      "anchored": true
+    },
+    {
+      "text": "protect",
+      "start": 161.48,
+      "end": 161.82,
+      "anchored": true
+    },
+    {
+      "text": "Black",
+      "start": 161.82,
+      "end": 162.14,
+      "anchored": true
+    },
+    {
+      "text": "women.",
+      "start": 162.14,
+      "end": 162.5,
+      "anchored": true
+    },
+    {
+      "text": "A",
+      "start": 163.1,
+      "end": 163.32,
+      "anchored": true
+    },
+    {
+      "text": "core",
+      "start": 163.32,
+      "end": 163.48,
+      "anchored": true
+    },
+    {
+      "text": "tenet",
+      "start": 163.48,
+      "end": 163.84,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 163.84,
+      "end": 164.0,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 164.0,
+      "end": 164.1,
+      "anchored": true
+    },
+    {
+      "text": "Nation",
+      "start": 164.1,
+      "end": 164.28,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 164.28,
+      "end": 164.46,
+      "anchored": true
+    },
+    {
+      "text": "Islam's",
+      "start": 164.46,
+      "end": 164.88,
+      "anchored": true
+    },
+    {
+      "text": "religious",
+      "start": 164.88,
+      "end": 165.12,
+      "anchored": true
+    },
+    {
+      "text": "framework",
+      "start": 165.12,
+      "end": 165.64,
+      "anchored": true
+    },
+    {
+      "text": "requires",
+      "start": 165.64,
+      "end": 166.26,
+      "anchored": true
+    },
+    {
+      "text": "Muslim",
+      "start": 166.26,
+      "end": 166.58,
+      "anchored": true
+    },
+    {
+      "text": "men",
+      "start": 166.58,
+      "end": 166.92,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 166.92,
+      "end": 167.36,
+      "anchored": true
+    },
+    {
+      "text": "physically",
+      "start": 167.36,
+      "end": 167.74,
+      "anchored": true
+    },
+    {
+      "text": "protect",
+      "start": 167.74,
+      "end": 168.28,
+      "anchored": true
+    },
+    {
+      "text": "women's",
+      "start": 168.28,
+      "end": 169.0,
+      "anchored": true
+    },
+    {
+      "text": "dignity",
+      "start": 169.0,
+      "end": 169.28,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 169.28,
+      "end": 169.54,
+      "anchored": true
+    },
+    {
+      "text": "safety,",
+      "start": 169.54,
+      "end": 169.92,
+      "anchored": true
+    },
+    {
+      "text": "by",
+      "start": 170.44,
+      "end": 170.58,
+      "anchored": true
+    },
+    {
+      "text": "any",
+      "start": 170.58,
+      "end": 170.82,
+      "anchored": true
+    },
+    {
+      "text": "means",
+      "start": 170.82,
+      "end": 171.06,
+      "anchored": true
+    },
+    {
+      "text": "necessary.",
+      "start": 171.06,
+      "end": 171.62,
+      "anchored": true
+    },
+    {
+      "text": "In",
+      "start": 172.5,
+      "end": 172.62,
+      "anchored": true
+    },
+    {
+      "text": "her",
+      "start": 172.62,
+      "end": 172.74,
+      "anchored": true
+    },
+    {
+      "text": "analysis",
+      "start": 172.74,
+      "end": 173.24,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 173.24,
+      "end": 173.86,
+      "anchored": true
+    },
+    {
+      "text": "Malcolm",
+      "start": 173.86,
+      "end": 174.12,
+      "anchored": true
+    },
+    {
+      "text": "X's",
+      "start": 174.12,
+      "end": 174.5,
+      "anchored": true
+    },
+    {
+      "text": "public",
+      "start": 174.5,
+      "end": 174.66,
+      "anchored": true
+    },
+    {
+      "text": "discourse,",
+      "start": 174.66,
+      "end": 175.26,
+      "anchored": true
+    },
+    {
+      "text": "historian",
+      "start": 175.88,
+      "end": 176.34,
+      "anchored": true
+    },
+    {
+      "text": "Farah",
+      "start": 176.34,
+      "end": 176.78,
+      "anchored": true
+    },
+    {
+      "text": "Jasmine",
+      "start": 176.78,
+      "end": 177.22,
+      "anchored": true
+    },
+    {
+      "text": "Griffin",
+      "start": 177.22,
+      "end": 177.56,
+      "anchored": true
+    },
+    {
+      "text": "described",
+      "start": 177.56,
+      "end": 178.32,
+      "anchored": true
+    },
+    {
+      "text": "this",
+      "start": 178.32,
+      "end": 178.54,
+      "anchored": true
+    },
+    {
+      "text": "as",
+      "start": 178.54,
+      "end": 178.7,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 178.7,
+      "end": 178.86,
+      "anchored": true
+    },
+    {
+      "text": "NOI's",
+      "start": 178.86,
+      "end": 179.48,
+      "anchored": true
+    },
+    {
+      "text": "\"price",
+      "start": 179.48,
+      "end": 180.04,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 180.04,
+      "end": 180.32,
+      "anchored": true
+    },
+    {
+      "text": "protection\"",
+      "start": 180.32,
+      "end": 180.84,
+      "anchored": true
+    },
+    {
+      "text": "through",
+      "start": 181.32,
+      "end": 181.64,
+      "anchored": true
+    },
+    {
+      "text": "which",
+      "start": 181.64,
+      "end": 181.82,
+      "anchored": true
+    },
+    {
+      "text": "Black",
+      "start": 181.82,
+      "end": 182.08,
+      "anchored": true
+    },
+    {
+      "text": "women",
+      "start": 182.08,
+      "end": 182.34,
+      "anchored": true
+    },
+    {
+      "text": "receive",
+      "start": 182.34,
+      "end": 182.7,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 182.7,
+      "end": 182.92,
+      "anchored": true
+    },
+    {
+      "text": "sense",
+      "start": 182.92,
+      "end": 183.04,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 183.04,
+      "end": 183.2,
+      "anchored": true
+    },
+    {
+      "text": "safety",
+      "start": 183.2,
+      "end": 183.66,
+      "anchored": true
+    },
+    {
+      "text": "previously",
+      "start": 183.66,
+      "end": 184.58,
+      "anchored": true
+    },
+    {
+      "text": "reserved",
+      "start": 184.58,
+      "end": 185.06,
+      "anchored": true
+    },
+    {
+      "text": "for",
+      "start": 185.06,
+      "end": 185.6,
+      "anchored": true
+    },
+    {
+      "text": "white",
+      "start": 185.6,
+      "end": 185.76,
+      "anchored": true
+    },
+    {
+      "text": "women",
+      "start": 185.76,
+      "end": 186.1,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 186.62,
+      "end": 186.74,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 186.74,
+      "end": 186.84,
+      "anchored": true
+    },
+    {
+      "text": "exchange,",
+      "start": 186.84,
+      "end": 187.44,
+      "anchored": true
+    },
+    {
+      "text": "Black",
+      "start": 188.12,
+      "end": 188.18,
+      "anchored": true
+    },
+    {
+      "text": "men",
+      "start": 188.18,
+      "end": 188.38,
+      "anchored": true
+    },
+    {
+      "text": "attain",
+      "start": 188.38,
+      "end": 188.68,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 188.68,
+      "end": 188.86,
+      "anchored": true
+    },
+    {
+      "text": "sense",
+      "start": 188.86,
+      "end": 189.02,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 189.02,
+      "end": 189.22,
+      "anchored": true
+    },
+    {
+      "text": "possession",
+      "start": 189.22,
+      "end": 189.74,
+      "anchored": true
+    },
+    {
+      "text": "previously",
+      "start": 189.74,
+      "end": 190.7,
+      "anchored": true
+    },
+    {
+      "text": "reserved",
+      "start": 190.7,
+      "end": 191.36,
+      "anchored": true
+    },
+    {
+      "text": "only",
+      "start": 191.36,
+      "end": 191.84,
+      "anchored": true
+    },
+    {
+      "text": "for",
+      "start": 191.84,
+      "end": 192.08,
+      "anchored": true
+    },
+    {
+      "text": "white",
+      "start": 192.08,
+      "end": 192.24,
+      "anchored": true
+    },
+    {
+      "text": "men.",
+      "start": 192.24,
+      "end": 192.56,
+      "anchored": true
+    },
+    {
+      "text": "Majied's",
+      "start": 192.56,
+      "end": 193.94,
+      "anchored": false
+    },
+    {
+      "text": "choice",
+      "start": 193.94,
+      "end": 194.06,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 194.06,
+      "end": 194.28,
+      "anchored": true
+    },
+    {
+      "text": "depict",
+      "start": 194.28,
+      "end": 194.58,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 194.58,
+      "end": 194.82,
+      "anchored": true
+    },
+    {
+      "text": "physical",
+      "start": 194.82,
+      "end": 195.26,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 195.26,
+      "end": 195.54,
+      "anchored": true
+    },
+    {
+      "text": "possible",
+      "start": 195.54,
+      "end": 196.1,
+      "anchored": true
+    },
+    {
+      "text": "sexual",
+      "start": 196.1,
+      "end": 196.54,
+      "anchored": true
+    },
+    {
+      "text": "violation",
+      "start": 196.54,
+      "end": 197.18,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 197.18,
+      "end": 197.7,
+      "anchored": true
+    },
+    {
+      "text": "Black",
+      "start": 197.7,
+      "end": 197.94,
+      "anchored": true
+    },
+    {
+      "text": "women",
+      "start": 197.94,
+      "end": 198.28,
+      "anchored": true
+    },
+    {
+      "text": "likely",
+      "start": 198.28,
+      "end": 198.98,
+      "anchored": true
+    },
+    {
+      "text": "struck",
+      "start": 198.98,
+      "end": 199.5,
+      "anchored": true
+    },
+    {
+      "text": "Muslim",
+      "start": 199.5,
+      "end": 199.94,
+      "anchored": true
+    },
+    {
+      "text": "readers",
+      "start": 199.94,
+      "end": 200.3,
+      "anchored": true
+    },
+    {
+      "text": "as",
+      "start": 200.3,
+      "end": 200.94,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 200.94,
+      "end": 201.12,
+      "anchored": true
+    },
+    {
+      "text": "failure",
+      "start": 201.12,
+      "end": 201.46,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 201.46,
+      "end": 201.74,
+      "anchored": true
+    },
+    {
+      "text": "religious",
+      "start": 201.74,
+      "end": 202.12,
+      "anchored": true
+    },
+    {
+      "text": "obligation.",
+      "start": 202.12,
+      "end": 202.8,
+      "anchored": true
+    },
+    {
+      "text": "It",
+      "start": 203.54,
+      "end": 203.84,
+      "anchored": true
+    },
+    {
+      "text": "also",
+      "start": 203.84,
+      "end": 204.16,
+      "anchored": true
+    },
+    {
+      "text": "evoked",
+      "start": 204.16,
+      "end": 204.5,
+      "anchored": false
+    },
+    {
+      "text": "a",
+      "start": 204.5,
+      "end": 204.66,
+      "anchored": true
+    },
+    {
+      "text": "broader",
+      "start": 204.66,
+      "end": 204.94,
+      "anchored": true
+    },
+    {
+      "text": "sense",
+      "start": 204.94,
+      "end": 205.28,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 205.28,
+      "end": 205.48,
+      "anchored": true
+    },
+    {
+      "text": "moral",
+      "start": 205.48,
+      "end": 205.74,
+      "anchored": true
+    },
+    {
+      "text": "failure",
+      "start": 205.74,
+      "end": 206.18,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 206.18,
+      "end": 206.96,
+      "anchored": true
+    },
+    {
+      "text": "defend",
+      "start": 206.96,
+      "end": 207.3,
+      "anchored": true
+    },
+    {
+      "text": "one's",
+      "start": 207.3,
+      "end": 207.68,
+      "anchored": true
+    },
+    {
+      "text": "people.",
+      "start": 207.68,
+      "end": 208.0,
+      "anchored": true
+    },
+    {
+      "text": "The",
+      "start": 209.44,
+      "end": 209.74,
+      "anchored": true
+    },
+    {
+      "text": "background",
+      "start": 209.74,
+      "end": 210.04,
+      "anchored": true
+    },
+    {
+      "text": "imagery",
+      "start": 210.04,
+      "end": 210.42,
+      "anchored": true
+    },
+    {
+      "text": "is",
+      "start": 210.42,
+      "end": 210.6,
+      "anchored": true
+    },
+    {
+      "text": "significant.",
+      "start": 210.6,
+      "end": 211.0,
+      "anchored": true
+    },
+    {
+      "text": "The",
+      "start": 211.0,
+      "end": 211.9,
+      "anchored": true
+    },
+    {
+      "text": "purported",
+      "start": 211.9,
+      "end": 212.52,
+      "anchored": true
+    },
+    {
+      "text": "American",
+      "start": 212.52,
+      "end": 212.92,
+      "anchored": true
+    },
+    {
+      "text": "ideals",
+      "start": 212.92,
+      "end": 213.4,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 213.4,
+      "end": 213.66,
+      "anchored": true
+    },
+    {
+      "text": "justice",
+      "start": 213.66,
+      "end": 214.02,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 214.02,
+      "end": 214.22,
+      "anchored": true
+    },
+    {
+      "text": "equality",
+      "start": 214.22,
+      "end": 214.76,
+      "anchored": true
+    },
+    {
+      "text": "stand",
+      "start": 214.76,
+      "end": 215.38,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 215.38,
+      "end": 215.56,
+      "anchored": true
+    },
+    {
+      "text": "stark",
+      "start": 215.56,
+      "end": 215.9,
+      "anchored": true
+    },
+    {
+      "text": "contrast",
+      "start": 215.9,
+      "end": 216.64,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 216.64,
+      "end": 217.12,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 217.12,
+      "end": 217.22,
+      "anchored": true
+    },
+    {
+      "text": "institutional",
+      "start": 217.22,
+      "end": 217.86,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 217.86,
+      "end": 218.58,
+      "anchored": true
+    },
+    {
+      "text": "interpersonal",
+      "start": 218.58,
+      "end": 219.0,
+      "anchored": true
+    },
+    {
+      "text": "racism",
+      "start": 219.0,
+      "end": 219.6,
+      "anchored": true
+    },
+    {
+      "text": "that",
+      "start": 219.6,
+      "end": 220.4,
+      "anchored": true
+    },
+    {
+      "text": "has",
+      "start": 220.4,
+      "end": 220.54,
+      "anchored": true
+    },
+    {
+      "text": "shaped",
+      "start": 220.54,
+      "end": 220.92,
+      "anchored": true
+    },
+    {
+      "text": "American",
+      "start": 220.92,
+      "end": 221.24,
+      "anchored": true
+    },
+    {
+      "text": "life.",
+      "start": 221.24,
+      "end": 221.78,
+      "anchored": true
+    },
+    {
+      "text": "King's",
+      "start": 222.9,
+      "end": 223.12,
+      "anchored": true
+    },
+    {
+      "text": "words",
+      "start": 223.12,
+      "end": 223.38,
+      "anchored": true
+    },
+    {
+      "text": "further",
+      "start": 223.38,
+      "end": 224.28,
+      "anchored": true
+    },
+    {
+      "text": "highlight",
+      "start": 224.28,
+      "end": 224.86,
+      "anchored": true
+    },
+    {
+      "text": "this",
+      "start": 224.86,
+      "end": 225.1,
+      "anchored": true
+    },
+    {
+      "text": "contraction,",
+      "start": 225.1,
+      "end": 226.44,
+      "anchored": false
+    },
+    {
+      "text": "demonstrating",
+      "start": 226.44,
+      "end": 227.1,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 227.1,
+      "end": 227.52,
+      "anchored": true
+    },
+    {
+      "text": "hypocrisy",
+      "start": 227.52,
+      "end": 228.02,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 228.02,
+      "end": 228.54,
+      "anchored": true
+    },
+    {
+      "text": "whites",
+      "start": 228.54,
+      "end": 228.8,
+      "anchored": true
+    },
+    {
+      "text": "demanding",
+      "start": 228.8,
+      "end": 229.66,
+      "anchored": true
+    },
+    {
+      "text": "nonviolence",
+      "start": 229.66,
+      "end": 230.26,
+      "anchored": true
+    },
+    {
+      "text": "from",
+      "start": 230.26,
+      "end": 230.52,
+      "anchored": true
+    },
+    {
+      "text": "Black",
+      "start": 230.52,
+      "end": 230.68,
+      "anchored": true
+    },
+    {
+      "text": "protesters",
+      "start": 230.68,
+      "end": 231.22,
+      "anchored": false
+    },
+    {
+      "text": "while",
+      "start": 231.22,
+      "end": 232.04,
+      "anchored": true
+    },
+    {
+      "text": "endorsing",
+      "start": 232.04,
+      "end": 232.74,
+      "anchored": true
+    },
+    {
+      "text": "institutionalized",
+      "start": 232.74,
+      "end": 233.88,
+      "anchored": true
+    },
+    {
+      "text": "white",
+      "start": 233.88,
+      "end": 234.18,
+      "anchored": true
+    },
+    {
+      "text": "violence.",
+      "start": 234.18,
+      "end": 234.56,
+      "anchored": true
+    },
+    {
+      "text": "As",
+      "start": 234.56,
+      "end": 235.94,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 235.94,
+      "end": 236.08,
+      "anchored": true
+    },
+    {
+      "text": "motif,",
+      "start": 236.08,
+      "end": 236.48,
+      "anchored": true
+    },
+    {
+      "text": "hypocrisy",
+      "start": 237.02,
+      "end": 237.4,
+      "anchored": true
+    },
+    {
+      "text": "has",
+      "start": 237.4,
+      "end": 237.98,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 237.98,
+      "end": 238.14,
+      "anchored": true
+    },
+    {
+      "text": "religious",
+      "start": 238.14,
+      "end": 238.46,
+      "anchored": true
+    },
+    {
+      "text": "significance",
+      "start": 238.46,
+      "end": 239.12,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 239.12,
+      "end": 239.82,
+      "anchored": true
+    },
+    {
+      "text": "Majied's",
+      "start": 239.82,
+      "end": 240.2,
+      "anchored": false
+    },
+    {
+      "text": "oeuvre.",
+      "start": 240.2,
+      "end": 240.42,
+      "anchored": true
+    },
+    {
+      "text": "In",
+      "start": 241.34,
+      "end": 241.46,
+      "anchored": true
+    },
+    {
+      "text": "many",
+      "start": 241.46,
+      "end": 241.68,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 241.68,
+      "end": 241.8,
+      "anchored": true
+    },
+    {
+      "text": "his",
+      "start": 241.8,
+      "end": 241.92,
+      "anchored": true
+    },
+    {
+      "text": "drawings,",
+      "start": 241.92,
+      "end": 242.2,
+      "anchored": true
+    },
+    {
+      "text": "Majied",
+      "start": 242.2,
+      "end": 242.62,
+      "anchored": false
+    },
+    {
+      "text": "seeks",
+      "start": 242.62,
+      "end": 242.84,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 242.84,
+      "end": 243.04,
+      "anchored": true
+    },
+    {
+      "text": "expose",
+      "start": 243.04,
+      "end": 243.48,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 243.48,
+      "end": 243.78,
+      "anchored": true
+    },
+    {
+      "text": "moral",
+      "start": 243.78,
+      "end": 244.14,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 244.14,
+      "end": 244.72,
+      "anchored": true
+    },
+    {
+      "text": "spiritual",
+      "start": 244.72,
+      "end": 245.22,
+      "anchored": true
+    },
+    {
+      "text": "corruption",
+      "start": 245.22,
+      "end": 245.8,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 245.8,
+      "end": 246.4,
+      "anchored": true
+    },
+    {
+      "text": "'hypocrites'",
+      "start": 246.4,
+      "end": 246.98,
+      "anchored": true
+    },
+    {
+      "text": "who",
+      "start": 247.34,
+      "end": 247.84,
+      "anchored": true
+    },
+    {
+      "text": "outwardly",
+      "start": 247.84,
+      "end": 248.84,
+      "anchored": true
+    },
+    {
+      "text": "display",
+      "start": 248.84,
+      "end": 249.14,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 249.14,
+      "end": 249.3,
+      "anchored": true
+    },
+    {
+      "text": "value",
+      "start": 249.3,
+      "end": 249.66,
+      "anchored": true
+    },
+    {
+      "text": "they",
+      "start": 249.66,
+      "end": 250.02,
+      "anchored": true
+    },
+    {
+      "text": "inwardly",
+      "start": 250.02,
+      "end": 250.52,
+      "anchored": true
+    },
+    {
+      "text": "deny",
+      "start": 250.52,
+      "end": 250.88,
+      "anchored": true
+    },
+    {
+      "text": "or",
+      "start": 250.88,
+      "end": 251.68,
+      "anchored": true
+    },
+    {
+      "text": "refuse",
+      "start": 251.68,
+      "end": 252.0,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 252.0,
+      "end": 252.2,
+      "anchored": true
+    },
+    {
+      "text": "act",
+      "start": 252.2,
+      "end": 252.34,
+      "anchored": true
+    },
+    {
+      "text": "upon.",
+      "start": 252.34,
+      "end": 252.66,
+      "anchored": true
+    },
+    {
+      "text": "For",
+      "start": 253.64,
+      "end": 253.86,
+      "anchored": true
+    },
+    {
+      "text": "instance,",
+      "start": 253.86,
+      "end": 254.14,
+      "anchored": true
+    },
+    {
+      "text": "one",
+      "start": 254.44,
+      "end": 254.58,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 254.58,
+      "end": 254.68,
+      "anchored": true
+    },
+    {
+      "text": "his",
+      "start": 254.68,
+      "end": 254.8,
+      "anchored": true
+    },
+    {
+      "text": "popular",
+      "start": 254.8,
+      "end": 255.28,
+      "anchored": true
+    },
+    {
+      "text": "drawings",
+      "start": 255.28,
+      "end": 255.8,
+      "anchored": true
+    },
+    {
+      "text": "depicts",
+      "start": 255.8,
+      "end": 256.54,
+      "anchored": true
+    },
+    {
+      "text": "\"Uncle",
+      "start": 256.54,
+      "end": 256.92,
+      "anchored": true
+    },
+    {
+      "text": "Sam\"",
+      "start": 256.92,
+      "end": 257.32,
+      "anchored": true
+    },
+    {
+      "text": "as",
+      "start": 257.32,
+      "end": 258.0,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 258.0,
+      "end": 258.22,
+      "anchored": true
+    },
+    {
+      "text": "\"Dr.",
+      "start": 258.22,
+      "end": 258.64,
+      "anchored": true
+    },
+    {
+      "text": "Jekyll",
+      "start": 258.94,
+      "end": 259.16,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 259.16,
+      "end": 259.34,
+      "anchored": true
+    },
+    {
+      "text": "Mr.",
+      "start": 259.34,
+      "end": 259.66,
+      "anchored": true
+    },
+    {
+      "text": "Hyde,\"",
+      "start": 259.66,
+      "end": 260.68,
+      "anchored": false
+    },
+    {
+      "text": "split",
+      "start": 260.68,
+      "end": 261.0,
+      "anchored": true
+    },
+    {
+      "text": "in",
+      "start": 261.0,
+      "end": 261.18,
+      "anchored": true
+    },
+    {
+      "text": "two,",
+      "start": 261.18,
+      "end": 261.54,
+      "anchored": true
+    },
+    {
+      "text": "failing",
+      "start": 262.24,
+      "end": 262.48,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 262.48,
+      "end": 262.78,
+      "anchored": true
+    },
+    {
+      "text": "live",
+      "start": 262.78,
+      "end": 262.92,
+      "anchored": true
+    },
+    {
+      "text": "up",
+      "start": 262.92,
+      "end": 263.22,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 263.22,
+      "end": 263.9,
+      "anchored": true
+    },
+    {
+      "text": "his",
+      "start": 263.9,
+      "end": 264.02,
+      "anchored": true
+    },
+    {
+      "text": "moral",
+      "start": 264.02,
+      "end": 264.3,
+      "anchored": true
+    },
+    {
+      "text": "claims.",
+      "start": 264.3,
+      "end": 264.68,
+      "anchored": true
+    },
+    {
+      "text": "In",
+      "start": 265.84,
+      "end": 266.04,
+      "anchored": true
+    },
+    {
+      "text": "many",
+      "start": 266.04,
+      "end": 266.28,
+      "anchored": true
+    },
+    {
+      "text": "Islamic",
+      "start": 266.28,
+      "end": 266.6,
+      "anchored": true
+    },
+    {
+      "text": "communities,",
+      "start": 266.6,
+      "end": 267.08,
+      "anchored": true
+    },
+    {
+      "text": "including",
+      "start": 267.42,
+      "end": 267.68,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 267.68,
+      "end": 267.86,
+      "anchored": true
+    },
+    {
+      "text": "Nation",
+      "start": 267.86,
+      "end": 268.0,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 268.0,
+      "end": 268.16,
+      "anchored": true
+    },
+    {
+      "text": "Islam,",
+      "start": 268.16,
+      "end": 268.54,
+      "anchored": true
+    },
+    {
+      "text": "hypocrisy",
+      "start": 269.46,
+      "end": 269.54,
+      "anchored": true
+    },
+    {
+      "text": "represents",
+      "start": 269.54,
+      "end": 270.22,
+      "anchored": true
+    },
+    {
+      "text": "a",
+      "start": 270.22,
+      "end": 270.5,
+      "anchored": true
+    },
+    {
+      "text": "moral",
+      "start": 270.5,
+      "end": 270.94,
+      "anchored": true
+    },
+    {
+      "text": "degradation.",
+      "start": 270.94,
+      "end": 271.52,
+      "anchored": true
+    },
+    {
+      "text": "In",
+      "start": 272.34,
+      "end": 272.54,
+      "anchored": true
+    },
+    {
+      "text": "place",
+      "start": 272.54,
+      "end": 272.86,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 272.86,
+      "end": 273.2,
+      "anchored": true
+    },
+    {
+      "text": "King's",
+      "start": 273.2,
+      "end": 273.52,
+      "anchored": true
+    },
+    {
+      "text": "philosophy,",
+      "start": 273.52,
+      "end": 274.04,
+      "anchored": true
+    },
+    {
+      "text": "Majied",
+      "start": 274.04,
+      "end": 274.92,
+      "anchored": false
+    },
+    {
+      "text": "highlights",
+      "start": 274.92,
+      "end": 275.34,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 275.34,
+      "end": 275.52,
+      "anchored": true
+    },
+    {
+      "text": "Islamic",
+      "start": 275.52,
+      "end": 275.9,
+      "anchored": true
+    },
+    {
+      "text": "ideal",
+      "start": 275.9,
+      "end": 276.3,
+      "anchored": true
+    },
+    {
+      "text": "of",
+      "start": 276.3,
+      "end": 276.86,
+      "anchored": true
+    },
+    {
+      "text": "actively",
+      "start": 276.86,
+      "end": 277.5,
+      "anchored": true
+    },
+    {
+      "text": "resisting",
+      "start": 277.5,
+      "end": 278.04,
+      "anchored": true
+    },
+    {
+      "text": "hypocrisy.",
+      "start": 278.04,
+      "end": 278.72,
+      "anchored": true
+    },
+    {
+      "text": "For",
+      "start": 279.5,
+      "end": 279.74,
+      "anchored": true
+    },
+    {
+      "text": "the",
+      "start": 279.74,
+      "end": 279.86,
+      "anchored": true
+    },
+    {
+      "text": "NOI,",
+      "start": 279.86,
+      "end": 280.36,
+      "anchored": true
+    },
+    {
+      "text": "standing",
+      "start": 280.78,
+      "end": 281.18,
+      "anchored": true
+    },
+    {
+      "text": "firm",
+      "start": 281.18,
+      "end": 281.54,
+      "anchored": true
+    },
+    {
+      "text": "against",
+      "start": 281.54,
+      "end": 281.84,
+      "anchored": true
+    },
+    {
+      "text": "hypocrites",
+      "start": 281.84,
+      "end": 282.3,
+      "anchored": true
+    },
+    {
+      "text": "is",
+      "start": 282.3,
+      "end": 282.82,
+      "anchored": true
+    },
+    {
+      "text": "essential",
+      "start": 282.82,
+      "end": 283.34,
+      "anchored": true
+    },
+    {
+      "text": "for",
+      "start": 283.34,
+      "end": 283.94,
+      "anchored": true
+    },
+    {
+      "text": "spiritual",
+      "start": 283.94,
+      "end": 284.4,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 284.4,
+      "end": 284.86,
+      "anchored": true
+    },
+    {
+      "text": "political",
+      "start": 284.86,
+      "end": 285.32,
+      "anchored": true
+    },
+    {
+      "text": "liberation,",
+      "start": 285.32,
+      "end": 286.02,
+      "anchored": true
+    },
+    {
+      "text": "even",
+      "start": 286.02,
+      "end": 287.04,
+      "anchored": true
+    },
+    {
+      "text": "if",
+      "start": 287.04,
+      "end": 287.22,
+      "anchored": true
+    },
+    {
+      "text": "King",
+      "start": 287.22,
+      "end": 287.56,
+      "anchored": true
+    },
+    {
+      "text": "and",
+      "start": 287.56,
+      "end": 287.92,
+      "anchored": true
+    },
+    {
+      "text": "others",
+      "start": 287.92,
+      "end": 288.3,
+      "anchored": true
+    },
+    {
+      "text": "fail",
+      "start": 288.3,
+      "end": 288.92,
+      "anchored": true
+    },
+    {
+      "text": "to",
+      "start": 288.92,
+      "end": 289.2,
+      "anchored": true
+    },
+    {
+      "text": "do",
+      "start": 289.2,
+      "end": 289.32,
+      "anchored": true
+    },
+    {
+      "text": "so.",
+      "start": 289.32,
+      "end": 289.52,
+      "anchored": true
+    }
+  ],
+  "sentences": [
+    {
+      "first": 0,
+      "last": 14
+    },
+    {
+      "first": 15,
+      "last": 50
+    },
+    {
+      "first": 51,
+      "last": 71
+    },
+    {
+      "first": 72,
+      "last": 82
+    },
+    {
+      "first": 83,
+      "last": 112
+    },
+    {
+      "first": 113,
+      "last": 123
+    },
+    {
+      "first": 124,
+      "last": 133
+    },
+    {
+      "first": 134,
+      "last": 146
+    },
+    {
+      "first": 147,
+      "last": 164
+    },
+    {
+      "first": 165,
+      "last": 177
+    },
+    {
+      "first": 178,
+      "last": 232
+    },
+    {
+      "first": 233,
+      "last": 242
+    },
+    {
+      "first": 243,
+      "last": 243
+    },
+    {
+      "first": 244,
+      "last": 244
+    },
+    {
+      "first": 245,
+      "last": 256
+    },
+    {
+      "first": 257,
+      "last": 281
+    },
+    {
+      "first": 282,
+      "last": 320
+    },
+    {
+      "first": 321,
+      "last": 340
+    },
+    {
+      "first": 341,
+      "last": 359
+    },
+    {
+      "first": 360,
+      "last": 377
+    },
+    {
+      "first": 378,
+      "last": 401
+    },
+    {
+      "first": 402,
+      "last": 451
+    },
+    {
+      "first": 452,
+      "last": 474
+    },
+    {
+      "first": 475,
+      "last": 487
+    },
+    {
+      "first": 488,
+      "last": 492
+    },
+    {
+      "first": 493,
+      "last": 515
+    },
+    {
+      "first": 516,
+      "last": 536
+    },
+    {
+      "first": 537,
+      "last": 547
+    },
+    {
+      "first": 548,
+      "last": 576
+    },
+    {
+      "first": 577,
+      "last": 589
+    },
+    {
+      "first": 590,
+      "last": 592
+    },
+    {
+      "first": 593,
+      "last": 604
+    },
+    {
+      "first": 605,
+      "last": 618
+    },
+    {
+      "first": 619,
+      "last": 632
+    },
+    {
+      "first": 633,
+      "last": 655
+    }
+  ]
+}
