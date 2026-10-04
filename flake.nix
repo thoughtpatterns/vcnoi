@@ -28,7 +28,6 @@
             podman
             python
             uv
-            vfkit
           ];
 
           shellHook = ''
