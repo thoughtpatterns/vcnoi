@@ -30,23 +30,23 @@ run()
 
 if ! podman machine inspect > /dev/null 2>&1
 then
-	printf '%s\n' "started podman machine with $cpus cpu(s) and ${memory}gb of memory..."
+	printf '%s\n' "starting podman machine with $cpus cpu(s) and ${memory}gb of memory..."
 	podman machine init --cpus "$cpus" --memory "$((memory * 1024))"
 fi
 
 if [ "$(podman machine inspect --format '{{.State}}' 2>/dev/null)" != 'running' ]
 then
-	printf '%s\n' 'started podman machine...'
+	printf '%s\n' 'starting podman machine...'
 	podman machine start
 fi
 
 if ! podman image inspect "$tag" > /dev/null 2>&1
 then
-	printf '%s\n' 'started podman image build...'
+	printf '%s\n' 'starting podman image build...'
 	podman build "--tag=$tag" "$root"
 fi
 
-printf '%s\n' "started render of '$module'..."
+printf '%s\n' "starting render of '$module'..."
 
 exec 3>&1
 
@@ -74,5 +74,5 @@ if [ -z "$result" ]
 then printf '\n%s\n' 'no media file detected, cannot launch preview' ; exit 1
 fi
 
-printf "\nlaunched preview of '%s'...\n" "$result"
-open --new "$result"
+printf "\nlaunching preview of '%s'...\n" "$result"
+{ mpv "$result"; } < /dev/null > /dev/null 2>&1 &
