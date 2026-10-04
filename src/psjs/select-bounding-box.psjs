@@ -1,0 +1,25 @@
+/* Expand the selection to a minimum bounding box around all selections. */
+
+"use strict";
+
+const { app, core } = require("photoshop");
+
+try {
+	await core.executeAsModal(async () => {
+		const doc = app.activeDocument;
+		const bounds = doc.selection.bounds;
+
+		if (!bounds) {
+			throw new Error("Please make a selection first.");
+		}
+
+		await doc.selection.selectRectangle({
+			left: bounds.left,
+			top: bounds.top,
+			right: bounds.right,
+			bottom: bounds.bottom,
+		});
+	}, { commandName: "Select Bounding Box" });
+} catch (e) {
+	core.showAlert(e);
+}
