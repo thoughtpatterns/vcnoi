@@ -1,7 +1,20 @@
 from functools import partial
 from typing import final, override
 
-from manim import Create, FadeIn, FadeOut, Group, Restore, Transform, Uncreate
+from manim import (
+    DOWN,
+    ITALIC,
+    ORIGIN,
+    Create,
+    FadeIn,
+    FadeOut,
+    Group,
+    Text,
+    Transform,
+    Uncreate,
+    config,
+    register_font,
+)
 
 from lib import MetaScene, Paths, Pixels, Wuf, emphf
 
@@ -21,7 +34,21 @@ class ButNeverAWordAboutSelfDefense(MetaScene):
         self.play(FadeIn(never_a_word), wuf(36.8))
 
         # On a national stage Malcolm X [...]
-        malcolm_x = image("malcolm-x.png")
+        with register_font(Paths.common / "CMUSerif.ttf"):
+            caption = Text(
+                "Lloyd Yearwood, Malcolm X speaking at a podium, Harlem, early 1960s\n"
+                "Smithsonian National Museum of African American History and Culture, 2014.150.5.1\n"
+                "© Estate of Lloyd W. Yearwood",
+                font_size=28,
+                font="CMU Serif",
+                slant=ITALIC,
+            )
+        malcolm_x_image = image("malcolm-x.png")
+        caption.scale(min(1, malcolm_x_image.width / caption.width))
+        gap = Pixels.to_units(54)
+        malcolm_x_image.scale_to_fit_height(config.frame_height - caption.height - gap)
+        caption.scale(min(1, malcolm_x_image.width / caption.width))
+        malcolm_x = Group(caption, malcolm_x_image).arrange(DOWN, buff=gap).move_to(ORIGIN)
         self.play(FadeOut(never_a_word), FadeIn(malcolm_x), wuf(50.6))
 
         # Muhammad Speaks regularly published commentary [...]
