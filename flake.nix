@@ -41,6 +41,16 @@
             virtiofsd
           ];
 
+          nativeBuildInputs = with pkgs; [
+            bash-language-server
+            nil
+            nixfmt
+            ruff
+            shellcheck
+            shfmt
+            ty
+          ];
+
           CONTAINER_CONNECTION = "podman-machine-default";
 
           shellHook = ''
